@@ -1,20 +1,22 @@
 # Welcome to the Intersect MBO Developer Experience Working Group
 
-## 🎯 Our Mission <!--Even though I took inspiration from IOHK dev exp i am thinking this group is different as the focus will be more on the new developer and I am imagining this repo will be stop to look for details and they can share the issues they are facing while follwoing what we are instructing
->
+## 🎯 Our Mission 
 We are a community of Developer Advocates from IntersectMBO focused on enhancing the developer experience within the Cardano ecosystem. Our goal is to identify, address, and improve key aspects of the development process to make building on Cardano more accessible, efficient, and rewarding.
-<!--can we add our name here and some kind of intro so that will give a chance to them to contact directly -->
-1. Bernand
-2. Alex
-3. Udai
-4. Suganya
+
+We believe in transparency and sharing our personal experiences. These interviews offer a glimpse into our backgrounds, motivations, and commitment to improving developer experience in the Cardano ecosystem.
+
+1. Alex- [Watch now](https://www.youtube.com/watch?v=U-cGNG3rzPg)
+2. Bernand - [Watch now](https://www.youtube.com/watch?v=grbX5DAaW5Q)
+3. Suganya - [Watch now](https://www.youtube.com/watch?v=o8a6gTcE50w)
+4. Udai - [Watch now](https://www.youtube.com/watch?v=UDXshRpVA6M)
+
 
 ## 🚀 What We Do
 - Identify and prioritize developer experience issues in the Cardano ecosystem.
 - Propose and implement solutions to improve tooling, documentation, and workflows.
 - Foster collaboration between developers, projects, and stakeholders.
 - Promote best practices and standardization in DApp development.
-- Support multi-language integration.<!--I am talking about the various on-chain and off-chain tools here>
+- Support multi-language integration.
 
 ## 🔍 Key Focus Areas
 - **Onboarding and Documentation**
@@ -24,26 +26,39 @@ We are a community of Developer Advocates from IntersectMBO focused on enhancing
 - **Community Support and Knowledge Sharing**
 
 ## 🤝 How to Get Involved
-- **Meetings**: <!--What are the benefits of taking inspiration like the developer experience working groups>
+- **Meetings**: [tobediscussed]
 - **GitHub**: Most discussions will happen in Github issues  and pull requests. Issues are the problems faced by the Cardano Devleoper community and PR's propose solutions.Participate in discussions and contribute to projects
-- **Discord**: Join our <!-- can we link to developer experience working group>
-- **Share Feedback**: Share your feedback on our discord and Help us improve the ecosystem.
+- **Discord**: [placeholder]
+- **Share Feedback**: Share your feedback on our discord and help us improve the ecosystem.
 
 ## Repository Structure
+
 ```
 developer-experience/
-├── beginner/
-│   ├── tools/
-│   │   ├── off-chain/
-│   │   └── on-chain/
-│   └── tutorials/
-├── intermediate/
-│   ├── tutorials/
-│   └── projects/
-└── experienced/
-    ├── tutorials/
-    └── projects/
-
+├── new-contributor/
+│   ├── beginner/
+│   │   ├── tools/
+│   │   │   ├── off-chain/
+│   │   │   └── on-chain/
+│   │   └── tutorials/
+│   ├── intermediate/
+│   │   ├── tutorials/
+│   │   └── projects/
+│   └── experienced/
+│       ├── tutorials/
+│       └── projects/
+├── committer/
+│   ├── beginner/
+│   ├── intermediate/
+│   └── experienced/
+├── trusted-committer/
+│   ├── beginner/
+│   ├── intermediate/
+│   └── experienced/
+└── core-maintainer/
+    ├── beginner/
+    ├── intermediate/
+    └── experienced/
 ```
 
 ## 📞 Contact & Communication
@@ -57,7 +72,7 @@ developer-experience/
 - Read our Code of Conduct
 - Check existing issues before creating new ones
 - Provide clear, detailed descriptions
-- Follow our template in `contribution.md` for issues and pull requests
+- Follow our template in contribution.md for issues and pull requests
 - Be respectful and constructive
 
 ---
