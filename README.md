@@ -1,7 +1,7 @@
 # Welcome to the Intersect MBO Developer Experience Working Group
 
 ## 🎯 Our Mission 
-We are a community of Developer Advocates from IntersectMBO focused on enhancing the developer experience within the Cardano ecosystem. Our goal is to identify, address, and improve key aspects of the development process to make building on Cardano more accessible, efficient, and rewarding.
+We are a community of `Developer Advocates` from `IntersectMBO` focused on enhancing the developer experience within the Cardano ecosystem. Our goal is to identify, address, and improve key aspects of the development process to make building on Cardano more accessible, efficient, and rewarding.
 
 We believe in transparency and sharing our personal experiences. These interviews offer a glimpse into our backgrounds, motivations, and commitment to improving developer experience in the Cardano ecosystem.
 
@@ -15,8 +15,12 @@ We believe in transparency and sharing our personal experiences. These interview
 - Identify and prioritize developer experience issues in the Cardano ecosystem.
 - Propose and implement solutions to improve tooling, documentation, and workflows.
 - Foster collaboration between developers, projects, and stakeholders.
-- Promote best practices and standardization in DApp development.
 - Support multi-language integration.
+- Develop and workshop a Developer Thriving Framework to address social barriers and improve community engagement.
+- Focus on the human component of developer experience, beyond just documentation and technology.
+- Organize collaborative workshops to gather diverse perspectives and create shared understanding.
+- Address pain points and obstacles that hinder newcomer involvement and growth.
+- Build trust and break down silos within the developer community.
 
 ## 🔍 Key Focus Areas
 - **Onboarding and Documentation**
@@ -31,7 +35,7 @@ We believe in transparency and sharing our personal experiences. These interview
 - **Discord**: [placeholder]
 - **Share Feedback**: Share your feedback on our discord and help us improve the ecosystem.
 
-## Repository Structure
+## 📁Repository Structure
 
 ```
 developer-experience/
@@ -69,11 +73,11 @@ developer-experience/
 - **Meeting Link**: [placeholder]
 
 ## 🌟 Contributing Guidelines
-- Read our Code of Conduct
-- Check existing issues before creating new ones
-- Provide clear, detailed descriptions
-- Follow our template in contribution.md for issues and pull requests
-- Be respectful and constructive
+- Read our Code of Conduct. 
+- Check existing issues before creating new ones.
+- Provide clear, detailed descriptions.
+- Follow our template in contribution.md for issues and pull requests.
+- Be respectful and constructive.
 
 ---
 
