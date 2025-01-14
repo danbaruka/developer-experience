@@ -76,7 +76,7 @@ Note that you might need to get approvals from all code owners (even though GitH
 Thank you for contributing your changes by opening a pull requests!
 
 To get something merged we usually require:
-- Follow the Pull Request template
+- Follow the [Pull Request](https://github.com/IntersectMBO/developer-experience/blob/a1063bc7b39e9ebd53281e344155619f2394982e/.github/pull_request_template.md) template
 - Description of the changes - if your commit messages are great, this is less important
 - Quality of changes is ensured - through new or updated automated tests
 - Change is related to an issue, feature (idea) or bug report - ideally discussed beforehand
