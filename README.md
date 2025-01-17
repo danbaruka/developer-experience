@@ -7,25 +7,26 @@ We believe in transparency and sharing our personal experiences. These interview
 
 1. **Alex**  
    - **Interview** : [Watch now](https://www.youtube.com/watch?v=U-cGNG3rzPg)  
-   - **LinkedIn**  :  [Alex's LinkedIn](https://www.linkedin.com/in/alex-seregin/)  
-   - **Discord**   : 
+   - **LinkedIn**  : [Alex's LinkedIn](https://www.linkedin.com/in/alex-seregin/)  
+   - **Discord**   : alexeusgr
 
 2. **Bernand**  
    - **Interview** : [Watch now](https://www.youtube.com/watch?v=grbX5DAaW5Q)  
    - **LinkedIn**  : [Bernand's LinkedIn](https://www.linkedin.com/in/bernard-sibanda-954563243/)  
-   - **Discord**   : 
+   - **Discord**   : wims5274
 
 3. **Suganya**  
-   - **Interview** :[Watch now](https://www.youtube.com/watch?v=o8a6gTcE50w)  
+   - **Interview** : [Watch now](https://www.youtube.com/watch?v=o8a6gTcE50w)  
    - **LinkedIn**  : [Suganya's LinkedIn](https://www.linkedin.com/in/suganya-raju/)  
    - **Discord**   : suganya1607
 
 4. **Udai**  
-   - **Interview** :[Watch now](https://www.youtube.com/watch?v=UDXshRpVA6M)  
+   - **Interview** : [Watch now](https://www.youtube.com/watch?v=UDXshRpVA6M)  
    - **LinkedIn**  : [Udai's LinkedIn](https://www.linkedin.com/in/solanki/)  
-   - **Discord**   :
+   - **Discord**   : thecoder0001
 
 ## 🚀 What We Do
+
 - Identify and prioritize developer experience issues in the Cardano ecosystem.
 - Propose and implement solutions to improve tooling, documentation, and workflows.
 - Foster collaboration between developers, projects, and stakeholders.
@@ -76,9 +77,8 @@ developer-experience/
 ## 📞 Contact & Communication
 
 - **GitHub Discussions**: [Developer-Experience Working Group Repository](https://github.com/IntersectMBO/developer-experience)
-- **Discord Channel**: [placeholder]
-- **Email**: [Open Source Office] (oso@intersectmbo.org)
-- **Meeting Link**: [placeholder]
+- **Discord Channel**: [OSC- Working Groups](https://discord.com/channels/1136727663583698984/1239886460266479696)
+- **Email**: [Open Source Office](oso@intersectmbo.org)
 
 ## 🌟 Contributing Guidelines
 - Please checkout our [Contributing Documentation](./CONTRIBUTING.md).
