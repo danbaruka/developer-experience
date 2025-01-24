@@ -51,7 +51,7 @@ We believe in transparency and sharing our personal experiences. These interview
    - Meet with **Suganya**: [[Suganya Calendar](https://cal.com/suganyaraju/)]
    - Meet with **Udai**: [[Udai Calendar](https://cal.com/solanki/)]
 - **GitHub**: Most discussions will happen in Github issues  and pull requests. Issues are the problems faced by the Cardano Developer community and PR's propose solutions. Participate in discussions and contribute to projects
-- Join **Intersect**: [[Become a Member]](https://members.intersectmbo.org/registration)
+- Join **Intersect**: [Become a Member](https://members.intersectmbo.org/registration)
 - **Discord**: [Dev-Ex WG](https://discord.com/channels/1136727663583698984/1250047836339306526)
 - **Share Feedback**: Share your feedback on our discord and help us improve the ecosystem.
 
