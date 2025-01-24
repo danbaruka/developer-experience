@@ -46,13 +46,13 @@ We believe in transparency and sharing our personal experiences. These interview
 
 ## 🤝 How to Get Involved
 - **Meetings**: [tobediscussed]
-    **Meet with Alex**: [[Alex Calendar](https://cal.com/alexeusgr)]
-    **Meet with Bernard**: [tobediscussed]
-    **Meet with Suganya**: [tobediscussed]
-    **Meet with Udai**: [tobediscussed]
-- **GitHub**: Most discussions will happen in Github issues  and pull requests. Issues are the problems faced by the Cardano Devleoper community and PR's propose solutions.Participate in discussions and contribute to projects
-- **Join Intersect**: [[Become a Member]]](https://members.intersectmbo.org/registration)]
-    **Discord**: [Dev-Ex WG](https://discord.com/channels/1136727663583698984/1250047836339306526)
+   - Meet with **Alex**: [[Alex Calendar](https://cal.com/alexeusgr)]
+   - Meet with **Bernard**: [Bernard Calendar]
+   - Meet with **Suganya**: [[Suganya Calendar](https://cal.com/suganyaraju/)]
+   - Meet with **Udai**: [[Udai Calendar](https://cal.com/solanki/)]
+- **GitHub**: Most discussions will happen in Github issues  and pull requests. Issues are the problems faced by the Cardano Developer community and PR's propose solutions. Participate in discussions and contribute to projects
+- Join **Intersect**: [[Become a Member]](https://members.intersectmbo.org/registration)
+- **Discord**: [Dev-Ex WG](https://discord.com/channels/1136727663583698984/1250047836339306526)
 - **Share Feedback**: Share your feedback on our discord and help us improve the ecosystem.
 
 ## 📁Repository Structure
@@ -81,7 +81,7 @@ developer-experience/
 
 ## 📞 Contact & Communication
 
-- **GitHub Discussions**: [Developer-Experience Working Group Repository](https://github.com/IntersectMBO/developer-experience)
+- **GitHub Discussions**: [Developer-Experience Working Group Repository](https://github.com/IntersectMBO/developer-experience/discussions)
 - **Discord Channel**: [OSC- Working Groups](https://discord.com/channels/1136727663583698984/1239886460266479696)
 - **Email**: [Open Source Office](oso@intersectmbo.org)
 
