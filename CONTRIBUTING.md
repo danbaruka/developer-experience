@@ -1,125 +1,95 @@
-# Contributing to the xxxx Committee documentation
-
-## Table of Contents
-
-- [Contributing to the xxxx Committee documentation](#contributing-to-the-xxxx-committee-documentation)
-  - [Table of Contents](#table-of-contents)
-  - [Code of Conduct](#code-of-conduct)
-  - [Roles and Responsibilities](#roles-and-responsibilities)
-  - [I Want To Contribute](#i-want-to-contribute)
-    - [Setup](#setup)
-    - [Make changes](#make-changes)
-  - [Working Conventions](#working-conventions)
-    - [Pull Requests](#pull-requests)
-    - [Branch Naming](#branch-naming)
-    - [Commit Messages](#commit-messages)
-      - [Rationale](#rationale)
+# Contributing to the Developer Experience repository 
 
 ## Code of Conduct
 
 This project and everyone participating in it is governed by the [Code of Conduct](./CODE-OF-CONDUCT.md).
 By participating, you are expected to uphold this code.
 
-## Roles and Responsibilities
-
-We maintain a [CODEOWNERS file](./CODEOWNERS) which provides information who should review a contributing PR.
-Note that you might need to get approvals from all code owners (even though GitHub doesn't give a way to enforce it).
-
-## I Want To Contribute
-
-### Setup
+## How to Contribute
 
 1. **Fork the repository:**
-   - Navigate to  https://github.com/xxxx/xxxx-committee-documentation
-   - Press the `Fork` button and make a fork of the repository.
+   - Navigate to this [repository](https://github.com/IntersectMBO/developer-experience)
+   - Press the `Fork` button and create a fork of the repository.
 
 2. **Clone the fork:**
-   - Open a terminal on your computer.
-   - Navigate to the directory where you want to store the project.
-   - Run the following command to clone the repository:
-     ```shell
-     git clone https://github.com/xxxx/xxxx-committee-documentation.git
-     ```
+- **Terminal**:
+
+    ```shell
+     git clone https://github.com/IntersectMBO/developer-experience.git
+    ```
+
+- **VS Code**:
+
+  - Open VS Code.
+
+  - Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS) to open the Command Palette.
+
+  - Type `Git: Clone` and select it.
+
+  - Paste the repository URL: https://github.com/IntersectMBO/developer-experience.git.
+
+  - Choose a directory to save the project.
 
 3. **Navigate to the Project Directory:**
-   - After cloning, change into the project's root directory:
+- **Terminal**:
+
      ```shell
-     cd xxxx-committee-documentation
+     cd developer-experience
      ```
+- **VS Code**:
 
-### Make changes
+  - Open the cloned project in VS Code.
 
-1. **Make a branch for your changes:**
-   - It is good practice to make a branch per set of changes being made
-   - In the project directory, open terminal and execute the follow command
+  - Use the integrated terminal ( `Hold [Ctrl] + Press [backtick key] `
+    or  `Hold [Ctrl] + Press [backtick key]` on macOS) to navigate to the project directory if needed.
+
+4. **Create a Branch for Your Changes:**
+ - **Terminal**:
+
      ```shell
-     git checkout -b add-my-new-thing
+     git checkout -b new-branch-name
      ```
+- VS Code:
 
-2. **Make your and push your changes:**
-   - Make your changes to the files.
-   - Then push these changes to your branch, using a informative commit message.
+  - Click the branch name in the bottom-left corner of VS Code.
+
+  - Select `+Create new branch....` / `+Create new branch from...`
+
+  - Enter a branch name (e.g., new-branch-name).
+
+  - Press Enter. 
+
+5. **Work on Your Changes and Push to the Branch:**
+- **Terminal**:
+
      ```shell
      git add .
-     git commit -m "I am adding my new thing"
+     git commit -m "short description for the commit"
      git push
      ```
 
-3. **Make a pull request:**
-   - You can now make a pull request from your branch to the base repo.
+- VS Code:
+
+  - Make your changes in the respective files.
+
+  - Go to the Source Control tab (left sidebar or `Ctrl+Shift+G` / `Cmd+Shift+G` on macOS).
+
+  - Stage your changes by clicking the `+` icon next to each file or the Stage All Changes button.
+
+  - Enter a commit message in the input box and click the checkmark to commit.
+
+  - Click the `...` menu in the Source Control tab and select Push.
+
+6. **Make a pull request:**
+   - Once your changes are pushed, open a Pull Request (PR) from your forked repository to the main repository.
+
+   - Go to your forked repository page on GitHub.
+   - Click the `New Pull Request` button.
+   - Select your branch and provide a clear description of your changes.
+   - Submit the PR for review.
+
+7. **Follow the Review Process**
+
+   - Your PR will be reviewed by the [CODEOWNERS](./CODEOWNERS) of the project. You may be asked to make changes or improvements before your contribution is merged. Please be patient and responsive to any feedback.
 
 
-## Working Conventions
-
-### Pull Requests
-
-Thank you for contributing your changes by opening a pull requests!
-
-To get something merged we usually require:
-- Follow the [Pull Request](https://github.com/IntersectMBO/developer-experience/blob/a1063bc7b39e9ebd53281e344155619f2394982e/.github/pull_request_template.md) template
-- Description of the changes - if your commit messages are great, this is less important
-- Quality of changes is ensured - through new or updated automated tests
-- Change is related to an issue, feature (idea) or bug report - ideally discussed beforehand
-- Well-scoped - we prefer multiple PRs, rather than a big one
-
-Please reuse the branch naming for the pull request naming.
-
-### Branch Naming
-
-- When creating your branches please create informative names.
-- Using prefixes such as `feat/`, `fix/`, `chore/`, `docs/` for branch names are a good start.
-- Using the related issue number after the prefix is required.
-
-Examples:
-- `feat/123-added-ability-for-dreps-to-change-drep-id`
-- `fix/312-fixed-drep-ids-being-reversed`
-- `chore/567-bumped-cardano-node-version-to-9`
-- `docs/88-tweak-contributing-pr-template-codeowners`
-
-### Commit Messages
-
-Please make informative commit messages!
-It makes it much easier to work out why things are the way they are when you’re debugging things later.
-
-A commit message is communication, so as usual, put yourself in the position of the reader: what does a reviewer, or someone reading the commit message later need to do their job?
-Write it down!
-It is even better to include this information in the code itself, but sometimes it doesn’t belong there (e.g. ticket info).
-
-Also, include any relevant meta-information, such as issue numbers.
-If a commit completely addresses a issue, you can put that in the headline if you want, but it’s fine to just put it in the body.
-
-Here are seven rules for great git commit messages:
-1. Separate subject from body with a blank line
-2. Limit the subject line to 50 characters (soft limit)
-3. Capitalize the subject line
-4. Do not end the subject line with a period
-5. Use the imperative mood in the subject line and suffix with ticket number if applicable
-6. Wrap the body at 72 characters (hard limit)
-7. Use the body to explain what and why vs. how
-
-There is plenty to say on this topic, but broadly the guidelines in [this post](https://cbea.ms/git-commit/) are good.
-
-#### Rationale
-
-Git commit messages are our only source of why something was changed the way it was changed.
-So we better make the readable, concise and detailed (when required).
