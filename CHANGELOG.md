@@ -1,10 +1,6 @@
 # Developer Experience Working Group Changelog
 
-__The working group versioning is as follows:__
-
-__- changes to CODEOWNERS are breaking__
-__- changes to policies are major__
-__- TBD__
+TODO: add informative comment to explain how to track the state of the working group.
 
 ## 2.1.1
 
