@@ -8,11 +8,12 @@ __- TBD__
 
 ## 2.1.1
 
-### Added
+### Changes
 
-- CODEOWNERS.md
-- This repo is managed by Intersect on behalf of the Developer Advocates.
+- changelog convention
+- ownership of developer experience
+- Developer Advocate Program is ongoing [TBD]
 
 ## 1.0.0
 
-IOG community engagement initiaitve: [Github](https://github.com/input-output-hk/Developer-Experience-working-group)
+[See Github](https://github.com/input-output-hk/Developer-Experience-working-group)
