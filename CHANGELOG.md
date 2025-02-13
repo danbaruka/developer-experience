@@ -2,13 +2,23 @@
 
 TODO: add informative comment to explain how to track the state of the working group.
 
-## 2.1.1
+## 2.1.1 - Februrary 2025
 
 ### Changes
 
-- changelog convention
-- ownership of developer experience
-- Developer Advocate Program is ongoing [TBD]
+- github repo created
+
+## 2.1.0 - August 2024
+
+### Changes
+
+- Developer Advocate Program was kicked off
+
+## 2.0.0
+
+### Changes
+
+- ownership of developer experience went from IOG to Intersect MBO
 
 ## 1.0.0
 
