@@ -2,7 +2,7 @@
 
 TODO: add informative comment to explain how to track the state of the working group.
 
-## 2.1.1 - Februrary 2025
+## 2.1.1 - January 2025
 
 ### Changes
 
