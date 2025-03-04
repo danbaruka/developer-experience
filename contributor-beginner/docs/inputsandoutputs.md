@@ -66,3 +66,9 @@ Let’s map the vending machine analogy to Cardano transactions:
   - Creating new outputs (pick items or change).
 
   - Ensuring the total value of inputs equals the total value of outputs (plus fees).
+
+## Take the Quiz!
+
+Test your knowledge on Inputs and Outputs in Cardano transactions by taking this quiz. Click the link below to get started:
+
+[Cardano Inputs and Outputs Quiz](https://docs.google.com/forms/d/1eCCFqbBCcA17-JDbdRKCytHjumx6ISyGOolpNqz-MCc/edit)

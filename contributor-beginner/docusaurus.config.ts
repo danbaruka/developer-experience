@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Intersect MBO',
+  tagline: 'Contribution Ladder',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -80,7 +80,6 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/IntersectMBO/developer-experience',
           label: 'GitHub',
@@ -108,10 +107,7 @@ const config: Config = {
         {
           title: 'Community',
           items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
+  
             {
               label: 'Discord',
               href: 'https://discordapp.com/invite/docusaurus',
@@ -131,7 +127,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/IntersectMBO/developer-experience',
             },
           ],
         },
