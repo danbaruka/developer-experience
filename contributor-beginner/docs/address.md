@@ -35,3 +35,9 @@ While the payment credentials control how to spend an output, delegation credent
 
     - how to **publish** a delegation certificate (e.g. to delegate stake to a stake pool);
     - how to **withdraw** rewards associated with the stake credentials.
+
+## Take the Quiz!
+
+Test your knowledge on Address in Cardano transactions by taking this quiz. Click the link below to get started:
+
+[Cardano Address Quiz](https://docs.google.com/forms/d/1s7LRH1GYGS4um0rPYZexMh6WaDAjIkBeszmtkJUs-Qk/edit)
