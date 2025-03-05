@@ -3,7 +3,7 @@ name: Deploy Docusaurus to GitHub Pages
 on:
   push:
     branches:
-      - docusaurus-project # Change to your default branch
+      - main # Change to your default branch
 
 jobs:
   deploy:
