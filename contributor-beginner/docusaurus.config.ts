@@ -13,7 +13,7 @@ const config: Config = {
   url: 'https://intersectmbo.github.io/developer-experience/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/developer-experience/contributor-beginner',
+  baseUrl: '/developer-experience/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
