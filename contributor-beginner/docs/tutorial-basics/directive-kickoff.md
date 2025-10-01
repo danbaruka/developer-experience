@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Welcome to the Cardano ecosystem! This guide provides a comprehensive map of where to find essential resources, repositories, documentation, tooling, and support channels to help you navigate and contribute effectively.
 
-## 🌍 About Cardano
+## → About Cardano
 
 **Cardano** is a third-generation, proof-of-stake blockchain platform designed for sustainability, scalability, and transparency. Built on peer-reviewed research and evidence-based development, Cardano aims to provide a secure and scalable infrastructure for decentralized applications (dApps), smart contracts, and financial systems.
 
@@ -17,7 +17,7 @@ Welcome to the Cardano ecosystem! This guide provides a comprehensive map of whe
 - **Sustainable**: Energy-efficient Ouroboros proof-of-stake consensus protocol
 - **Interoperable**: Designed to work with other blockchains and legacy systems
 
-## 🤝 About Intersect
+## → About Intersect
 
 **Intersect** is a member-based organization that serves as the governance and administrative body for Cardano. It facilitates community collaboration, coordinates development efforts, and ensures the long-term sustainability of the Cardano ecosystem.
 
@@ -32,7 +32,7 @@ Welcome to the Cardano ecosystem! This guide provides a comprehensive map of whe
 
 ---
 
-## 📚 Core Repositories
+## ▸ Core Repositories
 
 ### Cardano Node & Core Infrastructure
 
@@ -70,7 +70,7 @@ Welcome to the Cardano ecosystem! This guide provides a comprehensive map of whe
 
 ---
 
-## 📖 Documentation Resources
+## ▸ Documentation Resources
 
 ### Official Documentation
 
@@ -91,7 +91,7 @@ Welcome to the Cardano ecosystem! This guide provides a comprehensive map of whe
 
 ---
 
-## 🛠️ Essential Tooling
+## ▸ Essential Tooling
 
 ### Development Environments
 
@@ -115,9 +115,8 @@ Welcome to the Cardano ecosystem! This guide provides a comprehensive map of whe
 
 | Wallet               | Type                     | Integration                                                                                                                    |
 | -------------------- | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
-| **Nami**             | Browser extension        | [namiwallet.io](https://namiwallet.io)                                                                                         |
-| **Eternl**           | Multi-platform wallet    | [eternl.io](https://eternl.io)                                                                                                 |
 | **Lace**             | Light wallet by IOG      | [lace.io](https://lace.io)                                                                                                     |
+| **Eternl**           | Multi-platform wallet    | [eternl.io](https://eternl.io)                                                                                                 |
 | **Wallet Connector** | dApp integration library | [github.com/cardano-foundation/cardano-connect-with-wallet](https://github.com/cardano-foundation/cardano-connect-with-wallet) |
 
 ### Block Explorers & APIs
@@ -131,7 +130,7 @@ Welcome to the Cardano ecosystem! This guide provides a comprehensive map of whe
 
 ---
 
-## 💬 Community & Support
+## ▸ Community & Support
 
 ### Communication Channels
 
@@ -163,7 +162,7 @@ _Join working groups through the [Intersect portal](https://intersectmbo.org)_
 
 ---
 
-## 🚀 Getting Started Checklist
+## ▸ Getting Started Checklist
 
 ### For New Contributors
 
@@ -194,7 +193,7 @@ _Join working groups through the [Intersect portal](https://intersectmbo.org)_
 
 ---
 
-## 🔗 Quick Reference Links
+## ▸ Quick Reference Links
 
 ### Essential GitHub Organizations
 
@@ -215,7 +214,7 @@ _Join working groups through the [Intersect portal](https://intersectmbo.org)_
 
 ---
 
-## 📌 Next Steps
+## ▸ Next Steps
 
 Now that you have your bearings, choose your path:
 
@@ -228,6 +227,6 @@ Now that you have your bearings, choose your path:
 
 ---
 
-_Last Updated: October 2025 | Maintained by Intersect Developer Experience Working Group_
+_Last Updated: October 2025 | Maintained by Intersect Developer Advocate_
 
 _Found something outdated or missing? [Contribute to this documentation](../../../CONTRIBUTING.md)_
