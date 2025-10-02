@@ -76,11 +76,22 @@ Welcome to the Cardano ecosystem! This guide provides a comprehensive map of whe
 
 | Resource                                 | Content                                                      | Access                                                                           |
 | ---------------------------------------- | ------------------------------------------------------------ | -------------------------------------------------------------------------------- |
+| **Intersect Knowledge Base**             | Governance processes and organizational structure            | [docs.intersectmbo.org](https://docs.intersectmbo.org)                           |
 | **Cardano Developer Portal**             | Comprehensive guides, tutorials, and API references          | [developers.cardano.org](https://developers.cardano.org)                         |
 | **Cardano Docs**                         | Protocol specifications, architecture, and technical details | [docs.cardano.org](https://docs.cardano.org)                                     |
 | **Plutus Documentation**                 | Smart contract language reference and examples               | [plutus.readthedocs.io](https://plutus.readthedocs.io)                           |
 | **CIPs (Cardano Improvement Proposals)** | Standards and protocol improvements                          | [github.com/cardano-foundation/CIPs](https://github.com/cardano-foundation/CIPs) |
-| **Intersect Knowledge Base**             | Governance processes and organizational structure            | [docs.intersectmbo.org](https://docs.intersectmbo.org)                           |
+
+#### Intersect Resources
+
+| Resource                                        | Content                                                      | Access                                                                                                                                                                            |
+| ----------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Intersect Overview                              | How Intersect coordinates Cardano development and governance | [docs.intersectmbo.org/intersect-overview](https://docs.intersectmbo.org/intersect-overview/)                                                                                     |
+| Open Source Office (OSO) Guides                 | Contribution guides incl. Hitchhiker's Guide to Cardano      | [committees.docs.intersectmbo.org/.../oso](https://committees.docs.intersectmbo.org/intersect-open-source-committee/about/open-source-office-oso/)                                |
+| Hitchhiker's Guide to Cardano                   | Orientation across repos, tooling, and processes             | [OSO Guides](https://committees.docs.intersectmbo.org/intersect-open-source-committee/about/open-source-office-oso/guides-and-educational-resources/hitchhikers-guide-to-cardano) |
+| Committees & Working Groups Portal              | Technical committees, charters, and meeting notes            | [committees.docs.intersectmbo.org](https://committees.docs.intersectmbo.org/)                                                                                                     |
+| Cardano Development Updates (Quarterly Reports) | Roadmap-aligned technical updates and milestones             | [updates.cardano.intersectmbo.org](https://updates.cardano.intersectmbo.org/quarterly/)                                                                                           |
+| Intersect Membership                            | Join as a member to participate in governance                | [intersectmbo.org](https://intersectmbo.org)                                                                                                                                      |
 
 ### Learning Paths
 
@@ -104,12 +115,13 @@ Welcome to the Cardano ecosystem! This guide provides a comprehensive map of whe
 
 ### Smart Contract Tooling
 
-| Tool                  | Purpose                                  | Get Started                                                            |
-| --------------------- | ---------------------------------------- | ---------------------------------------------------------------------- |
-| **Aiken**             | Modern smart contract development        | `cargo install aiken` → [aiken-lang.org](https://aiken-lang.org)       |
-| **Plutus Playground** | Browser-based Plutus IDE                 | [playground.plutus.iohkdev.io](https://playground.plutus.iohkdev.io)   |
-| **Opshin**            | Python-based smart contracts             | [github.com/OpShin/opshin](https://github.com/OpShin/opshin)           |
-| **Helios**            | JavaScript-based smart contract language | [github.com/Hyperion-BT/Helios](https://github.com/Hyperion-BT/Helios) |
+| Tool                   | Purpose                                   | Get Started                                                            |
+| ---------------------- | ----------------------------------------- | ---------------------------------------------------------------------- |
+| **Aiken**              | Modern smart contract development         | `cargo install aiken` → [aiken-lang.org](https://aiken-lang.org)       |
+| **Plutus Playground**  | Browser-based Plutus IDE                  | [playground.plutus.iohkdev.io](https://playground.plutus.iohkdev.io)   |
+| **Marlowe Playground** | Browser-based DSL for financial contracts | [playground.marlowe-lang.org](https://playground.marlowe-lang.org)     |
+| **Opshin**             | Python-based smart contracts              | [github.com/OpShin/opshin](https://github.com/OpShin/opshin)           |
+| **Helios**             | JavaScript-based smart contract language  | [github.com/Hyperion-BT/Helios](https://github.com/Hyperion-BT/Helios) |
 
 ### Wallet Integration
 
@@ -153,43 +165,22 @@ Intersect facilitates various working groups focused on specific areas:
 
 _Join working groups through the [Intersect portal](https://intersectmbo.org)_
 
+### Governance & Voltaire
+
+| Item                             | Purpose                                            | Link                                                                                 |
+| -------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| GovTool                          | On-chain governance participation interface        | [gov.tools](https://gov.tools)                                                       |
+| GovTool Docs                     | How to use GovTool and participate in governance   | [docs.gov.tools](https://docs.gov.tools)                                             |
+| Cardano Constitution             | Drafts and ratified versions of the Constitution   | [github.com/IntersectMBO/constitution](https://github.com/IntersectMBO/constitution) |
+| Cardano Improvement Proposals    | Proposals for standards and ecosystem improvements | [cips.cardano.org](https://cips.cardano.org)                                         |
+| Conway Era (Governance) Overview | Governance features in the Conway ledger era       | [docs.cardano.org/voltaire](https://docs.cardano.org/voltaire/)                      |
+
 ### Getting Help
 
 1. **Technical Issues**: Search [Cardano Stack Exchange](https://cardano.stackexchange.com) → Ask in Discord → File GitHub issues
 2. **General Questions**: Check documentation first → Ask in community forums → Join Discord channels
 3. **Bug Reports**: File detailed issues in relevant GitHub repositories with reproduction steps
 4. **Feature Requests**: Submit CIPs (Cardano Improvement Proposals) for protocol changes
-
----
-
-## ▸ Getting Started Checklist
-
-### For New Contributors
-
-- [ ] Join [Intersect](https://intersectmbo.org) as a member
-- [ ] Set up local development environment (Node + CLI)
-- [ ] Complete a tutorial from [developers.cardano.org](https://developers.cardano.org)
-- [ ] Join relevant Discord channels and introduce yourself
-- [ ] Explore testnet with test ADA from [faucet](https://docs.cardano.org/cardano-testnet/tools/faucet)
-- [ ] Read [CONTRIBUTING.md](../../../CONTRIBUTING.md) guidelines
-- [ ] Make your first contribution (documentation, code, or testing)
-
-### For dApp Developers
-
-- [ ] Choose your tech stack (Plutus/Aiken/Helios for on-chain, CTL/JavaScript for off-chain)
-- [ ] Set up wallet for testnet testing
-- [ ] Explore sample projects and templates
-- [ ] Integrate Blockfrost or Koios API for blockchain queries
-- [ ] Build and deploy to testnet
-- [ ] Get community feedback before mainnet deployment
-
-### For Node Operators
-
-- [ ] Review [stake pool operator documentation](https://developers.cardano.org/docs/operate-a-stake-pool/)
-- [ ] Understand hardware and network requirements
-- [ ] Set up monitoring and alerting
-- [ ] Join [SPO Discord channels](https://discord.gg/cardano-community) for peer support
-- [ ] Test setup on testnet before mainnet
 
 ---
 
