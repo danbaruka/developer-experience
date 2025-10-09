@@ -229,4 +229,4 @@ Now that you have your bearings, choose your path:
 
 _Last Updated: October 2025 | Maintained by Intersect Developer Advocate_
 
-_Found something outdated or missing? [Contribute to this documentation](../../../CONTRIBUTING.md)_
+_Found something outdated or missing? [Contribute to this documentation](../../CONTRIBUTING.md)_

@@ -5,8 +5,8 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "Intersect MBO",
-  tagline: "Contribution Ladder",
+  title: "Cardano Developer Experience",
+  tagline: "Your comprehensive guide to building on Cardano",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -62,7 +62,7 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "Intersect MBO",
+      title: "Cardano DevEx",
       logo: {
         alt: "Intersect MBO Logo",
         src: "img/OSO-image_modified.PNG",
@@ -72,7 +72,7 @@ const config: Config = {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
-          label: "Tutorial",
+          label: "Documentation",
         },
         {
           href: "https://github.com/IntersectMBO/developer-experience",
@@ -93,8 +93,8 @@ const config: Config = {
           title: "Docs",
           items: [
             {
-              label: "Tutorial",
-              to: "/docs/intro",
+              label: "Documentation",
+              to: "/docs/get-started",
             },
           ],
         },
