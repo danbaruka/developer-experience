@@ -19,14 +19,14 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        working-directory: ./contributor-beginner # Change to your subfolder
+        working-directory: ./website # Change to your subfolder
 
       - name: Build Docusaurus
         run: npm run build
-        working-directory: ./contributor-beginner # Change to your subfolder
+        working-directory: ./website # Change to your subfolder
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./contributor-beginner/build # Path to the build folder
+          publish_dir: ./website/build # Path to the build folder
