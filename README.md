@@ -1,6 +1,6 @@
 # Welcome to the Intersect MBO Developer Experience Working Group
 
-## 🎯 Our Mission 
+## Our Mission
 We are a community of `Developer Advocates` from `IntersectMBO` focused on enhancing the developer experience within the Cardano ecosystem. Our goal is to identify, address, and improve key aspects of the development process to make building on Cardano more accessible, efficient, and rewarding.
 
 We believe in transparency and sharing our personal experiences. These interviews offer a glimpse into our backgrounds, motivations, and commitment to improving developer experience in the Cardano ecosystem.
@@ -25,7 +25,7 @@ We believe in transparency and sharing our personal experiences. These interview
    - **LinkedIn**  : [Udai's LinkedIn](https://www.linkedin.com/in/solanki/)  
    - **Discord**   : thecoder0001
 
-## 🚀 What We Do
+## What We Do
 
 - Identify and prioritize developer experience issues in the Cardano ecosystem.
 - Propose and implement solutions to improve tooling, documentation, and workflows.
@@ -37,14 +37,14 @@ We believe in transparency and sharing our personal experiences. These interview
 - Address pain points and obstacles that hinder newcomer involvement and growth.
 - Build trust and break down silos within the developer community.
 
-## 🔍 Key Focus Areas
+## Key Focus Areas
 - **Onboarding and Documentation**
 - **Tooling and Development Workflows**
 - **Collaboration with other developers in the ecosystem**
 - **Collecting feedback from developers**
 - **Community Support and Knowledge Sharing**
 
-## 🤝 How to Get Involved
+## How to Get Involved
 - **Meetings**: [tobediscussed]
    - Meet with **Alex**: [[Alex Calendar](https://cal.com/alexeusgr)]
    - Meet with **Bernard**: [Bernard Calendar]
@@ -55,7 +55,7 @@ We believe in transparency and sharing our personal experiences. These interview
 - **Discord**: [Dev-Ex WG](https://discord.com/channels/1136727663583698984/1250047836339306526)
 - **Share Feedback**: Share your feedback on our discord and help us improve the ecosystem.
 
-## 📁Repository Structure
+## Repository Structure
 
 ```
 developer-experience/
@@ -79,13 +79,13 @@ developer-experience/
 └── core-maintainer/
 ```
 
-## 📞 Contact & Communication
+## Contact & Communication
 
 - **GitHub Discussions**: [Developer-Experience Working Group Repository](https://github.com/IntersectMBO/developer-experience/discussions)
 - **Discord Channel**: [OSC- Working Groups](https://discord.com/channels/1136727663583698984/1239886460266479696)
 - **Email**: [Open Source Office](oso@intersectmbo.org)
 
-## 🌟 Contributing Guidelines
+## Contributing Guidelines
 - Please checkout our [Contributing Documentation](./CONTRIBUTING.md).
 - Read our Code of Conduct. 
 - Check existing issues before creating new ones.
