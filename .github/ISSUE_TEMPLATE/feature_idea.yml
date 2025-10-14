@@ -1,14 +1,15 @@
 name: Feature idea
-description: Idea or request for some feature on the xxx Committee GitBook
-labels: [':thought_balloon: idea']
+description: Propose a feature or improvement for Developer Experience
+labels: ["idea"]
 body:
   - type: markdown
     attributes:
       value: |
-        **Thank you for contributing to our project!** :green_heart:
+        Thank you for contributing to our project.
 
-        Instead of opening this issue, consider [starting a new idea discussion](https://github.com/IntersectMBO/xxxx-committee-documentation/discussions/new?category=ideas).
-        That way, we can discuss & refine your idea together, before we adopt it as a feature into the roadmap.
+        Consider starting a new idea discussion first:
+        https://github.com/IntersectMBO/developer-experience/discussions/new?category=ideas
+        This helps refine the proposal before it becomes a tracked feature.
 
   - type: textarea
     id: why
@@ -24,7 +25,7 @@ body:
     id: what
     attributes:
       label: What
-      description: What is this feature roughly about
+      description: What is this feature roughly about?
       placeholder: |
         For example describe a new API endpoint, a change in messaging formats,
         a new configuration option, ...
@@ -35,7 +36,7 @@ body:
     id: how
     attributes:
       label: How
-      description: How could we realize this feature
+      description: How could we realize this feature?
       placeholder: |
         Which technical solutions, libraries or systems should be used, which
         components need to change, steps how to implement this, ...
