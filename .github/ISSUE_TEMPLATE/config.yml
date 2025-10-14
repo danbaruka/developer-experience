@@ -1,13 +1,13 @@
 blank_issues_enabled: true
 contact_links:
   - name: Contribution guidelines
-    url: https://committees.docs.intersectmbo.org/intersect-open-source-committee/policies/contribution-ladder-framework
+    url: https://github.com/IntersectMBO/developer-experience/blob/main/CONTRIBUTING.md
     about: Read the documentation and guidelines before filing an issue.
 
   - name: Ideas and discussions
     url: https://github.com/IntersectMBO/developer-experience/discussions
     about: Share ideas and proposals or ask open questions.
 
-  - name: Community chat (DevEx WG)
-    url: https://discord.gg/intersect
-    about: Join the Intersect Discord and visit the Developer Experience Working Group channels.
+  - name: Join Intersect
+    url: https://members.intersectmbo.org
+    about: Register with Intersect to access Discord and other community resources.
