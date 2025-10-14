@@ -33,9 +33,11 @@ We are a community of `Developer Advocates` from `IntersectMBO` focused on enhan
 Meet and connect with our past and present developer advocates:
 - **Current Cohort**:
    - [Uche](https://www.linkedin.com/in/thisisobate)
+     - Schedule a call with Uche [here](https://calendar.app.google/6HC9yHfTHrQ1dfcB9)
    - [Emmanuel](https://www.linkedin.com/in/emmanuel-shikuku-devops/)
    - [Dan](https://www.linkedin.com/in/danbaruka/)
    - [Harun](https://www.linkedin.com/in/harunslinked/)
+     - Schedule a call with Harun [here](https://calendly.com/harunm28/30min)
 - **Past Cohort**:
    1. **Alex**  
       - **Interview** : [Watch now](https://www.youtube.com/watch?v=U-cGNG3rzPg)  
