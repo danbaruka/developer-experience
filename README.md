@@ -37,11 +37,25 @@ Meet and connect with our past and present developer advocates:
    - [Dan](https://www.linkedin.com/in/danbaruka/)
    - [Harun](https://www.linkedin.com/in/harunslinked/)
 - **Past Cohort**:
-   - [Alex](https://www.linkedin.com/in/alex-seregin/)
-   - [Bernand](https://www.linkedin.com/in/bernard-sibanda-954563243/)
-   - [Suganya](https://www.linkedin.com/in/suganya-raju/)
-   - [Udai](https://www.linkedin.com/in/solanki/)
+   1. **Alex**  
+      - **Interview** : [Watch now](https://www.youtube.com/watch?v=U-cGNG3rzPg)  
+      - **LinkedIn**  : [Alex's LinkedIn](https://www.linkedin.com/in/alex-seregin/)  
+      - **Discord**   : alexeusgr
 
+   2. **Bernand**  
+      - **Interview** : [Watch now](https://www.youtube.com/watch?v=grbX5DAaW5Q)  
+      - **LinkedIn**  : [Bernand's LinkedIn](https://www.linkedin.com/in/bernard-sibanda-954563243/)  
+      - **Discord**   : wims5274
+
+   3. **Suganya**  
+      - **Interview** : [Watch now](https://www.youtube.com/watch?v=o8a6gTcE50w)  
+      - **LinkedIn**  : [Suganya's LinkedIn](https://www.linkedin.com/in/suganya-raju/)  
+      - **Discord**   : suganya1607
+
+   4. **Udai**  
+      - **Interview** : [Watch now](https://www.youtube.com/watch?v=UDXshRpVA6M)  
+      - **LinkedIn**  : [Udai's LinkedIn](https://www.linkedin.com/in/solanki/)  
+      - **Discord**   : thecoder0001
 ## Contact & Communication
 
 - **GitHub Discussions**: [Developer-Experience Working Group Repository](https://github.com/IntersectMBO/developer-experience/discussions)
