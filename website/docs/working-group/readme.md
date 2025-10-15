@@ -12,13 +12,13 @@ Our focus for Q1 2025 is creating a clear entry path for newcomers, addressing c
 
 ## Current Quarter
 
-### [Q1 2025: Laying the Foundations](./Q1-2025/)
+### [Q1 2025: Laying the Foundations](./q1-2025/)
 Our current quarterly initiative focused on creating a clear entry path for newcomers to the Cardano ecosystem.
 
-- **[Complete Plan](./Q1-2025/)** - Detailed session plans and logistics
-- **[All Sessions](./Q1-2025/sessions/)** - 12 weekly session materials  
-- **[Resources](./Q1-2025/resources/)** - Troubleshooting guides and essential bookmarks
-- **[Media](./Q1-2025/media/)** - Session recordings and explainer videos
+- **[Complete Plan](./q1-2025/)** - Detailed session plans and logistics
+- **[All Sessions](./q1-2025/sessions/)** - 12 weekly session materials  
+- **[Resources](./q1-2025/resources/)** - Troubleshooting guides and essential bookmarks
+- **[Media](./q1-2025/media/)** - Session recordings and explainer videos
 
 ## Future Quarters
 
@@ -66,4 +66,4 @@ This working group aims to create resources that the community adopts as the go-
 
 ---
 
-*For detailed session plans and learning objectives, see the [Q1 2025 Plan](./devex-wg-q1-2025-plan.md)*
+*For detailed session plans and learning objectives, see the [Q1 2025 folder](./q1-2025/)*

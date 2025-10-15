@@ -106,6 +106,10 @@ dist
 
 # Docusaurus cache and generated files
 .docusaurus
+build/
+website/build/
+contributor-beginner/
+contributor-beginner/build/
 
 # Serverless directories
 .serverless/
