@@ -16,18 +16,18 @@ This repository serves as the comprehensive guide for developers and contributor
 **[Complete Intersect Membership Guide →](./intersect-membership-guide.md)**
 
 ### 2. **New to Cardano?**
-Start with our comprehensive ecosystem overview: [**Directive: Kickoff & Orientation**](./Guides/directive-kickoff.md)
+Start with our comprehensive ecosystem overview: [**Directive: Kickoff & Orientation**](./working-group/q1-2025/sessions/01-kickoff-orientation/directive-kickoff.md)
 
 This guide provides a complete map of the Cardano ecosystem, including core repositories, documentation resources, developer tools, and community support channels.
 
 ### 3. **Ready to Build?**
-Dive into our hands-on [**Beginner Guides**](./Guides/Beginner/) to start building immediately:
+Dive into our hands-on [**Beginner Guides**](./how-to-guide/beginner/) to start building immediately:
 - Understanding Cardano addresses
 - Creating transactions
 - Working with native tokens
 
 ### 4. **Want to Contribute?**
-Join our [**Developer Experience Working Group**](./Working-Group/Q1-2025/) - a quarterly initiative focused on onboarding new developers and improving the overall developer experience.
+Join our [**Developer Experience Working Group**](./working-group/q1-2025/) - a quarterly initiative focused on onboarding new developers and improving the overall developer experience.
 
 ## What You'll Find Here
 
@@ -42,21 +42,21 @@ Built by the community, for the community. Join our working groups and help shap
 
 ## Repository Structure
 
-### [Guides](./Guides/)
-- **[Beginner](./Guides/Beginner/)** - Getting started guides for newcomers
-- **[Intermediate](./Guides/Intermediate/)** - Next-level guides for developers with basic knowledge  
-- **[Advanced](./Guides/Advanced/)** - Deep-dive technical guides for experienced developers
+### [How-To Guides](./how-to-guide/)
+- **[Beginner](./how-to-guide/beginner/)** - Getting started guides for newcomers
+- **[Intermediate](./how-to-guide/intermediate/)** - Next-level guides for developers with basic knowledge  
+- **[Advanced](./how-to-guide/advanced/)** - Deep-dive technical guides for experienced developers
 
-### [Tutorials](./Tutorials/)
-- **[Hands-On](./Tutorials/Hands-On/)** - Interactive coding tutorials and workshops
+### [Tutorials](./tutorials/)
+- **Hands-On** - Interactive coding tutorials and workshops
 
-### [Resources](./Resources/)
-- **[Repositories](./Resources/Repositories/)** - Essential GitHub repositories and their purposes
-- **[Tools](./Resources/Tools/)** - Development tools, APIs, and utilities
-- **[Community](./Resources/Community/)** - Community channels, forums, and support resources
+### [Resources](./resources/)
+- **[Repositories](./resources/repositories)** - Essential GitHub repositories and their purposes
+- **[Tools](./resources/tools)** - Development tools, APIs, and utilities
+- **[Community](./resources/community)** - Community channels, forums, and support resources
 
-### [Working Group](./Working-Group/)
-- **[DevEx Working Group](./Working-Group/)** - Developer Experience Working Group materials and session content
+### [Working Group](./working-group/)
+- **[DevEx Working Group](./working-group/)** - Developer Experience Working Group materials and session content
 
 ## Current Focus: Q1 2025
 
@@ -70,7 +70,7 @@ Our Developer Experience Working Group is running a 12-session program designed 
 - **Provide live support** through open clinic sessions
 - **Foster contribution** to documentation and open source projects
 
-[**Join the Working Group →**](./Working-Group/Q1-2025/)
+[**Join the Working Group →**](./working-group/q1-2025/)
 
 ## Getting Help
 
@@ -94,7 +94,7 @@ We welcome contributions to improve the developer experience! Whether you want t
 - Share your developer story
 - Lead a workshop or session
 
-See our [**Contributing Guidelines**](../CONTRIBUTING.md) to get started.
+See our [**Contributing Guidelines**](./contributing) to get started.
 
 ## Recognition
 
@@ -118,11 +118,11 @@ By the end of Q1 2025, we aim to:
 
 **Step 1**: [Join Intersect - Get Your Voice in Cardano](./intersect-membership-guide.md)
 
-**Step 2**: [Directive: Kickoff & Orientation](./Guides/directive-kickoff.md)
+**Step 2**: [Directive: Kickoff & Orientation](./working-group/q1-2025/sessions/01-kickoff-orientation/directive-kickoff.md)
 
-**Step 3**: [Beginner Guides](./Guides/Beginner/)
+**Step 3**: [Beginner Guides](./how-to-guide/beginner/)
 
-**Step 4**: [Join the Developer Experience Working Group](./Working-Group/)
+**Step 4**: [Join the Developer Experience Working Group](./working-group/)
 
 ---
 
