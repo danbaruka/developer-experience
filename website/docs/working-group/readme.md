@@ -16,9 +16,9 @@ Our focus for Q1 2025 is creating a clear entry path for newcomers, addressing c
 Our current quarterly initiative focused on creating a clear entry path for newcomers to the Cardano ecosystem.
 
 - **[Complete Plan](./q1-2025/)** - Detailed session plans and logistics
-- **[All Sessions](./q1-2025/sessions/)** - 12 weekly session materials  
+- **All Sessions** - 12 weekly session materials (see individual session folders)
 - **[Resources](./q1-2025/resources/)** - Troubleshooting guides and essential bookmarks
-- **[Media](./q1-2025/media/)** - Session recordings and explainer videos
+- **Media** - Session recordings and explainer videos (coming soon)
 
 ## Future Quarters
 

@@ -42,15 +42,15 @@ Built by the community, for the community. Join our working groups and help shap
 
 ## Repository Structure
 
-### [How-To Guides](./how-to-guide/)
+### How-To Guides
 - **[Beginner](./how-to-guide/beginner/)** - Getting started guides for newcomers
 - **[Intermediate](./how-to-guide/intermediate/)** - Next-level guides for developers with basic knowledge  
 - **[Advanced](./how-to-guide/advanced/)** - Deep-dive technical guides for experienced developers
 
-### [Tutorials](./tutorials/)
+### Tutorials
 - **Hands-On** - Interactive coding tutorials and workshops
 
-### [Resources](./resources/)
+### Resources
 - **[Repositories](./resources/repositories)** - Essential GitHub repositories and their purposes
 - **[Tools](./resources/tools)** - Development tools, APIs, and utilities
 - **[Community](./resources/community)** - Community channels, forums, and support resources
@@ -94,7 +94,7 @@ We welcome contributions to improve the developer experience! Whether you want t
 - Share your developer story
 - Lead a workshop or session
 
-See our [**Contributing Guidelines**](./contributing) to get started.
+See our [**Contributing Guidelines**](https://github.com/IntersectMBO/developer-experience/blob/main/CONTRIBUTING.md) to get started.
 
 ## Recognition
 

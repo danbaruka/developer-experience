@@ -173,7 +173,7 @@ _Join working groups through the [Intersect portal](https://intersectmbo.org)_
 - [ ] Complete a tutorial from [developers.cardano.org](https://developers.cardano.org)
 - [ ] After becoming an Intersect member, join relevant Discord channels and introduce yourself
 - [ ] Explore testnet with test ADA from [faucet](https://docs.cardano.org/cardano-testnet/tools/faucet)
-- [ ] Read [CONTRIBUTING.md](../../../../contributing) guidelines
+- [ ] Read [CONTRIBUTING.md](https://github.com/IntersectMBO/developer-experience/blob/main/CONTRIBUTING.md) guidelines
 - [ ] Make your first contribution (documentation, code, or testing)
 
 ### For dApp Developers
