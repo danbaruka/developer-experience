@@ -2,23 +2,28 @@ import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
+const organizationName = "IntersectMBO";
+const projectName = "developer-experience";
+
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
   title: "Cardano Developer Experience",
   tagline: "Your comprehensive guide to building on Cardano",
   favicon: "img/favicon.ico",
+  // GitHub Pages adds a trailing slash by default that I don't want
+  trailingSlash: false,
 
   // Set the production url of your site here
-  url: "https://devex.intersectmbo.org",
+  url: `https://${organizationName}.github.io`,
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/developer-experience/",
+  baseUrl: `/${projectName}/`,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "IntersectMBO", // Usually your GitHub org/user name.
-  projectName: "developer-experience", // Usually your repo name.
+  organizationName, // Usually your GitHub org/user name.
+  projectName, // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
