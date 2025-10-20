@@ -49,4 +49,4 @@ Found an issue or want to improve a guide? See our [Contributing Guidelines](htt
 
 ---
 
-*Ready to dive deeper? Check out our [Intermediate Guides](../intermediate/) when you're comfortable with the basics.*
+*Ready to dive deeper? Check out our [Intermediate Guides](../intermediate/README.md) when you're comfortable with the basics.*

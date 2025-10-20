@@ -35,14 +35,14 @@ Before starting these guides, you should be comfortable with:
 - Command-line tools (cardano-cli)
 - Programming fundamentals
 - Familiarity with [docs.cardano.org](https://docs.cardano.org) and [developers.cardano.org](https://developers.cardano.org)
-- Completed at least 2-3 [Beginner Guides](../beginner/)
+- Completed at least 2-3 [Beginner Guides](../beginner/README.md)
 
 ## Learning Path
 
-1. Start with [Beginner Guides](../beginner/) if you haven't already
-2. Join the [Developer Experience Working Group](../../working-group/) for hands-on sessions
+1. Start with [Beginner Guides](../beginner/README.md) if you haven't already
+2. Join the [Developer Experience Working Group](../../working-group/readme.md) for hands-on sessions
 3. Practice with testnet before moving to mainnet
-4. Progress to [Advanced Guides](../advanced/) when ready
+4. Progress to [Advanced Guides](../advanced/README.md) when ready
 
 ## Getting Help
 
