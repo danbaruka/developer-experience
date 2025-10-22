@@ -1,10 +1,7 @@
 # Resources
 
-## Coming Soon
-
-
-
-**Status**: Session materials in development
+## Opportunities in Cardano
+Find the slide presentation here
 
 ---
 
