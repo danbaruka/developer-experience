@@ -87,11 +87,11 @@ const config: Config = {
             },
             {
               label: "How-to Guides",
-              to: "/docs/how-to-guide",
+              to: "/docs/how-to-guide/beginner",
             },
             {
               label: "Working Groups",
-              to: "/docs/working-group",
+              to: "/docs/working-group/q1-2025",
             },
           ],
         },
@@ -119,11 +119,11 @@ const config: Config = {
             },
             {
               label: "How-to Guides",
-              to: "/docs/how-to-guide",
+              to: "/docs/how-to-guide/beginner",
             },
             {
               label: "Working Groups",
-              to: "/docs/working-group",
+              to: "/docs/working-group/q1-2025",
             },
           ],
         },
@@ -153,7 +153,7 @@ const config: Config = {
             },
             {
               label: "Community Resources",
-              to: "/docs/resources",
+              to: "/docs/resources/community",
             },
             {
               label: "Tools & APIs",
