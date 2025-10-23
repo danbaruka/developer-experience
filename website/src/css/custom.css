@@ -299,14 +299,82 @@
 }
 
 .menu__link--active {
-  background: transparent;
-  color: var(--ifm-color-primary);
+  background: transparent !important;
+  color: #0128aa !important;
   font-weight: 600;
+}
+
+.menu__link--active:hover {
+  background: transparent !important;
+  color: #0128aa !important;
+}
+
+/* More specific selectors for active menu items */
+.theme-doc-sidebar-container .menu__link--active {
+  color: #0128aa !important;
+  background: transparent !important;
+}
+
+.theme-doc-sidebar-container .menu__link--active:hover {
+  color: #0128aa !important;
+  background: transparent !important;
+}
+
+/* Override any conflicting styles */
+.menu__link--active,
+.menu__link--active:visited,
+.menu__link--active:focus,
+.menu__link--active:active {
+  color: #0128aa !important;
+  background: transparent !important;
+}
+
+.menu__link {
+  color: var(--ifm-color-content) !important;
 }
 
 .menu__link:hover {
   background: rgba(1, 40, 170, 0.05);
-  color: var(--ifm-color-primary);
+  color: var(--ifm-color-content) !important;
+}
+
+/* Dark mode sidebar fixes */
+[data-theme='dark'] .menu__link {
+  color: var(--ifm-color-content) !important;
+}
+
+[data-theme='dark'] .menu__link:hover {
+  color: var(--ifm-color-content) !important;
+}
+
+[data-theme='dark'] .menu__link--active {
+  background: transparent !important;
+  color: #0128aa !important;
+}
+
+[data-theme='dark'] .menu__link--active:hover {
+  background: transparent !important;
+  color: #0128aa !important;
+}
+
+/* More specific dark mode selectors */
+[data-theme='dark'] .theme-doc-sidebar-container .menu__link--active {
+  color: #0128aa !important;
+  background: transparent !important;
+}
+
+[data-theme='dark'] .theme-doc-sidebar-container .menu__link--active:hover {
+  color: #0128aa !important;
+  background: transparent !important;
+}
+
+/* Override dark mode conflicting styles */
+[data-theme='dark'] .menu__link--active,
+[data-theme='dark'] .menu__link--active:visited,
+[data-theme='dark'] .menu__link--active:focus,
+[data-theme='dark'] .menu__link--active:active {
+  color: #0128aa !important;
+  background: transparent !important;
 }
 
 /* Responsive design improvements */
