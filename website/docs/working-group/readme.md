@@ -38,19 +38,11 @@ Our current quarterly initiative focused on creating a clear entry path for newc
 - **Duration**: 1 hour per session
 - **Recording**: All sessions recorded for asynchronous access
 
-### Developer Advocates
-
-**[Dan Baruka](https://www.linkedin.com/in/danbaruka/)**  
-Dan is a Developer Advocate at Intersect and co-founder of Uptodate Developers, where he leads initiatives focused on strengthening developer engagement and advancing blockchain innovation. A Cardano Ambassador since 2021, he is passionate about empowering developers through education, hands-on collaboration, and real-world adoption of decentralized technologies.
-
-**[Uchechukwu Obasi (Uche)](https://www.linkedin.com/in/thisisobate)**  
-Uche is a Software Engineer passionate about open source, developer experience, and community building. He currently serves as a Developer Advocate at Intersect, where he helps grow and support the global Cardano developer ecosystem. Uche focuses on empowering developers through education, technical content, and advocacy — helping new and existing contributors navigate the ecosystem and build impactful projects on Cardano.
-
-**[Harun Waweru Mwangi](https://www.linkedin.com/in/harunslinked/)**  
-Harun is a driven Developer Advocate and blockchain entrepreneur with over 15 years of experience spanning business operations and Web3 development. As Co-founder of Tx-Meta and Software/Smart Contract Developer at Anastasia Labs, he combines deep technical expertise with visionary leadership to empower developers building on Cardano. A Certified Cardano Solutions Architect from EMURGO Academy and Plutus Pioneer Program alumnus.
-
-**[Emmanuel Titi](https://www.linkedin.com/in/emmanuel-shikuku-devops/)**  
-Emmanuel is a Developer Advocate at Intersect, dedicated to empowering developers within the Cardano ecosystem. His work focuses on onboarding new contributors, maintaining and improving technical documentation across core repositories, and driving developer evangelism through open collaboration and education. With a strong background in full-stack and DevOps engineering, Emmanuel has been a key contributor to open-source Cardano projects such as Catalyst Explorer and Govtool Outcomes Pillar.
+### Presenters
+- **Tyty** - Lead coordinator and technical sessions
+- **Uche** - Community building and contribution focus
+- **Dan** - Technical workshops and troubleshooting
+- **Harun** - Developer stories and ecosystem overview
 
 ## Goals for Q1 2025
 
