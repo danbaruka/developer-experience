@@ -112,6 +112,9 @@
 
 .communityActions {
   margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .statItem {
@@ -140,7 +143,7 @@
 }
 
 .imagePlaceholder {
-  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, #000000 100%);
+  background: var(--ifm-color-primary);
   color: white;
   padding: 3rem 2rem;
   border-radius: 16px;

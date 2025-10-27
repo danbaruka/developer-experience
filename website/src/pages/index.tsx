@@ -73,7 +73,14 @@ function CommunitySection() {
               </div>
               <div className={styles.communityActions}>
                 <Link 
-                  className="button button--primary button--lg" 
+                  className="button button--primary button--orange button--lg" 
+                  href="https://members.intersectmbo.org/"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Join Intersect
+                </Link>
+                <Link 
+                  className="button button--secondary button--lg" 
                   href="https://github.com/IntersectMBO/developer-experience"
                   target="_blank"
                   rel="noopener noreferrer">
@@ -203,12 +210,9 @@ export default function Home(): ReactNode {
     <Layout
       title={`${siteConfig.title}`}
       description="Join the Developer Experience Working Group at Intersect MBO. Connect with developer advocates, access comprehensive Cardano resources, and participate in community-driven initiatives to enhance the developer ecosystem.">
-      <HomepageHeader />
       <main>
         <HomepageFeatures />
         <CommunitySection />
-        <ResourcesSection />
-        <GettingInvolvedSection />
       </main>
     </Layout>
   );

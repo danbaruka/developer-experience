@@ -206,7 +206,7 @@
   color: white !important;
   font-weight: 600;
   padding: 0.875rem 2rem;
-  border-radius: 8px;
+  border-radius: 50px !important;
   transition: all 0.2s ease;
 }
 
@@ -224,7 +224,7 @@
   color: var(--ifm-color-primary) !important;
   font-weight: 600;
   padding: 0.875rem 2rem;
-  border-radius: 8px;
+  border-radius: 50px !important;
   transition: all 0.2s ease;
 }
 
@@ -241,7 +241,7 @@
   color: var(--ifm-color-primary) !important;
   font-weight: 600;
   padding: 0.75rem 1.5rem;
-  border-radius: 8px;
+  border-radius: 50px !important;
   transition: all 0.2s ease;
 }
 
@@ -250,6 +250,39 @@
   color: white !important;
   transform: translateY(-1px);
   box-shadow: 0 4px 12px rgba(1, 40, 170, 0.2);
+}
+
+/* Orange join button variant */
+.button--primary.button--orange {
+  background: #f55521 !important;
+  border: 2px solid #f55521 !important;
+  color: white !important;
+  font-weight: 600;
+  padding: 0.875rem 2rem;
+  border-radius: 50px !important;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 8px rgba(245, 85, 33, 0.2);
+}
+
+.button--primary.button--orange:hover {
+  background: #e0481a !important;
+  border-color: #e0481a !important;
+  color: white !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(245, 85, 33, 0.3);
+}
+
+/* Dark mode orange button */
+[data-theme='dark'] .button--primary.button--orange {
+  background: #f55521 !important;
+  border-color: #f55521 !important;
+  color: white !important;
+}
+
+[data-theme='dark'] .button--primary.button--orange:hover {
+  background: #e0481a !important;
+  border-color: #e0481a !important;
+  color: white !important;
 }
 
 /* Dark mode button fixes */
@@ -340,11 +373,11 @@
 
 /* Dark mode sidebar fixes */
 [data-theme='dark'] .menu__link {
-  color: var(--ifm-color-content) !important;
+  color: white !important;
 }
 
 [data-theme='dark'] .menu__link:hover {
-  color: var(--ifm-color-content) !important;
+  color: white !important;
 }
 
 [data-theme='dark'] .menu__link--active {
@@ -375,6 +408,22 @@
 [data-theme='dark'] .menu__link--active:active {
   color: #0128aa !important;
   background: transparent !important;
+}
+
+/* Dark mode navbar - ensure plain white text */
+[data-theme='dark'] .navbar__brand,
+[data-theme='dark'] .navbar__item,
+[data-theme='dark'] .navbar__link,
+[data-theme='dark'] .navbar__link--active,
+[data-theme='dark'] .navbar__toggle,
+[data-theme='dark'] .navbar-sidebar__brand,
+[data-theme='dark'] .navbar__item--show .navbar__link {
+  color: white !important;
+}
+
+[data-theme='dark'] .navbar__link:hover {
+  color: white !important;
+  opacity: 0.8;
 }
 
 /* Responsive design improvements */
