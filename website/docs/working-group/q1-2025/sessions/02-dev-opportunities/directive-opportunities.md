@@ -211,7 +211,7 @@ We are actively working on different initiatives to support students participati
 
 ## NEXT STEPS
 
-1. **Join Intersect & Discord**
+1. **[Join Intersect](https://intersectmbo.org/membership)**
 
    - Connect with the community
    - Attend working group meetings
