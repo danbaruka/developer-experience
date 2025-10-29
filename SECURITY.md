@@ -2,12 +2,7 @@
 
 ## Introduction
 
-The Cardano open source project is committed to ensuring the security of
-its software and the privacy of its users. We value the contributions
-of the security community in helping us identify and address
-vulnerabilities in our code. This Security Vulnerability Disclosure
-Policy outlines how security vulnerabilities should be reported and
-how we will respond to and remediate such reports.
+The Cardano open source project (`IntersectMBO/developer-experience`) is committed to ensuring the security of its software and the privacy of its users. We value the contributions of the security community in helping us identify and address vulnerabilities in our code. This Security Vulnerability Disclosure Policy outlines how security vulnerabilities should be reported and how we will respond to and remediate such reports.
 
 ## Security Vulnerability Handling Process
 
