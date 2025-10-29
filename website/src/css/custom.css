@@ -1,0 +1,674 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* Intersect MBO Brand Colors - Custom Blue Theme */
+:root {
+  /* Primary Brand Colors - Light Theme Blue */
+  --ifm-color-primary: #2555fe;
+  --ifm-color-primary-dark: #1a43d4;
+  --ifm-color-primary-darker: #173cc5;
+  --ifm-color-primary-darkest: #1332a4;
+  --ifm-color-primary-light: #4168fe;
+  --ifm-color-primary-lighter: #4f72fe;
+  --ifm-color-primary-lightest: #7c95fe;
+
+  /* Secondary Colors */
+  --ifm-color-secondary: #f8f9fa;
+  --ifm-color-secondary-dark: #e9ecef;
+  --ifm-color-secondary-darker: #dee2e6;
+  --ifm-color-secondary-darkest: #ced4da;
+  --ifm-color-secondary-light: #ffffff;
+  --ifm-color-secondary-lighter: #ffffff;
+  --ifm-color-secondary-lightest: #ffffff;
+
+  /* Accent Colors */
+  --ifm-color-accent: #00d4aa;
+  --ifm-color-accent-dark: #00b894;
+  --ifm-color-accent-darker: #00a085;
+  --ifm-color-accent-darkest: #008975;
+  --ifm-color-accent-light: #1ad8b8;
+  --ifm-color-accent-lighter: #33dcc6;
+  --ifm-color-accent-lightest: #66e4d4;
+
+  /* Typography */
+  --ifm-font-family-base: Inter, "Inter Fallback", system-ui, arial;
+  --ifm-font-family-monospace: 'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace;
+  --ifm-font-size-base: 16px;
+  --ifm-line-height-base: 1.6;
+
+  /* Code styling */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(37, 85, 254, 0.1);
+
+  /* Spacing */
+  --ifm-spacing-horizontal: 1.5rem;
+  --ifm-spacing-vertical: 1rem;
+}
+
+/* Dark Mode - Intersect Brand Colors */
+[data-theme='dark'] {
+  /* Primary Brand Colors - Dark Theme Blue */
+  --ifm-color-primary: #2e7bff;
+  --ifm-color-primary-dark: #2668d4;
+  --ifm-color-primary-darker: #2362c5;
+  --ifm-color-primary-darkest: #1d51a4;
+  --ifm-color-primary-light: #4d91ff;
+  --ifm-color-primary-lighter: #5d9bff;
+  --ifm-color-primary-lightest: #8cb8ff;
+
+  /* Secondary Colors for dark mode */
+  --ifm-color-secondary: #2d3748;
+  --ifm-color-secondary-dark: #1a202c;
+  --ifm-color-secondary-darker: #171923;
+  --ifm-color-secondary-darkest: #0f1419;
+  --ifm-color-secondary-light: #4a5568;
+  --ifm-color-secondary-lighter: #718096;
+  --ifm-color-secondary-lightest: #a0aec0;
+
+  /* Accent Colors - Maintained for consistency */
+  --ifm-color-accent: #00d4aa;
+  --ifm-color-accent-dark: #00b894;
+  --ifm-color-accent-darker: #00a085;
+  --ifm-color-accent-darkest: #008975;
+  --ifm-color-accent-light: #1ad8b8;
+  --ifm-color-accent-lighter: #33dcc6;
+  --ifm-color-accent-lightest: #66e4d4;
+
+  /* Dark mode code highlighting */
+  --docusaurus-highlighted-code-line-bg: rgba(46, 123, 255, 0.2);
+}
+
+/* Custom Intersect Branding Styles */
+
+/* Navbar styling */
+.navbar {
+  background: #2555fe;
+  box-shadow: 0 2px 8px rgba(37, 85, 254, 0.15);
+}
+
+.navbar__brand {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: white !important;
+}
+
+.navbar__logo {
+  height: 32px;
+  width: auto;
+}
+
+/* Navbar text elements - white on blue background */
+.navbar__item {
+  color: white !important;
+}
+
+.navbar__link {
+  color: white !important;
+  font-weight: 500;
+}
+
+.navbar__link:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.navbar__link--active {
+  color: white !important;
+  font-weight: 600;
+}
+
+/* Dropdown menu styling */
+.navbar__item--show .navbar__link {
+  color: white !important;
+}
+
+.dropdown__link {
+  color: var(--ifm-color-primary) !important;
+}
+
+.dropdown__link:hover {
+  color: var(--ifm-color-primary-dark) !important;
+  background-color: rgba(37, 85, 254, 0.1);
+}
+
+/* Mobile menu toggle */
+.navbar__toggle {
+  color: white !important;
+}
+
+.navbar-sidebar__brand {
+  color: white !important;
+}
+
+
+/* Card styling */
+.card {
+  border: 1px solid rgba(37, 85, 254, 0.1);
+  border-radius: 12px;
+  transition: all 0.2s ease;
+}
+
+.card:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 4px 20px rgba(37, 85, 254, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Footer styling */
+.footer {
+  background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
+  border-top: 3px solid var(--ifm-color-primary);
+}
+
+.footer__title {
+  color: var(--ifm-color-primary-light);
+  font-weight: 600;
+}
+
+.footer__link-item {
+  color: var(--ifm-color-secondary-lighter);
+  transition: color 0.2s ease;
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-color-primary-light);
+}
+
+/* Hero section styling */
+.hero {
+  background: linear-gradient(135deg, rgba(37, 85, 254, 0.03) 0%, rgba(0, 212, 170, 0.03) 100%);
+  padding: 6rem 0 4rem 0;
+  border-bottom: 1px solid rgba(37, 85, 254, 0.1);
+}
+
+.hero__title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+}
+
+.hero__subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--ifm-color-primary);
+  margin: 1.5rem 0;
+  line-height: 1.4;
+}
+
+/* Enhanced button styling */
+.button--primary {
+  background: var(--ifm-color-primary);
+  border: 2px solid var(--ifm-color-primary);
+  color: white !important;
+  font-weight: 600;
+  padding: 0.875rem 2rem;
+  border-radius: 50px !important;
+  transition: all 0.2s ease;
+}
+
+.button--primary:hover {
+  background: var(--ifm-color-primary-dark);
+  border-color: var(--ifm-color-primary-dark);
+  color: white !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(37, 85, 254, 0.3);
+}
+
+.button--secondary {
+  background: transparent;
+  border: 2px solid var(--ifm-color-primary);
+  color: var(--ifm-color-primary) !important;
+  font-weight: 600;
+  padding: 0.875rem 2rem;
+  border-radius: 50px !important;
+  transition: all 0.2s ease;
+}
+
+.button--secondary:hover {
+  background: var(--ifm-color-primary);
+  color: white !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(37, 85, 254, 0.2);
+}
+
+.button--outline {
+  background: transparent;
+  border: 2px solid var(--ifm-color-primary);
+  color: var(--ifm-color-primary) !important;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px !important;
+  transition: all 0.2s ease;
+}
+
+.button--outline:hover {
+  background: var(--ifm-color-primary);
+  color: white !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(37, 85, 254, 0.2);
+}
+
+/* Orange join button variant */
+.button--primary.button--orange {
+  background: #f55521 !important;
+  border: 2px solid #f55521 !important;
+  color: white !important;
+  font-weight: 600;
+  padding: 0.875rem 2rem;
+  border-radius: 50px !important;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 8px rgba(245, 85, 33, 0.2);
+}
+
+.button--primary.button--orange:hover {
+  background: #e0481a !important;
+  border-color: #e0481a !important;
+  color: white !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(245, 85, 33, 0.3);
+}
+
+/* Dark mode orange button */
+[data-theme='dark'] .button--primary.button--orange {
+  background: #f55521 !important;
+  border-color: #f55521 !important;
+  color: white !important;
+}
+
+[data-theme='dark'] .button--primary.button--orange:hover {
+  background: #e0481a !important;
+  border-color: #e0481a !important;
+  color: white !important;
+}
+
+/* Dark mode button fixes */
+[data-theme='dark'] .button--primary {
+  background: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+  color: white !important;
+}
+
+[data-theme='dark'] .button--primary:hover {
+  background: var(--ifm-color-primary-dark);
+  border-color: var(--ifm-color-primary-dark);
+  color: white !important;
+}
+
+[data-theme='dark'] .button--secondary {
+  background: transparent;
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary) !important;
+}
+
+[data-theme='dark'] .button--secondary:hover {
+  background: var(--ifm-color-primary);
+  color: white !important;
+}
+
+[data-theme='dark'] .button--outline {
+  background: transparent;
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary) !important;
+}
+
+[data-theme='dark'] .button--outline:hover {
+  background: var(--ifm-color-primary);
+  color: white !important;
+}
+
+/* Code blocks */
+.prism-code {
+  border-radius: 8px;
+  border: 1px solid rgba(37, 85, 254, 0.1);
+}
+
+/* Sidebar styling - Professional Menu Design */
+.theme-doc-sidebar-container {
+  background: #ffffff !important;
+  border-right: 1px solid rgba(37, 85, 254, 0.1);
+}
+
+.theme-doc-sidebar-menu {
+  background: #ffffff !important;
+}
+
+/* Section Headers - Thin font, dark charcoal gray */
+.menu__list-item-collapsible .menu__link,
+.menu__list-item-collapsible .menu__link--sublist,
+.menu__caret::before {
+  color: #333333 !important;
+  font-weight: 300 !important;
+  font-size: 0.9rem !important;
+  background: transparent !important;
+}
+
+.menu__list-item-collapsible .menu__link:hover,
+.menu__list-item-collapsible .menu__link--sublist:hover {
+  color: #333333 !important;
+  background: transparent !important;
+}
+
+/* Inactive menu items - Thin font, medium-light gray */
+.menu__link {
+  color: #404040 !important;
+  background: transparent !important;
+  font-weight: 300 !important;
+  font-size: 0.9rem !important;
+}
+
+.menu__link:hover {
+  background: transparent !important;
+  color: #404040 !important;
+}
+
+/* Active/Selected menu item - Bold font, vibrant blue with left border indicator */
+/* Only apply to non-collapsible links (not parent folders) */
+.menu__link--active:not(.menu__link--sublist) {
+  background: transparent !important;
+  color: #2555fe !important;
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+  border-left: 3px solid #2555fe !important;
+  padding-left: calc(var(--ifm-menu-link-padding-horizontal) - 3px) !important;
+  margin-left: 0 !important;
+}
+
+.menu__link--active:not(.menu__link--sublist):hover {
+  background: transparent !important;
+  color: #2555fe !important;
+  border-left-color: #2555fe !important;
+}
+
+/* More specific selectors for active menu items (not parent folders) */
+.theme-doc-sidebar-container .menu__link--active:not(.menu__link--sublist) {
+  color: #2555fe !important;
+  background: transparent !important;
+  border-left: 3px solid #2555fe !important;
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+}
+
+.theme-doc-sidebar-container .menu__link--active:not(.menu__link--sublist):hover {
+  color: #2555fe !important;
+  background: transparent !important;
+  border-left-color: #2555fe !important;
+}
+
+/* Override any conflicting styles - only for non-parent links */
+.menu__link--active:not(.menu__link--sublist),
+.menu__link--active:not(.menu__link--sublist):visited,
+.menu__link--active:not(.menu__link--sublist):focus,
+.menu__link--active:not(.menu__link--sublist):active {
+  color: #2555fe !important;
+  background: transparent !important;
+  border-left: 3px solid #2555fe !important;
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+}
+
+/* Ensure parent folders stay gray even if child is active */
+.menu__list-item-collapsible .menu__link--active,
+.menu__list-item-collapsible .menu__link--active.menu__link--sublist {
+  color: #333333 !important;
+  font-weight: 300 !important;
+  border-left: none !important;
+  padding-left: var(--ifm-menu-link-padding-horizontal) !important;
+}
+
+.menu__list-item-collapsible .menu__link--active:hover,
+.menu__list-item-collapsible .menu__link--active.menu__link--sublist:hover {
+  color: #333333 !important;
+  border-left: none !important;
+}
+
+/* Menu icons/arrows - Light gray */
+.menu__caret,
+.menu__caret::before {
+  color: #999999 !important;
+}
+
+/* Nested menu items - thin font, maintain gray color for inactive nested items */
+.menu__list .menu__list-item .menu__link {
+  color: #404040 !important;
+  font-weight: 300 !important;
+  font-size: 0.9rem !important;
+}
+
+.menu__list .menu__list-item .menu__link:hover {
+  color: #404040 !important;
+  background: transparent !important;
+}
+
+/* Nested active menu items - bold font, blue with left border */
+.menu__list .menu__list-item .menu__link--active:not(.menu__link--sublist) {
+  color: #2555fe !important;
+  border-left: 3px solid #2555fe !important;
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+}
+
+/* Remove any background highlights */
+.menu__link:not(.menu__link--active) {
+  background: transparent !important;
+}
+
+/* Ensure menu list items have transparent background */
+.menu__list-item {
+  background: transparent !important;
+}
+
+/* Dark mode sidebar - Maintain professional look */
+[data-theme='dark'] .theme-doc-sidebar-container {
+  background: #1a1a1a !important;
+}
+
+[data-theme='dark'] .theme-doc-sidebar-menu {
+  background: #1a1a1a !important;
+}
+
+/* Dark mode section headers - thin font */
+[data-theme='dark'] .menu__list-item-collapsible .menu__link,
+[data-theme='dark'] .menu__list-item-collapsible .menu__link--sublist {
+  color: #cccccc !important;
+  font-weight: 300 !important;
+  font-size: 0.9rem !important;
+}
+
+/* Dark mode inactive menu items - thin font, lighter gray for better contrast */
+[data-theme='dark'] .menu__link {
+  color: #999999 !important;
+  background: transparent !important;
+  font-weight: 300 !important;
+  font-size: 0.9rem !important;
+}
+
+[data-theme='dark'] .menu__link:hover {
+  color: #999999 !important;
+  background: transparent !important;
+}
+
+/* Dark mode active menu item - bold font, blue with left border */
+/* Only for non-parent links */
+[data-theme='dark'] .menu__link--active:not(.menu__link--sublist) {
+  background: transparent !important;
+  color: #2e7bff !important;
+  border-left: 3px solid #2e7bff !important;
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+}
+
+[data-theme='dark'] .menu__link--active:not(.menu__link--sublist):hover {
+  background: transparent !important;
+  color: #2e7bff !important;
+  border-left-color: #2e7bff !important;
+}
+
+/* More specific dark mode selectors - only for non-parent links */
+[data-theme='dark'] .theme-doc-sidebar-container .menu__link--active:not(.menu__link--sublist) {
+  color: #2e7bff !important;
+  background: transparent !important;
+  border-left: 3px solid #2e7bff !important;
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+}
+
+[data-theme='dark'] .theme-doc-sidebar-container .menu__link--active:not(.menu__link--sublist):hover {
+  color: #2e7bff !important;
+  background: transparent !important;
+  border-left-color: #2e7bff !important;
+}
+
+/* Override dark mode conflicting styles - only for non-parent links */
+[data-theme='dark'] .menu__link--active:not(.menu__link--sublist),
+[data-theme='dark'] .menu__link--active:not(.menu__link--sublist):visited,
+[data-theme='dark'] .menu__link--active:not(.menu__link--sublist):focus,
+[data-theme='dark'] .menu__link--active:not(.menu__link--sublist):active {
+  color: #2e7bff !important;
+  background: transparent !important;
+  border-left: 3px solid #2e7bff !important;
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+}
+
+/* Ensure dark mode parent folders stay gray even if child is active */
+[data-theme='dark'] .menu__list-item-collapsible .menu__link--active,
+[data-theme='dark'] .menu__list-item-collapsible .menu__link--active.menu__link--sublist {
+  color: #cccccc !important;
+  font-weight: 300 !important;
+  border-left: none !important;
+  padding-left: var(--ifm-menu-link-padding-horizontal) !important;
+}
+
+[data-theme='dark'] .menu__list-item-collapsible .menu__link--active:hover,
+[data-theme='dark'] .menu__list-item-collapsible .menu__link--active.menu__link--sublist:hover {
+  color: #cccccc !important;
+  border-left: none !important;
+}
+
+/* Dark mode menu icons/arrows */
+[data-theme='dark'] .menu__caret,
+[data-theme='dark'] .menu__caret::before {
+  color: #999999 !important;
+}
+
+/* Dark mode nested menu items - thin font */
+[data-theme='dark'] .menu__list .menu__list-item .menu__link {
+  color: #999999 !important;
+  font-weight: 300 !important;
+  font-size: 0.9rem !important;
+}
+
+[data-theme='dark'] .menu__list .menu__list-item .menu__link:hover {
+  color: #999999 !important;
+  background: transparent !important;
+}
+
+[data-theme='dark'] .menu__list .menu__list-item .menu__link--active:not(.menu__link--sublist) {
+  color: #2e7bff !important;
+  border-left: 3px solid #2e7bff !important;
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+}
+
+/* Dark mode navbar - ensure plain white text */
+[data-theme='dark'] .navbar__brand,
+[data-theme='dark'] .navbar__item,
+[data-theme='dark'] .navbar__link,
+[data-theme='dark'] .navbar__link--active,
+[data-theme='dark'] .navbar__toggle,
+[data-theme='dark'] .navbar-sidebar__brand,
+[data-theme='dark'] .navbar__item--show .navbar__link {
+  color: white !important;
+}
+
+[data-theme='dark'] .navbar__link:hover {
+  color: white !important;
+  opacity: 0.8;
+}
+
+/* Responsive design improvements */
+@media (max-width: 996px) {
+  .navbar__brand {
+    font-size: 1.1rem;
+  }
+
+  .hero {
+    padding: 4rem 0 3rem 0;
+  }
+
+  .hero__title {
+    font-size: 2.5rem;
+  }
+
+  .hero__subtitle {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 3rem 0 2rem 0;
+  }
+
+  .hero__title {
+    font-size: 2rem;
+  }
+
+  .hero__subtitle {
+    font-size: 1.125rem;
+  }
+
+  .button--primary,
+  .button--secondary {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.95rem;
+  }
+}
+
+/* Link visibility fixes */
+a {
+  color: var(--ifm-color-primary) !important;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--ifm-color-primary-dark) !important;
+  text-decoration: underline;
+}
+
+/* Dark mode link fixes */
+[data-theme='dark'] a {
+  color: var(--ifm-color-primary) !important;
+}
+
+[data-theme='dark'] a:hover {
+  color: var(--ifm-color-primary-light) !important;
+}
+
+/* Footer link fixes */
+.footer__link-item {
+  color: var(--ifm-color-secondary-lighter) !important;
+  transition: color 0.2s ease;
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-color-primary-light) !important;
+}
+
+[data-theme='dark'] .footer__link-item {
+  color: var(--ifm-color-secondary-lighter) !important;
+}
+
+[data-theme='dark'] .footer__link-item:hover {
+  color: var(--ifm-color-primary-light) !important;
+}
+
+/* Loading and transition effects */
+* {
+  transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+}

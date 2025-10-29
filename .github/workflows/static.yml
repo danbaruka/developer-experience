@@ -3,7 +3,7 @@ name: Deploy Docusaurus site to Pages
 on:
   push:
     branches: ["main"]
-    paths: ["contributor-beginner/**"]
+    paths: ["website/**"]
 
   workflow_dispatch:
 
@@ -31,16 +31,16 @@ jobs:
           node-version: '20' # Or your preferred Node.js version
       - name: Install dependencies
         run: npm install
-        working-directory: ./contributor-beginner
+        working-directory: ./website
       - name: Build Docusaurus
         run: npm run build
-        working-directory: ./contributor-beginner
+        working-directory: ./website
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./contributor-beginner/build
+          path: ./website/build
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
