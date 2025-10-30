@@ -660,13 +660,19 @@ a:hover {
   color: var(--ifm-color-primary-light) !important;
 }
 
-[data-theme] .navbar button[aria-label*="mode"],
-[data-theme] .navbar .clean-btn[title*="mode"] {
+[data-theme] .navbar .clean-btn[title*="dark"],
+[data-theme] .navbar .clean-btn[title*="light"],
+[data-theme] .navbar button[aria-label*="color mode"],
+[data-theme] .navbar button[aria-label*="Color mode"],
+[data-theme] .navbar button[aria-label*="Toggle color mode"] {
   color: #ffffff !important;
 }
 
-[data-theme] .navbar button[aria-label*="mode"] svg,
-[data-theme] .navbar .clean-btn[title*="mode"] svg {
+[data-theme] .navbar .clean-btn[title*="dark"] svg,
+[data-theme] .navbar .clean-btn[title*="light"] svg,
+[data-theme] .navbar button[aria-label*="color mode"] svg,
+[data-theme] .navbar button[aria-label*="Color mode"] svg,
+[data-theme] .navbar button[aria-label*="Toggle color mode"] svg {
   fill: #ffffff !important;
   stroke: #ffffff !important;
 }
