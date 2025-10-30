@@ -2,28 +2,20 @@
 
 ## Introduction
 
-The Cardano open source project (xxx) is committed to ensuring the security of
-its software and the privacy of its users. We value the contributions
-of the security community in helping us identify and address
-vulnerabilities in our code. This Security Vulnerability Disclosure
-Policy outlines how security vulnerabilities should be reported and
-how we will respond to and remediate such reports.
+The Cardano open source project (`IntersectMBO/developer-experience`) is committed to ensuring the security of its software and the privacy of its users. We value the contributions of the security community in helping us identify and address vulnerabilities in our code. This Security Vulnerability Disclosure Policy outlines how security vulnerabilities should be reported and how we will respond to and remediate such reports.
 
 ## Security Vulnerability Handling Process
 
 ### Reporting a Vulnerability
 
-If you discover a security vulnerability in xxxx, we encourage you to
-responsibly disclose it to us. To report a vulnerability, please use
-the [private reporting form on
-GitHub](https://github.com/input-output-hk/mithril/security/advisories/new)
-to draft a new _Security advisory_.
+If you discover a security vulnerability in the Developer Experience repository, we encourage you to responsibly disclose it to us. To report a vulnerability, please use
+the [private reporting form on GitHub](https://github.com/input-output-hk/mithril/security/advisories/new) to draft a new _Security advisory_.
 
 Please include as much details as needed to clearly qualify the issue:
 
 - A description of the vulnerability and its potential impact.
 - Steps to reproduce the vulnerability.
-- The version of `xxxx` package where the vulnerability exists.
+- The version of the package where the vulnerability exists.
 - Any relevant proof-of-concept or exploit code (if applicable).
 
 ### Processing Vulnerability
@@ -90,17 +82,17 @@ report security vulnerabilities to us.
 ## Contact Information
 
 To report a security vulnerability, please use [GitHub
-form]((add project github form for your project)). Should you experience any issues reporting via GitHub or have other questions, Please contact [Security](security@intersectmbo.org).
+form](https://github.com/input-output-hk/mithril/security/advisories/new). Should you experience any issues reporting via GitHub or have other questions, Please contact security@intersectmbo.org.
 
 ## Revision of Policy
 
 This Security Vulnerability Disclosure Policy may be updated or
 revised as necessary. Please check the latest version of this policy
-on the [xxxx repository]((add link for your project)).
+on the [Developer Experience repository](https://github.com/IntersectMBO/developer-experience/blob/main/SECURITY.md).
 
 ## Conclusion
 
-The xxxx project greatly appreciates the assistance of the security
+The Developer Experience project greatly appreciates the assistance of the security
 community in helping us maintain the security of our software while
 upholding the highest standards of privacy. Together, we can work to
 identify and address vulnerabilities, ensuring a safer and more secure
