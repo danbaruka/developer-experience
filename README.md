@@ -36,6 +36,8 @@ Meet and connect with our past and present developer advocates:
      - Schedule a call with Uche [here](https://calendar.app.google/6HC9yHfTHrQ1dfcB9)
    - [Emmanuel](https://www.linkedin.com/in/emmanuel-shikuku-devops/)
    - [Dan](https://www.linkedin.com/in/danbaruka/)
+     - X (Twitter): [@danamphred](https://x.com/danamphred)
+     - Schedule a call with Dan [here](https://calendar.app.google/Ry32VJXbdgazUFe79)
    - [Harun](https://www.linkedin.com/in/harunslinked/)
      - Schedule a call with Harun [here](https://calendly.com/harunm28/30min)
 - **Past Cohort**:
