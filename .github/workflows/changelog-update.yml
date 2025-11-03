@@ -1,0 +1,169 @@
+name: Monthly Changelog Update
+
+on:
+  schedule:
+    # Run on the 1st day of every month at 00:00 UTC
+    - cron: '0 0 1 * *'
+  workflow_dispatch: # Allow manual triggering
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-changelog:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Git
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+      - name: Get current month and year
+        id: date
+        run: |
+          MONTH=$(date -u +"%B")
+          YEAR=$(date -u +"%Y")
+          VERSION_Y=$(date -u +"%Y")
+          VERSION_M=$(date -u +"%-m")
+          echo "month=$MONTH" >> $GITHUB_OUTPUT
+          echo "year=$YEAR" >> $GITHUB_OUTPUT
+          echo "version=$VERSION_Y.$VERSION_M" >> $GITHUB_OUTPUT
+
+      - name: Check if changelog entry exists
+        id: check_entry
+        run: |
+          MONTH="${{ steps.date.outputs.month }}"
+          YEAR="${{ steps.date.outputs.year }}"
+          if grep -q "##.*$MONTH.*$YEAR\|##.*$YEAR\.$" CHANGELOG.md; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+            echo "Entry for $MONTH $YEAR already exists"
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+            echo "Entry for $MONTH $YEAR does not exist"
+          fi
+
+      - name: Update CHANGELOG
+        if: steps.check_entry.outputs.exists == 'false'
+        run: |
+          MONTH="${{ steps.date.outputs.month }}"
+          YEAR="${{ steps.date.outputs.year }}"
+          VERSION="${{ steps.date.outputs.version }}"
+          
+          # Run the changelog update script
+          if [ -f "scripts/update-changelog.sh" ]; then
+            bash scripts/update-changelog.sh "$VERSION" "$MONTH" "$YEAR"
+          else
+            # Fallback: use Python inline script
+            python3 << 'PYTHON_SCRIPT'
+          import re
+          
+          VERSION = "${{ steps.date.outputs.version }}"
+          MONTH = "${{ steps.date.outputs.month }}"
+          YEAR = "${{ steps.date.outputs.year }}"
+          
+          NEW_ENTRY = f"""## {VERSION} - {MONTH} {YEAR}
+
+### Added
+
+- 
+
+### Changed
+
+- 
+
+### Fixed
+
+- 
+
+### Removed
+
+- 
+
+### Security
+
+- 
+
+---
+
+"""
+          
+          # Read current changelog
+          with open('CHANGELOG.md', 'r') as f:
+              lines = f.readlines()
+          
+          # Find the first version entry
+          insert_index = None
+          for i, line in enumerate(lines):
+              if re.match(r'^## \d+\.\d', line):
+                  insert_index = i
+                  break
+          
+          if insert_index is not None:
+              lines.insert(insert_index, NEW_ENTRY)
+          else:
+              # Fallback: find the --- separator after Structure
+              for i, line in enumerate(lines):
+                  if '---' in line and i > 10:
+                      insert_index = i + 1
+                      break
+              if insert_index:
+                  lines.insert(insert_index, NEW_ENTRY)
+          
+          # Write back
+          with open('CHANGELOG.md', 'w') as f:
+              f.writelines(lines)
+          
+          print(f"Successfully added changelog entry for {MONTH} {YEAR}")
+          PYTHON_SCRIPT
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_entry.outputs.exists == 'false'
+        run: |
+          git add CHANGELOG.md
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: add monthly changelog entry template for ${{ steps.date.outputs.month }} ${{ steps.date.outputs.year }}" || exit 0
+          git push origin HEAD:${{ github.ref_name }} || exit 0
+
+      - name: Create Pull Request
+        if: steps.check_entry.outputs.exists == 'false' && github.ref == 'refs/heads/main'
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: add monthly changelog entry template for ${{ steps.date.outputs.month }} ${{ steps.date.outputs.year }}"
+          title: "📝 Monthly Changelog Update - ${{ steps.date.outputs.month }} ${{ steps.date.outputs.year }}"
+          body: |
+            ## Monthly Changelog Update
+            
+            This PR automatically creates a new changelog entry template for **${{ steps.date.outputs.month }} ${{ steps.date.outputs.year }}**.
+            
+            ### 📋 Next Steps
+            
+            Please review and fill in the appropriate changes:
+            - **Added**: New features, sections, or capabilities
+            - **Changed**: Changes in existing functionality
+            - **Fixed**: Bug fixes and resolution of issues
+            - **Removed**: Deprecated or removed features
+            - **Security**: Security improvements or vulnerability fixes
+            
+            ### 📝 Guidelines
+            
+            - Remove empty sections if they're not needed
+            - Use bullet points for each change
+            - Be descriptive but concise
+            - Reference related issues/PRs when applicable
+            
+            Once reviewed and filled in, this PR can be merged to update the changelog.
+          branch: chore/monthly-changelog-${{ steps.date.outputs.year }}-${{ steps.date.outputs.month }}
+          delete-branch: true
