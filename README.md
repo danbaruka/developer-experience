@@ -1,7 +1,10 @@
 # Welcome to the Intersect MBO Developer Experience Working Group
 
 ## Our Mission
-We are a community of `Developer Advocates` from `IntersectMBO` focused on enhancing the developer experience within the Cardano ecosystem. Our goal is to identify, address, and improve key aspects of the development process to make building on Cardano more accessible, efficient, and rewarding.
+We are a community of `Developer Advocates` from `IntersectMBO` focused on enhancing the developer experience within the Cardano ecosystem. Our goal is to identify, address, and improve key aspects of the development process to make building on Cardano more accessible, efficient, and rewarding. 
+
+Learn more about our initiatives and resources at our website: [Intersect MBO Developers Experience Website](devex.intersectmbo.org/)
+
 
 ## What We Do
 
