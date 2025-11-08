@@ -150,7 +150,7 @@ developer-experience/
 │   │   ├── sessions/
 │   │   │   ├── 01-kickoff-orientation/
 │   │   │   ├── 02-dev-opportunities/
-│   │   │   ├── 03-environment-setup/
+│   │   │   ├── Session 03: Dev environment setup/
 │   │   │   ├── 04-essential-links/
 │   │   │   ├── 05-developer-story-1/
 │   │   │   ├── 06-token-creation/
@@ -238,7 +238,7 @@ This theme emphasizes that Q1 2025 is about building the fundamental knowledge, 
 ### For New Participants
 1. First become a member at [Intersect](https://www.intersectmbo.org/) and register at [members.intersectmbo.org](https://members.intersectmbo.org/registration). After joining, you'll get access to our Discord community
 2. Introduce yourself in the Developer Experience channel
-3. Review the [Directive: Kickoff & Orientation](./sessions/01-kickoff-orientation/directive-kickoff.md) guide
+3. Review the [Directive: Kickoff & Orientation](./sessions/01-kickoff-orientation/readme.md) guide
 4. Attend the weekly working group sessions
 5. Follow along with hands-on exercises
 6. Contribute to documentation and community resources
