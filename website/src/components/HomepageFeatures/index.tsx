@@ -6,6 +6,7 @@ import styles from './styles.module.css';
 type FeatureItem = {
   title: string;
   description: ReactNode;
+  image: string;
 };
 
 const FeatureList: FeatureItem[] = [
@@ -18,6 +19,7 @@ const FeatureList: FeatureItem[] = [
         to enhance the Cardano Layer 1 developer experience.
       </>
     ),
+    image: '/img/OSC-con.png',
   },
   {
     title: 'Developer Advocate Program',
@@ -28,6 +30,7 @@ const FeatureList: FeatureItem[] = [
         programs within the Cardano ecosystem.
       </>
     ),
+    image: '/img/DA-icon.png',
   },
   {
     title: 'Member-Driven Organization',
@@ -38,14 +41,18 @@ const FeatureList: FeatureItem[] = [
         the Cardano ecosystem through collaborative innovation.
       </>
     ),
+    image: '/img/IntersectMBO.svg',
   },
 ];
 
-function Feature({title, description}: FeatureItem) {
+function Feature({title, description, image}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className={styles.featureCard}>
         <div className={styles.featureContent}>
+          <div className={styles.featureImageContainer}>
+            <img src={image} alt={title} className={styles.featureImage} />
+          </div>
           <Heading as="h3" className={styles.featureTitle}>{title}</Heading>
           <p className={styles.featureDescription}>{description}</p>
         </div>
