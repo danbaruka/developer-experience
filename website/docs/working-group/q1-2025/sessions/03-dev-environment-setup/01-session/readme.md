@@ -1,6 +1,12 @@
+---
+title: Session 03 Overview
+sidebar_label: Session
+slug: /working-group/q1-2025/sessions/03-dev-environment-setup/session
+---
+
 # Cardano Dev Environment
 
-A well-structured environment is essential for building, testing, and contributing to Cardano projects. This guide outlines the core components and links you to canonical setup instructions. For background on core repos and ecosystem resources, see the Kickoff session: [Core Repositories](../01-kickoff-orientation/readme.md#core-repositories) and [Documentation Resources](../01-kickoff-orientation/readme.md#documentation-resources).
+A well-structured environment is essential for building, testing, and contributing to Cardano projects. This guide outlines the core components and links you to canonical setup instructions. For background on core repos and ecosystem resources, see the Kickoff session: [Core Repositories](../../01-kickoff-orientation/readme.md#core-repositories) and [Documentation Resources](../../01-kickoff-orientation/readme.md#documentation-resources).
 
 ## Version Control
 
@@ -11,7 +17,7 @@ Use Git and GitHub for collaboration and traceability.
   - Git installed locally (`git --version`)
   - Suggested branch model: `main` (stable), `dev` (active), `feature/*` (scoped work)
 
-Refer to governance, repos, and contribution links in [Documentation Resources](../01-kickoff-orientation/readme.md#documentation-resources) instead of duplicating here.
+Refer to governance, repos, and contribution links in [Documentation Resources](../../01-kickoff-orientation/readme.md#documentation-resources) instead of duplicating here.
 
 ## Development Tools
 
@@ -25,7 +31,7 @@ Recommended setup for editing, shell, and formatting:
   - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) or [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - **Optional (protocol work/Haskell toolchain)**: [ghcup](https://www.haskell.org/ghcup/) to manage GHC, Cabal, HLS
 
-For broader tooling and SDKs, see [Essential Tooling](../01-kickoff-orientation/readme.md#essential-tooling).
+For broader tooling and SDKs, see [Essential Tooling](../../01-kickoff-orientation/readme.md#essential-tooling).
 
 ## Wallets
 
@@ -38,7 +44,7 @@ You use wallets to hold keys, sign transactions, and interact with dApps.
   - When you use extension wallets, you have an easy way to connect dApps in the browser. It helps you test user flows quickly with a familiar UI.
   - Use for dApp development, frontend integration, and user testing on testnets.
 
-See options and integration links in [Kickoff › Wallet Integration](../01-kickoff-orientation/readme.md#wallet-integration).
+See options and integration links in [Kickoff › Wallet Integration](../../01-kickoff-orientation/readme.md#wallet-integration).
 
 ## Cardano CLI and Node
 
@@ -74,7 +80,7 @@ Prefer an API if you don’t need to run a full node.
 
 For service options and links, see:
 
-- [Kickoff Orientation › Block Explorers & APIs](/docs/working-group/q1-2025/sessions/kickoff-orientation#block-explorers--apis)
+- [Kickoff Orientation › Block Explorers & APIs](../../01-kickoff-orientation/readme.md#block-explorers--apis)
 
 API keys and endpoints vary by network (mainnet, preprod, preview).
 
@@ -107,5 +113,11 @@ API keys and endpoints vary by network (mainnet, preprod, preview).
 - Maintain separate configs for `mainnet`, `preprod`, and `preview`
 - Align node/CLI versions with official releases
 - Document project-specific steps in your repo `README` for team consistency
-- For deeper ecosystem links (wallets, SDKs, explorers), see [Essential Tooling](../01-kickoff-orientation/readme.md#essential-tooling) and [Block Explorers & APIs](../01-kickoff-orientation/readme.md#block-explorers-apis)
+- For deeper ecosystem links (wallets, SDKs, explorers), see [Essential Tooling](../../01-kickoff-orientation/readme.md#essential-tooling) and [Block Explorers & APIs](../../01-kickoff-orientation/readme.md#block-explorers-apis)
+
+## Session Resources
+
+- Explore companion materials in the [Cardano Dev Environment resources](../02-resources/readme.md), including the Cardano Demo Wallet Dashboard repository.
+
 This document is part of the Q1 2025 Developer Experience Working Group sessions.
+
