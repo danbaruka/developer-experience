@@ -1,5 +1,10 @@
 ---
+title: Session 01 Kickoff & Orientation
+sidebar_label: Session Notes
 sidebar_position: 1
+slug: /working-group/q1-2025/sessions/01-kickoff-orientation/session-notes
+---
+
 ---
 
 # Directive: Kickoff & Orientation

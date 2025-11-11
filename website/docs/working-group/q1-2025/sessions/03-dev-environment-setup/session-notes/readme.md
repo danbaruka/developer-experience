@@ -1,8 +1,10 @@
 ---
 title: Session 03 Overview
-sidebar_label: Session
-slug: /working-group/q1-2025/sessions/03-dev-environment-setup/session
+sidebar_label: Session Notes
+sidebar_position: 1
+slug: /working-group/q1-2025/sessions/03-dev-environment-setup/session-notes
 ---
+
 
 # Cardano Dev Environment
 
@@ -117,7 +119,7 @@ API keys and endpoints vary by network (mainnet, preprod, preview).
 
 ## Session Resources
 
-- Explore companion materials in the [Cardano Dev Environment resources](../02-resources/readme.md), including the Cardano Demo Wallet Dashboard repository.
+- Explore companion materials in the [Cardano Dev Environment resources](../session-resources/readme.md), including the Cardano Demo Wallet Dashboard repository.
 
 This document is part of the Q1 2025 Developer Experience Working Group sessions.
 

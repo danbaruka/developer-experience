@@ -1,3 +1,10 @@
+---
+title: Session 03 Resources
+sidebar_label: Session Resources
+slug: /working-group/q1-2025/sessions/03-dev-environment-setup/session-resources
+---
+
+
 # Resources
 
 Hands-on project to explore a dashboard implementation for Cardano wallet activity. Use this repository when working through the **Cardano Dev Environment** session to practice connecting tooling and inspecting transactions end-to-end.
