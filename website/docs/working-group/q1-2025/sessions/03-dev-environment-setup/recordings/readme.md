@@ -9,7 +9,9 @@ slug: /working-group/q1-2025/sessions/03-dev-environment-setup/recordings
 
 🎥 **Cardano Dev Environment Walkthrough**
 
-<iframe
+# Comming soon...
+
+<!-- <iframe
   src="https://drive.google.com/file/d/1z2drEvAVl1ON7FRvJLPwg16nzje5CffV/preview"
   title="Session 03: Dev environment setup walkthrough"
   width="100%"
@@ -25,14 +27,16 @@ slug: /working-group/q1-2025/sessions/03-dev-environment-setup/recordings
   - Local environment prerequisites
   - Wallet tooling demo (CLI + dashboard)
   - Node configuration walkthrough
-  - Q&A and troubleshooting tips
+  - Q&A and troubleshooting tips -->
 
 
 # Recording 2 (2025/11/05 07:00 Am UTC )
 
 🎥 **Cardano Dev Environment Walkthrough**
 
-<iframe
+# Comming soon...
+
+<!-- <iframe
   src="https://drive.google.com/file/d/1kwoZAj5hw2PVAHqE_PP34g61chf9_G-R/preview"
   title="Session 03: Dev environment setup walkthrough"
   width="100%"
@@ -46,7 +50,7 @@ slug: /working-group/q1-2025/sessions/03-dev-environment-setup/recordings
 - **Highlights**:
   - Local environment prerequisites
   - Node setup with docker compose walkthrough 
-  - cardano-cli command for making a walet
+  - cardano-cli command for making a walet -->
 
 For additional sessions, check the [Working Group Session Recordings](../../../media/session-recordings/readme.md) hub.
 
