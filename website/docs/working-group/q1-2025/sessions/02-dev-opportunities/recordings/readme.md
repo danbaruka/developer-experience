@@ -11,7 +11,7 @@ slug: /working-group/q1-2025/sessions/dev-opportunities/recordings
 🎥 **Cardano dev opportunitites**
 
 <iframe
-  src="https://drive.google.com/file/d/158GrZve6awqdyGd80TAPu1INF2pjVQPI/preview"
+  src="https://www.youtube.com/embed/J051PmPSdEI"
   title="Session 02: Cardano dev opportunitites"
   width="100%"
   height="480"
@@ -27,7 +27,7 @@ slug: /working-group/q1-2025/sessions/dev-opportunities/recordings
 🎥 **Cardano dev opportunitites**
 
 <iframe
-  src="https://drive.google.com/file/d/1-8Le_Ic2tkOsZk4Ts-ifqu8gwnFn8aqz/preview"
+  src="https://www.youtube.com/embed/xv_XXMt205s"
   title="Session 02: Cardano dev opportunitites"
   width="100%"
   height="480"
