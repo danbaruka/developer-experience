@@ -3,28 +3,6 @@
 ## Our Mission
 We are a community of `Developer Advocates` from `IntersectMBO` focused on enhancing the developer experience within the Cardano ecosystem. Our goal is to identify, address, and improve key aspects of the development process to make building on Cardano more accessible, efficient, and rewarding.
 
-We believe in transparency and sharing our personal experiences. These interviews offer a glimpse into our backgrounds, motivations, and commitment to improving developer experience in the Cardano ecosystem.
-
-1. **Alex**  
-   - **Interview** : [Watch now](https://www.youtube.com/watch?v=U-cGNG3rzPg)  
-   - **LinkedIn**  : [Alex's LinkedIn](https://www.linkedin.com/in/alex-seregin/)  
-   - **Discord**   : alexeusgr
-
-2. **Bernand**  
-   - **Interview** : [Watch now](https://www.youtube.com/watch?v=grbX5DAaW5Q)  
-   - **LinkedIn**  : [Bernand's LinkedIn](https://www.linkedin.com/in/bernard-sibanda-954563243/)  
-   - **Discord**   : wims5274
-
-3. **Suganya**  
-   - **Interview** : [Watch now](https://www.youtube.com/watch?v=o8a6gTcE50w)  
-   - **LinkedIn**  : [Suganya's LinkedIn](https://www.linkedin.com/in/suganya-raju/)  
-   - **Discord**   : suganya1607
-
-4. **Udai**  
-   - **Interview** : [Watch now](https://www.youtube.com/watch?v=UDXshRpVA6M)  
-   - **LinkedIn**  : [Udai's LinkedIn](https://www.linkedin.com/in/solanki/)  
-   - **Discord**   : thecoder0001
-
 ## What We Do
 
 - Identify and prioritize developer experience issues in the Cardano ecosystem.
@@ -45,40 +23,43 @@ We believe in transparency and sharing our personal experiences. These interview
 - **Community Support and Knowledge Sharing**
 
 ## How to Get Involved
-- **Meetings**: [tobediscussed]
-   - Meet with **Alex**: [[Alex Calendar](https://cal.com/alexeusgr)]
-   - Meet with **Bernard**: [Bernard Calendar]
-   - Meet with **Suganya**: [[Suganya Calendar](https://cal.com/suganyaraju/)]
-   - Meet with **Udai**: [[Udai Calendar](https://cal.com/solanki/)]
+- **Meetings**: Join our weekly Developer experience working group sessions by subscribing to the [Intersect Event calendar](https://calendar.google.com/calendar/u/1?cid=Y19iMGMyODE3NWE2NTBkOGUwNzIwNTM2ZGU4OWE0NDMxMjFiYTcxYTVkMDgxYmRiOWU1NGRiZTU2NjI1NGY5ZGUwQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20).
 - **GitHub**: Most discussions will happen in Github [issues](https://github.com/IntersectMBO/developer-experience/issues)  and [pull requests](https://github.com/IntersectMBO/developer-experience/pulls). Issues are the problems faced by the Cardano Developer community and PR's propose solutions. Participate in [discussions](https://github.com/IntersectMBO/developer-experience/discussions/) and contribute to projects
 - Join **Intersect**: [Become a Member](https://members.intersectmbo.org/registration)
 - **Discord**: [Dev-Ex WG](https://discord.com/channels/1136727663583698984/1250047836339306526)
 - **Share Feedback**: Share your feedback on our discord and help us improve the ecosystem.
 
-## Repository Structure
+## Developer Advocates
+Meet and connect with our past and present developer advocates:
+- **Current Cohort**:
+   - [Uche](https://www.linkedin.com/in/thisisobate)
+     - Schedule a call with Uche [here](https://calendar.app.google/6HC9yHfTHrQ1dfcB9)
+   - [Emmanuel](https://www.linkedin.com/in/emmanuel-shikuku-devops/)
+   - [Dan](https://www.linkedin.com/in/danbaruka/)
+     - X (Twitter): [@danamphred](https://x.com/danamphred)
+     - Schedule a call with Dan [here](https://calendar.app.google/Ry32VJXbdgazUFe79)
+   - [Harun](https://www.linkedin.com/in/harunslinked/)
+     - Schedule a call with Harun [here](https://calendly.com/harunm28/30min)
+- **Past Cohort**:
+   1. **Alex**  
+      - **Interview** : [Watch now](https://www.youtube.com/watch?v=U-cGNG3rzPg)  
+      - **LinkedIn**  : [Alex's LinkedIn](https://www.linkedin.com/in/alex-seregin/)  
+      - **Discord**   : alexeusgr
 
-```
-developer-experience/
-├── new-contributor/
-│   ├── beginner/
-│   │   ├── tools/
-│   │   │   ├── off-chain/
-│   │   │   └── on-chain/
-│   │   └── tutorials/
-│   ├── intermediate/
-│   │   ├── tutorials/
-│   │   └── projects/
-│   └── experienced/
-│       ├── tutorials/
-│       └── projects/
-├── committer/
-│   ├── beginner/
-│   ├── intermediate/
-│   └── experienced/
-├── trusted-committer/
-└── core-maintainer/
-```
+   2. **Bernand**  
+      - **Interview** : [Watch now](https://www.youtube.com/watch?v=grbX5DAaW5Q)  
+      - **LinkedIn**  : [Bernand's LinkedIn](https://www.linkedin.com/in/bernard-sibanda-954563243/)  
+      - **Discord**   : wims5274
 
+   3. **Suganya**  
+      - **Interview** : [Watch now](https://www.youtube.com/watch?v=o8a6gTcE50w)  
+      - **LinkedIn**  : [Suganya's LinkedIn](https://www.linkedin.com/in/suganya-raju/)  
+      - **Discord**   : suganya1607
+
+   4. **Udai**  
+      - **Interview** : [Watch now](https://www.youtube.com/watch?v=UDXshRpVA6M)  
+      - **LinkedIn**  : [Udai's LinkedIn](https://www.linkedin.com/in/solanki/)  
+      - **Discord**   : thecoder0001
 ## Contact & Communication
 
 - **GitHub Discussions**: [Developer-Experience Working Group Repository](https://github.com/IntersectMBO/developer-experience/discussions)

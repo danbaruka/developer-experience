@@ -32,7 +32,7 @@ Welcome to the Advanced Guides section! These guides are for experienced develop
 
 Advanced guides assume you have:
 - Extensive experience with Cardano development
-- Completed multiple [Intermediate Guides](../Intermediate/)
+- Completed multiple [Intermediate Guides](../intermediate/README.md)
 - Deep understanding of blockchain fundamentals
 - Production experience with Cardano applications
 - Familiarity with Haskell or other functional programming languages
@@ -50,7 +50,7 @@ At this level, you're ready to:
 
 - **Core Development**: Contribute to [IntersectMBO repositories](https://github.com/IntersectMBO)
 - **Research**: Engage with [IOG Research](https://iohk.io/en/research/library/)
-- **Community Leadership**: Lead [Working Group sessions](../../Working-Group/)
+- **Community Leadership**: Lead [Working Group sessions](../../working-group/readme.md)
 - **Mentorship**: Help in Discord and Stack Exchange
 
 ## Resources for Advanced Developers
