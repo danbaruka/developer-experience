@@ -45,8 +45,8 @@ If you get stuck while following these guides:
 
 ## Contributing
 
-Found an issue or want to improve a guide? See our [Contributing Guidelines](../../../CONTRIBUTING.md) for how to help make these resources better.
+Found an issue or want to improve a guide? See our [Contributing Guidelines](https://github.com/IntersectMBO/developer-experience/blob/main/CONTRIBUTING.md) for how to help make these resources better.
 
 ---
 
-*Ready to dive deeper? Check out our [Intermediate Guides](../intermediate/) when you're comfortable with the basics.*
+*Ready to dive deeper? Check out our [Intermediate Guides](../intermediate/README.md) when you're comfortable with the basics.*

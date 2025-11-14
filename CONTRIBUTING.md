@@ -1,112 +1,221 @@
-# Contributing to the Developer Experience repository 
+# Contributing to Cardano Developer Experience
 
-## How to Contribute Using VS Code
+Thank you for your interest in contributing to the Cardano Developer Experience documentation! This repository aims to provide comprehensive, accessible resources for developers and contributors in the Cardano ecosystem.
 
-1. **Fork the repository:**
+## Ways to Contribute
 
-    - Navigate to the [repository](https://github.com/IntersectMBO/developer-experience).
-    - Click the Fork button to create a fork of the repository.
-    - A fork of the repository will be created in your profile, copy that URL.
+### 1. Documentation Improvements
+- Fix typos, grammar, or formatting issues
+- Update outdated information
+- Add new guides or tutorials
+- Improve existing explanations
+- Translate content to other languages
 
-2. **Clone the Fork:**
-    - Open Visual Studio Code.
+### 2. Code Examples
+- Add practical code examples to guides
+- Create new hands-on tutorials
+- Update examples for latest versions
+- Add comments and explanations to existing code
 
-    - Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS) to open the Command Palette.
-    - Type `Git: Clone` and select it.
+### 3. Community Resources
+- Update community links and channels
+- Add new tools and resources
+- Share developer stories and experiences
+- Contribute to troubleshooting guides
 
-    - Paste the repository URL: Paste the copied URL from Step 1.
-    - Choose a directory to save the project.
+### 4. Testing and Feedback
+- Test tutorials and report issues
+- Provide feedback on content clarity
+- Suggest improvements to structure
+- Report broken links or outdated information
 
-3. **Navigate to the Project Directory:**
-    - Open the cloned project in VS Code.
+## Getting Started
 
-    - Use the integrated terminal (Ctrl+`` or Cmd+`` on macOS) if needed.
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
+- Git
+- Basic understanding of Markdown
 
-4. **Create a Branch for Your Changes:**
-    - Click the branch name in the bottom-left corner of VS Code.
+### Local Development Setup
 
-    - Select `+Create new branch....`
+1. **Fork and Clone**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/developer-experience.git
+   cd developer-experience/website
+   ```
 
-    - Enter a branch name (e.g., new-branch-name).
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
 
-    - Press Enter.
+3. **Start Local Server**
+   ```bash
+   npm start
+   ```
 
-5. **Work on Your Changes and Push to the Branch:**
-    - Make your changes in the respective files.
+4. **Make Changes**
+   - Edit files in the `docs/` directory
+   - Changes are reflected in real-time
 
-    - Go to the Source Control tab (`Ctrl+Shift+G` on Windows or `Cmd+Shift+G` on macOS).
+### Documentation File Structure
 
-    - Stage your changes by clicking the `+` icon next to each file or the "Stage All Changes" button.
+```
+docs/
+├── how-to-guide/
+│   ├── beginner/                      # Beginner guides
+│   ├── intermediate/                  # Intermediate guides
+│   ├── advanced/                      # Advanced guides
+├── tutorials/                         # Interactive tutorials
+├── resources/
+│   ├── repositories.md                # Repository guides
+│   ├── tools.md                       # Tool documentation
+│   └── community.md                   # Community resources
+├── working-group/                     # DevEx Working Group materials
+├── intersect-membership-guide.md      # How to become a cardano community member
+└── getting-started.md                 # Main onboarding guide
+```
 
-    - Enter a commit message in the input box and click the checkmark to commit.
+## Contribution Guidelines
 
-    - Click the `...` menu in the Source Control tab and select Push.
+### Content Standards
 
-6. **Make a Pull Request:**
-    - Go to your forked repository page on GitHub.
+#### Writing Style
+- Use clear, concise language
+- Write for your target audience (beginner/intermediate/advanced)
+- Include practical examples where possible
+- Use active voice
+- Explain technical terms
 
-    - Click the `New Pull Request` button.
+#### Formatting
+- Use proper Markdown syntax
+- Include code blocks with syntax highlighting
+- Use headings to structure content
+- Add links to external resources
+- Include images/diagrams when helpful
 
-    - Select your branch and provide a clear description of your changes.
+#### Code Examples
+- Test all code examples before submitting
+- Use the latest stable versions
+- Include necessary imports and dependencies
+- Add comments explaining complex parts
+- Provide complete, runnable examples
 
-    - Submit the PR for review.
+### Submission Process
 
-7. **Follow the Review Process**
+#### For Small Changes
+1. Fork the repository
+2. Create a feature branch: `git checkout -b fix/update-documentation`
+3. Make your changes
+4. Test locally: `npm start`
+5. Commit with descriptive message: `git commit -m "Fix typo in environment setup guide"`
+6. Push to your fork: `git push origin fix/update-documentation`
+7. Create a Pull Request
 
-   - Your PR will be reviewed by the [CODEOWNERS](./CODEOWNERS) of the project. You may be asked to make changes or improvements before your contribution is merged. Please be patient and responsive to any feedback.
+#### For Large Changes
+1. **First, create an issue** to discuss the proposed changes
+2. Get feedback from maintainers
+3. Follow the same process as small changes
+4. Reference the issue in your PR description
 
-## How to Contribute Using Terminal
+### Pull Request Guidelines
 
-1. **Fork the Repository:**
-    - Navigate to the [repository](https://github.com/IntersectMBO/developer-experience).
+#### PR Description Template
+```markdown
+## Description
+Brief description of changes made.
 
-    - Click the Fork button to create a fork of the repository.
+## Type of Change
+- [ ] Bug fix (non-breaking change which fixes an issue)
+- [ ] New feature (non-breaking change which adds functionality)
+- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
+- [ ] Documentation update
 
-    - A fork of the repository will be created in your profile, copy that URL.
+## Testing
+- [ ] I have tested these changes locally
+- [ ] I have checked for broken links
+- [ ] Code examples have been tested
 
-2. **Create a Project Directory and Clone the Fork:**
-    - Open a New Terminal in Visual Studio Code.
-    - Create your project's root directory using  `mkdir folder-name`and navigate to it using `cd folder-name`. 
-    - Run the following command:
-    ```shell
-     git clone copied-url
-    ```
+## Checklist
+- [ ] My code follows the style guidelines
+- [ ] I have performed a self-review
+- [ ] I have made corresponding changes to documentation
+- [ ] My changes generate no new warnings
+```
 
-3. **Navigate to the Project Directory:**
-    - Run the following command:
+#### Review Process
+1. Automated checks will run on your PR
+2. Maintainers will review within 48 hours
+3. Address any feedback or requested changes
+4. Once approved, your PR will be merged
 
-    ```shell
-     cd developer-experience
-     ```
-4. **Create a Branch for Your Changes:**
-    - Run the following command:
-    ```shell
-    git checkout -b new-branch-name
-    ```
-5. **Work on Your Changes and Push to the Branch**
-    - Make your changes in the respective files.
-    - Stage your changes:
-    ```shell
-       git add .
-    ```
-    - Commit your changes:
-    ```shell
-    git commit -m "short description for the commit"
-    ```
-    - Push your changes:
-    ```shell
-    git push
-    ```
-6. **Make a Pull Request:**
-    - Go to your forked repository page on GitHub.
-    - Click the `New Pull Request` button.
-    - Select your branch and provide a clear description of your changes.
-    - Submit the PR for review.
+## Content Guidelines
 
-7. **Follow the Review Process**
+### Documentation Structure
+- Start with clear objectives
+- Provide prerequisites
+- Use step-by-step instructions
+- Include troubleshooting sections
+- End with next steps or related resources
 
-   - Your PR will be reviewed by the [CODEOWNERS](./CODEOWNERS) of the project. You may be asked to make changes or improvements before your contribution is merged. Please be patient and responsive to any feedback.
+### Code Examples
+- Always use syntax highlighting: \`\`\`language
+- Include file paths for real code: \`\`\`javascript path=/path/to/file.js start=10
+- Use null values for hypothetical code: \`\`\`javascript path=null start=null
+- Test all examples before submission
 
+### Links and References
+- Use descriptive link text
+- Prefer official sources
+- Check links are working before submission
+- Use relative links for internal content
 
-This project and everyone participating in it is governed by the [Code of Conduct](./CODE-OF-CONDUCT.md).
-By participating, you are expected to uphold this code.
+## Community Guidelines
+
+### Be Respectful
+- Treat all community members with respect
+- Be constructive in feedback
+- Help newcomers learn and contribute
+- Celebrate diverse perspectives and backgrounds
+
+### Be Collaborative
+- Discuss major changes before implementing
+- Ask for help when needed
+- Share knowledge and resources
+- Credit contributors appropriately
+
+### Stay Focused
+- Keep discussions relevant to the project
+- Follow the established structure and patterns
+- Maintain consistency with existing content
+- Focus on improving developer experience
+
+## Getting Help
+
+### Questions and Support
+- **Discord**: First become a member at [Intersect](https://www.intersectmbo.org/) and register at [members.intersectmbo.org](https://members.intersectmbo.org/registration) to get voting rights, participate in governance decisions, and access our Discord community's #developer-experience channel. See our [Intersect Membership Guide](docs/intersect-membership-guide.md) for all benefits
+- **Issues**: Create an issue for bug reports or feature requests
+- **Discussions**: Use GitHub Discussions for questions and ideas
+
+### Working Group
+- Join the Developer Experience Working Group
+- Attend weekly sessions for real-time collaboration
+- Contribute to session planning and content creation
+
+## Recognition
+
+Contributors are recognized in:
+- README.md contributor section
+- Session credits for working group contributions
+- Community shout-outs in Discord and social media
+
+## License
+
+By contributing to this project, you agree that your contributions will be licensed under the same license as the project.
+
+---
+
+Thank you for helping make Cardano more accessible to developers worldwide! 🚀
+
+*For questions about contributing, first become a member at [Intersect](https://www.intersectmbo.org/) and register at [members.intersectmbo.org](https://members.intersectmbo.org/registration) to get voting rights and access to our Discord community's #developer-experience channel. See our [Intersect Membership Guide](docs/intersect-membership-guide.md) for all membership benefits.*
