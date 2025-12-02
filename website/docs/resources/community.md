@@ -79,8 +79,8 @@ Telegram: Quick questions and chat (links shared in Discord)
 
 **Blogs**
 - [iohk.io/blog](https://iohk.io/blog) - Technical deep-dives and research
-- [cardanofoundation.org/blog](https://cardanofoundation.org/blog) - Ecosystem updates
-
+- [cardanofoundation.org/blog](https://cardanofoundation.org/blog)  Ecosystem updates
+- [intersectmbo.org/news](https://www.intersectmbo.org/news) - IntersectMBO developer reports
 ---
 
 ## Help Improve This Page
