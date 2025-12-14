@@ -161,12 +161,9 @@ developer-experience/
 │   │   │   ├── 11-open-source-docs/
 │   │   │   └── 12-ecosystem-wrapup/
 │   │   ├── resources/
-│   │   │   ├── troubleshooting-guide.md
-│   │   │   ├── essential-bookmarks.md
-│   │   │   └── contribution-opportunities.md
-│   │   └── media/
-│   │       ├── session-recordings/
-│   │       └── explainer-videos/
+│   │       ├── troubleshooting-guide.md
+│   │       ├── essential-bookmarks.md
+│   │       └── contribution-opportunities.md    
 ```
 
 ### Content Types
