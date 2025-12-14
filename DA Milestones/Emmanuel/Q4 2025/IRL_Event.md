@@ -2,6 +2,7 @@
 
 **Event:** Cardano Community Meetup  
 **Location:** Blockchain Centre NBO, Nairobi  
+**Date:** 6/11/2025  
 **Format:** In-person community workshop  
 **Attendance:** 100+ participants  
 **Event Link:** https://www.blockchaincentrenbo.com/events/cardano-community-meetup/
