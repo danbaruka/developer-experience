@@ -159,11 +159,7 @@ developer-experience/
 │   │   │   ├── 09-community-builder-story/
 │   │   │   ├── 10-wallet-integration/
 │   │   │   ├── 11-open-source-docs/
-│   │   │   └── 12-ecosystem-wrapup/
-│   │   ├── resources/
-│   │       ├── troubleshooting-guide.md
-│   │       ├── essential-bookmarks.md
-│   │       └── contribution-opportunities.md    
+│   │   │   └── 12-ecosystem-wrapup/   
 ```
 
 ### Content Types
