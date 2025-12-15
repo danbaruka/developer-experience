@@ -163,22 +163,12 @@ If you don't want to write Haskell or don't want to run a node, consider these a
 3. Use its types/functions to build transactions, query ledger state, and process keys/addresses
 4. Submit transactions via `cardano-submit-api` or direct submission through the node
 
-## Documentation
+## Deeper Documentation
 
 - [Haddock Documentation](https://cardano-api.cardano.intersectmbo.org/)
-- [Cardano Node Wiki](https://github.com/IntersectMBO/cardano-node/wiki)
-- [Contributing Guide](https://github.com/IntersectMBO/cardano-api/blob/master/CONTRIBUTING.md)
 
-## Related Resources
-
-- [Cardano Node](https://github.com/IntersectMBO/cardano-node) - Full node implementation
-- [Cardano Ledger](https://github.com/IntersectMBO/cardano-ledger) - Ledger specification
-- [Cardano Consensus](https://github.com/IntersectMBO/ouroboros-network) - Consensus protocol
 
 ## Contributing
 
 This repository welcomes contributions. See the [Contributing Guide](https://github.com/IntersectMBO/cardano-api/blob/master/CONTRIBUTING.md) for details on code of conduct, development workflow, pull request process, and testing requirements.
 
----
-
-*This repository is actively maintained with 10,000+ commits and 150+ contributors, representing the core of Cardano's infrastructure.*
