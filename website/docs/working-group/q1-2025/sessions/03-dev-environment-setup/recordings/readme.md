@@ -52,8 +52,9 @@ slug: /working-group/q1-2025/sessions/03-dev-environment-setup/recordings
   - Node setup with docker compose walkthrough 
   - cardano-cli command for making a walet -->
 
-
+For additional sessions, check the [Working Group Session Recordings](../../../media/session-recordings/readme.md) hub.
 
 ---
 
 *This recording belongs to the Q1 2025 Developer Experience Working Group: “Laying the Foundations”.*
+
