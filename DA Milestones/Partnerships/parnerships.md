@@ -3,14 +3,12 @@
 ## Purpose
 This report outlines the strategic alignment, opportunities, and collaborative pathways between **Intersect MBO** and selected institutions in Kenya. The goal is to identify high-impact areas where collaboration can accelerate Cardano ecosystem growth, increase developer participation, and expand community engagement across East Africa.
 
----
 
 ## Intersect × Blockchain Centre NBO
 
 ### Overview
 **Blockchain Centre NBO** is a Nairobi-based community and innovation hub focused on blockchain education, developer enablement, and ecosystem growth.
 
----
 
 ### Strategic Partnership Rationale
 
