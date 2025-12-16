@@ -26,7 +26,6 @@ This report outlines the strategic alignment, opportunities, and collaborative p
 - Opportunities for members to join Intersect educational tracks and governance activities.
 - Increased resources for events, tooling, and open-source contributions.
 
----
 
 ### Partnership Opportunity Mapping
 
@@ -49,7 +48,6 @@ This report outlines the strategic alignment, opportunities, and collaborative p
 - Introduce Blockchain Centre members to Intersect Working Groups.
 - Support Intersect’s African expansion through local community leadership.
 
----
 
 ### Partnership Structure & Roles
 
@@ -65,14 +63,12 @@ This report outlines the strategic alignment, opportunities, and collaborative p
 - Support developer recruitment and ongoing training.
 - Serve as a regional node for Intersect’s Africa ecosystem.
 
----
 
 ## Intersect × USIU-Africa
 
 ### Overview
 **United States International University–Africa (USIU-Africa)** is a premier international university in Nairobi with a strong focus on research, innovation, and community impact. The institution prioritizes high-impact initiatives in areas such as **climate change** and **financial inclusion**.
 
----
 
 ### Strategic Partnership Rationale
 
@@ -92,7 +88,6 @@ This report outlines the strategic alignment, opportunities, and collaborative p
 - Transparency and auditability of donor funds.
 - Financial inclusion for underserved communities.
 
----
 
 ### Partnership Opportunity Mapping
 - **Climate Financing:** Support the *Samburu / Narok Climate Resilience* proposal using Cardano infrastructure for automated drought relief disbursement.
@@ -100,7 +95,6 @@ This report outlines the strategic alignment, opportunities, and collaborative p
 - **Research Collaboration:** Co-publish research on decentralized identity for financial inclusion.
 - **Student Engagement:** Guest lectures, bootcamps, and hackathons aligned with university initiatives.
 
----
 
 ### Partnership Structure & Roles
 
@@ -115,14 +109,12 @@ This report outlines the strategic alignment, opportunities, and collaborative p
 - Run pilot programs and report on impact metrics.
 - Onboard end-users (e.g. women entrepreneurs, pastoralists).
 
----
 
 ## Intersect × JKUAT
 
 ### Overview
 **Jomo Kenyatta University of Agriculture and Technology (JKUAT)** is a leading public university in Kenya with a strong focus on engineering and technology education.
 
----
 
 ### Strategic Partnership Rationale
 
@@ -136,14 +128,12 @@ This report outlines the strategic alignment, opportunities, and collaborative p
 - Access to ecosystem grants for student clubs and workshops.
 - Networking opportunities with global Web3 developers.
 
----
 
 ### Partnership Opportunity Mapping
 - **Developer Education:** Integrate Haskell and Aiken modules into tech club activities.
 - **Workshops:** Student-led bootcamps supported by small ecosystem grants.
 - **Mentorship:** Direct connections to the Cardano developer community.
 
----
 
 ### Partnership Structure & Roles
 
