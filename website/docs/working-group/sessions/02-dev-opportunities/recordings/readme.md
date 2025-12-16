@@ -38,8 +38,6 @@ slug: /working-group/q1-2025/sessions/dev-opportunities/recordings
 
 
 
-For additional sessions, check the [Working Group Session Recordings](../../../media/session-recordings/readme.md) hub.
-
 ---
 
 *This recording belongs to the Q1 2025 Developer Experience Working Group: “Laying the Foundations”.*
