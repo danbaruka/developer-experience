@@ -38,7 +38,6 @@ slug: /working-group/q1-2025/sessions/01-kickoff-orientation/recordings
   style={{border: 0, borderRadius: '12px', boxShadow: '0 16px 40px rgba(1, 40, 170, 0.18)'}}
 />
 
-For additional sessions, check the [Working Group Session Recordings](../../../media/session-recordings/readme.md) hub.
 
 ---
 
