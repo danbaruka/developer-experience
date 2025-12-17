@@ -4,10 +4,6 @@
 
 This session provides a comprehensive walkthrough of a production-ready smart contract project, demonstrating the complete development lifecycle from architecture design to property-based testing. We'll explore real code, real documentation, and real testing practices used in professional Cardano development.
 
-**Session Date:** December 11, 2025  
-**Presenter:** Harun Mwangi  
-**Project:** Payment Subscription Smart Contract (Aiken)
-
 **What you'll learn:**
 - How to architect a multi-validator smart contract system
 - Why design specification documents matter (and save time)
