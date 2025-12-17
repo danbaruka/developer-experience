@@ -32,7 +32,7 @@ function HomepageHeader() {
             </Link>
             <Link
               className="button button--secondary button--lg"
-              to="/docs/working-group">
+              to="/docs/working-group/q1-2025">
               Learn About Programs
             </Link>
           </div>
@@ -148,7 +148,7 @@ function ResourcesSection() {
                 Explore our Q1 2025 working group sessions, resources, and community 
                 initiatives shaping the Cardano ecosystem.
               </p>
-              <Link className="button button--outline" to="/docs/working-group/">
+              <Link className="button button--outline" to="/docs/working-group/q1-2025">
                 Explore Groups
               </Link>
             </div>
@@ -192,7 +192,7 @@ function GettingInvolvedSection() {
                 </Link>
                 <Link 
                   className="button button--secondary button--lg" 
-                  to="/docs/working-group">
+                  to="/docs/working-group/q1-2025">
                   View Q1 2025 Sessions
                 </Link>
               </div>
