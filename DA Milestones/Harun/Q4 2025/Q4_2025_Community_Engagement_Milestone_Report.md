@@ -39,6 +39,9 @@ Beyond the talks, I’ve made it a priority to attend our bi-weekly Thursday stu
 **Cardano Africa Tech Summit (CATS) Hackathon**.
 *   **Impact:** Consistent mentorship ensures our builders are supported effectively as we approach the summit.
 
+![image](images/WhatsApp_Image_2025-10-24.jpeg)
+`Emmanuel: mentorship at Study Session`
+
 ---
 
 ### English Contributors Workshop
