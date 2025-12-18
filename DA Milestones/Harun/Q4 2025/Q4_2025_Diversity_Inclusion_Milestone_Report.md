@@ -13,7 +13,7 @@ Although not independently organizing one, I successfully met the acceptance cri
 
 ### 1. English Contributors Workshop (Language-Specific)
 *   **Activity:** Co-facilitated the **English Contributors Workshop**.
-*   **Role:** Provided mentorship and introductory guidance to new contributors, ensuring language was not a barrier to entry for English speakers in the diverse global ecosystem.
+*   **Role:** Promote the event to English speakers within Kenyan Cardano communities as well as Introduce Cardano within the event itself.
 *   **Relevance:** This fulfills the "language-specific workshop" criteria by explicitly targeting a linguistic group for onboarding.
 
 ### 2. Cardano Community Meetup - Nairobi (Regional)
@@ -22,7 +22,7 @@ Although not independently organizing one, I successfully met the acceptance cri
 *   **Relevance:** This event served as a critical "regional workshop," bringing together over 100 local developers and enthusiasts to discuss governance in a context relevant to the African region.
 
 ## Conclusion
-Through these targeted workshops, I have contributed to a more diverse and inclusive ecosystem, ensuring that both regional communities in East Africa and broader English-speaking contributors have clear pathways to participation.
+Through these targeted workshops, I have contributed to a more diverse and inclusive ecosystem, ensuring that both regional communities in Kenya and broader English-speaking contributors have clear pathways to participation.
 
 ---
 **For the full context of these activities, please refer to the [Broader Community Engagement Report](./Q4_2025_Community_Events_and_Milestone_Report.md).**
