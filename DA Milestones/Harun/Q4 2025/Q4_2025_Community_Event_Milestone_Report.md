@@ -14,7 +14,7 @@ Although not independently organizing one, I successfully met the acceptance cri
 ### 1. Cardano Community Meetup (IRL)
 *   **Date:** November 6, 2025
 *   **Location:** The Blockchain Center, Nairobi
-*   **Activity:** Delivered a keynote talk on **"Blockchain Governance: Bitcoin vs. Cardano"** to over 100 attendees.
+*   **Activity:** Delivered a talk on **"Blockchain Governance: Bitcoin vs. Cardano"** to over 100 attendees.
 *   **Impact:** Eduated the local community on the Voltaire governance model, driving engagement and understanding of Cardano's decentralized future.
 
 ### 2. English Contributors Workshop (Virtual)
