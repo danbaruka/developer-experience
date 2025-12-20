@@ -6,15 +6,15 @@
     "types": [
         {
             "type": "feat",
-            "section": "### Added"
+            "section": "Added"
         },
         {
             "type": "fix",
-            "section": "### Fixed"
+            "section": "Fixed"
         },
         {
             "type": "docs",
-            "section": "### Documentation"
+            "section": "Documentation"
         },
         {
             "type": "style",
@@ -22,11 +22,11 @@
         },
         {
             "type": "refactor",
-            "section": "### Changed"
+            "section": "Changed"
         },
         {
             "type": "perf",
-            "section": "### Performance"
+            "section": "Performance"
         },
         {
             "type": "test",
