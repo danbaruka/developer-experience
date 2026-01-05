@@ -1,21 +1,14 @@
 # Session 05: Developer Story #1
 
 
-This session features real stories and experiences from developers building on Cardano.
+
+This session features real stories and lived experiences from community builders actively growing the Cardano developer ecosystem across different regions.
 
 ### Session Topics
 - Developer journey showcase
 - Challenges and solutions
 - Lessons learned from building on Cardano
 - Community insights and advice
-
-**Status**: Session materials in development
-
----
-
-*This session is part of the Q1 2025 Developer Experience Working Group: "Laying the Foundations"*# Session 05: Developer Story #1 – Community Builders Edition
-
-This session features real stories and lived experiences from community builders actively growing the Cardano developer ecosystem across different regions.
 
 ## Featured Sessions
 
@@ -35,7 +28,7 @@ In this session, Darlington Wleh shares his journey as a grassroots community bu
 ---
 
 ### 🎥 Dan Baruka — Bridging Developers, Education, and Ecosystem Growth
-Dan Barika discusses his experience building developer communities through education, workshops, and ecosystem alignment. He explores how community builders can act as bridges between developers, projects, and working groups, while sharing insights on identifying developer pain points and turning them into actionable programs. The session emphasizes long-term ecosystem thinking and the role of community leadership in scaling Cardano adoption.
+Dan Baruka discusses his experience building developer communities through education, workshops, and ecosystem alignment. He explores how community builders can act as bridges between developers, projects, and working groups, while sharing insights on identifying developer pain points and turning them into actionable programs. The session emphasizes long-term ecosystem thinking and the role of community leadership in scaling Cardano adoption.
 
 
 <iframe
