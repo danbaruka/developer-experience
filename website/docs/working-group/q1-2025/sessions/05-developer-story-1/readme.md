@@ -34,7 +34,7 @@ In this session, Darlington Wleh shares his journey as a grassroots community bu
 
 ---
 
-### 🎥 Dan Barika — Bridging Developers, Education, and Ecosystem Growth
+### 🎥 Dan Baruka — Bridging Developers, Education, and Ecosystem Growth
 Dan Barika discusses his experience building developer communities through education, workshops, and ecosystem alignment. He explores how community builders can act as bridges between developers, projects, and working groups, while sharing insights on identifying developer pain points and turning them into actionable programs. The session emphasizes long-term ecosystem thinking and the role of community leadership in scaling Cardano adoption.
 
 
