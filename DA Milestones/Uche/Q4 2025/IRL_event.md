@@ -1,4 +1,4 @@
-`# Introduction to Cardano Physical Meetup, Enugu
+# Introduction to Cardano Physical Meetup, Enugu
 
 ![Intro to cardano physical meetup banner](./images/cardano-workshop.png)
 
