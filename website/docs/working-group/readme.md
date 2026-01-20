@@ -12,17 +12,22 @@ Our focus for Q1 2025 is creating a clear entry path for newcomers, addressing c
 
 ## Current Quarter
 
-### [Q1 2025: Laying the Foundations](./q1-2025/README.md)
+### [Q1 2025: Laying the Foundations](sessions/q1/index.md)
 Our current quarterly initiative focused on creating a clear entry path for newcomers to the Cardano ecosystem.
 
-- **[Complete Plan](./q1-2025/README.md)** - Detailed session plans and logistics
+- **[Complete Plan](sessions/q1/index.md)** - Detailed session plans and logistics
 - **All Sessions** - 12 weekly session materials (see individual session folders)
-- **[Resources](./q1-2025/resources/readme.md)** - Troubleshooting guides and essential bookmarks
+- **[Resources](sessions/q1/02-dev-opportunities/resources.md)** - Troubleshooting guides and essential bookmarks
 - **Media** - Session recordings and explainer videos (coming soon)
 
 ## Future Quarters
 
-*Planning for Q2 2026 and beyond will be added as we progress through the current quarter.*
+### [Q2 2026: Deepening Engagement](sessions/q2/index.md)
+Building on Q1, we focus on intermediate skills and community contributions.
+
+- **[Complete Plan](sessions/q2/index.md)** - Detailed session plans
+- **All Sessions** - Sessions 7-12
+
 
 ## Getting Involved
 
@@ -84,10 +89,33 @@ Passionate about open-source development, Emmanuel advocates for a inclusive, an
 - Create sustainable onboarding resources
 - Foster community identity and 2026 alignment
 
+## Repository & Content Structure
+
+### Repository Structure
+All session materials are published in the `IntersectMBO/developer-experience` repository. The structure is organized by quarter:
+
+```
+working-group/
+├── sessions/
+│   ├── q1/  (Oct-Dec 2025: Laying the Foundations)
+│   │   ├── 01-kickoff-orientation/
+│   │   ├── ...
+│   ├── q2/  (Jan-Mar 2026: Deepening Engagement)
+│   │   ├── 07-contributing-intersect/
+│   │   ├── ...
+```
+
+### Content Types
+- **Session Notes**: Detailed notes and key takeaways.
+- **Hands-on Guides**: Step-by-step tutorials with code examples.
+- **Troubleshooting Docs**: Solutions to common issues.
+- **Resource Lists**: Curated links and references.
+- **Story Content**: Developer and community builder spotlights.
+
 ## Community Impact
 
 This working group aims to create resources that the community adopts as the go-to beginner's guide for Cardano development and contribution.
 
 ---
 
-*For detailed session plans and learning objectives, see the [Q1 2025 folder](./q1-2025/README.md)*
+*For detailed session plans and learning objectives, see the [Q1 2025 folder](sessions/q1/index.md)*

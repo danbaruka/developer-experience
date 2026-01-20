@@ -16,7 +16,7 @@ This repository serves as the comprehensive guide for developers and contributor
 **[Complete Intersect Membership Guide →](./intersect-membership-guide.md)**
 
 ### 2. **New to Cardano?**
-Start with our comprehensive ecosystem overview: [**Directive: Kickoff & Orientation**](./working-group/q1-2025/sessions/01-kickoff-orientation/session-notes/readme.md)
+Start with our comprehensive ecosystem overview: [**Directive: Kickoff & Orientation**](./working-group/sessions/q1/01-kickoff-orientation/session-notes/readme.md)
 
 This guide provides a complete map of the Cardano ecosystem, including core repositories, documentation resources, developer tools, and community support channels.
 
@@ -27,7 +27,7 @@ Dive into our hands-on [**Beginner Guides**](./how-to-guide/beginner/) to start 
 - Working with native tokens
 
 ### 4. **Want to Contribute?**
-Join our [**Developer Experience Working Group**](./working-group/q1-2025/) - a quarterly initiative focused on onboarding new developers and improving the overall developer experience.
+Join our [**Developer Experience Working Group**](./working-group/sessions/q1/index.md) - a quarterly initiative focused on onboarding new developers and improving the overall developer experience.
 
 ## What You'll Find Here
 
@@ -70,7 +70,7 @@ Our Developer Experience Working Group is running a 12-session program designed 
 - **Provide live support** through open clinic sessions
 - **Foster contribution** to documentation and open source projects
 
-[**Join the Working Group →**](./working-group/q1-2025/)
+[**Join the Working Group →**](./working-group/sessions/q1/index.md)
 
 ## Getting Help
 
@@ -118,7 +118,7 @@ By the end of Q1 2025, we aim to:
 
 **Step 1**: [Join Intersect - Get Your Voice in Cardano](./intersect-membership-guide.md)
 
-**Step 2**: [Directive: Kickoff & Orientation](./working-group/q1-2025/sessions/01-kickoff-orientation/session-notes/readme.md)
+**Step 2**: [Directive: Kickoff & Orientation](./working-group/sessions/q1/01-kickoff-orientation/session-notes/readme.md)
 
 **Step 3**: [Beginner Guides](./how-to-guide/beginner/)
 

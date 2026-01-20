@@ -108,7 +108,7 @@ const config: Config = {
             },
             {
               label: "Working Groups",
-              to: "/docs/working-group/q1-2025",
+              to: "/docs/working-group/",
             },
           ],
         },
@@ -144,7 +144,7 @@ const config: Config = {
             },
             {
               label: "Working Groups",
-              to: "/docs/working-group/q1-2025",
+              to: "/docs/working-group/",
             },
           ],
         },
