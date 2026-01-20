@@ -50,18 +50,28 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          // Please change this to your repo.
+          showLastUpdateAuthor: false,
+          showLastUpdateTime: true,
         },
-        blog: false, // Disabled until blog posts are added
+        blog: false,
         theme: {
           customCss: "./src/css/custom.css",
+        },
+        sitemap: {
+          changefreq: "weekly",
+          priority: 0.5,
+          ignorePatterns: ["/tags/**"],
+          filename: "sitemap.xml",
         },
       } satisfies Preset.Options,
     ],
   ],
 
   themeConfig: {
-    // Replace with your project's social card
+    metadata: [
+      { name: "keywords", content: "Cardano, developer experience, blockchain, smart contracts, DeFi, Intersect MBO" },
+      { name: "author", content: "Intersect MBO Developer Experience Working Group" },
+    ],
     image: "img/docusaurus-social-card.jpg",
     navbar: {
       title: "Developer Experience",
