@@ -67,6 +67,23 @@ const config: Config = {
     ],
   ],
 
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        hashed: true,
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: false,
+        language: ["en"],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+        docsRouteBasePath: "/docs",
+        forceIgnoreNoIndex: true,
+      },
+    ],
+  ],
+
   themeConfig: {
     metadata: [
       { name: "keywords", content: "Cardano, developer experience, blockchain, smart contracts, DeFi, Intersect MBO" },
@@ -104,6 +121,10 @@ const config: Config = {
               to: "/docs/working-group/q1-2025",
             },
           ],
+        },
+        {
+          type: "search",
+          position: "right",
         },
         {
           href: "https://github.com/IntersectMBO/developer-experience",
