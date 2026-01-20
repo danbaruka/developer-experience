@@ -741,3 +741,72 @@ a:hover {
 * {
   transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
 }
+
+/* Dark mode search dropdown - text and icon visibility fixes */
+[data-theme='dark'] .DocSearch-Hit-title,
+[data-theme='dark'] .DocSearch-Hit-title * {
+  color: #ffffff !important;
+}
+
+[data-theme='dark'] .DocSearch-Hit-path,
+[data-theme='dark'] .DocSearch-Hit-path *,
+[data-theme='dark'] .DocSearch-Hit-text,
+[data-theme='dark'] .DocSearch-Hit-text * {
+  color: rgba(255, 255, 255, 0.65) !important;
+}
+
+[data-theme='dark'] .DocSearch-Hit-icon,
+[data-theme='dark'] .DocSearch-Hit-icon *,
+[data-theme='dark'] .DocSearch-Hit-icon svg {
+  color: var(--ifm-color-primary) !important;
+  fill: var(--ifm-color-primary) !important;
+  stroke: var(--ifm-color-primary) !important;
+  opacity: 1 !important;
+}
+
+/* Target plugin's CSS module classes and ensure all DocSearch elements are light in dark theme */
+html[data-theme='dark'] .searchBar .dropdownMenu,
+html[data-theme='dark'] .searchBar .dropdownMenu *,
+html[data-theme='dark'] [class*="searchBar"] [class*="dropdownMenu"],
+html[data-theme='dark'] [class*="searchBar"] [class*="dropdownMenu"] *,
+[data-theme='dark'] .DocSearch-Modal,
+[data-theme='dark'] .DocSearch-Modal *,
+[data-theme='dark'] .DocSearch-Container,
+[data-theme='dark'] .DocSearch-Container * {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+html[data-theme='dark'] .searchBar .dropdownMenu [class*="title"],
+html[data-theme='dark'] .searchBar .dropdownMenu [class*="Title"] {
+  color: #ffffff !important;
+}
+
+html[data-theme='dark'] .searchBar .dropdownMenu [class*="path"],
+html[data-theme='dark'] .searchBar .dropdownMenu [class*="Path"],
+html[data-theme='dark'] .searchBar .dropdownMenu [class*="text"],
+html[data-theme='dark'] .searchBar .dropdownMenu [class*="Text"],
+html[data-theme='dark'] .searchBar .dropdownMenu [class*="description"],
+html[data-theme='dark'] .searchBar .dropdownMenu [class*="Description"] {
+  color: rgba(255, 255, 255, 0.65) !important;
+}
+
+html[data-theme='dark'] .searchBar .dropdownMenu [class*="icon"],
+html[data-theme='dark'] .searchBar .dropdownMenu [class*="Icon"],
+html[data-theme='dark'] .searchBar .dropdownMenu svg {
+  color: var(--ifm-color-primary) !important;
+  fill: var(--ifm-color-primary) !important;
+  stroke: var(--ifm-color-primary) !important;
+  opacity: 1 !important;
+}
+[data-theme='dark'] .DocSearch-Input,
+[data-theme='dark'] .DocSearch-Input * {
+  color: #ffffff !important;
+}
+
+[data-theme='dark'] .DocSearch-Label,
+[data-theme='dark'] .DocSearch-Label *,
+[data-theme='dark'] .DocSearch-Commands,
+[data-theme='dark'] .DocSearch-Commands * {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
