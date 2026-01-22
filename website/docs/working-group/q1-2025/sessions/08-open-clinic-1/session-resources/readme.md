@@ -72,7 +72,7 @@ echo '{"type":"sig","keyHash":"'$(cardano-cli address key-hash --payment-verific
 cardano-cli transaction policyid --script-file policy.json
 ```
 
-**Documentation:** [CLI Reference](https://github.com/IntersectMBO/cardano-node/tree/master/doc/reference) | [Cardano Docs](https://docs.cardano.org/)
+**Documentation:** [Cardano Docs](https://docs.cardano.org/)
 
 #### Lucid SDK (5 minutes)
 
