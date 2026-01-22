@@ -52,9 +52,6 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           showLastUpdateAuthor: false,
           showLastUpdateTime: true,
-          exclude: [
-            "**/08-open-clinic-1/readme.md",
-          ],
         },
         blog: false, // Disabled until blog posts are added
         theme: {
