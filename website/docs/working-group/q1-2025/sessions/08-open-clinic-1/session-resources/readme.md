@@ -174,26 +174,6 @@ context.submit_tx(signed_tx.to_cbor())
 
 ---
 
-## Development Resources
-
-### Testnets
-- **[Testnets Documentation](https://docs.cardano.org/cardano-testnets)** - Testnet information
-- **Preprod Testnet** - Stable testnet environment (magic: 1)
-- **Preview Testnet** - Latest features testing (magic: 2)
-- **Testnet Faucets:**
-  - [Cardano Testnets](https://docs.cardano.org/cardano-testnets/testnet)
-  - [Testnet ADA Faucet](https://testnets.cardano.org/en/testnets/cardano/tools/faucet/)
-
-### Security
-- **[IOG Security Handbook](https://input-output-hk.github.io/cardano-engineering-handbook/policy/security/index.html)** - Security best practices
-- **[Key Management](https://docs.cardano.org/cardano-node/key-management)** - Key handling guidelines | [CLI Key Commands](https://github.com/IntersectMBO/cardano-node/tree/master/doc/reference)
-
-### Smart Contracts Integration
-- **[Plutus Documentation](https://docs.cardano.org/developer-resources/plutus)** - Smart contract platform
-- **[Smart Contracts Guide](https://docs.cardano.org/developer-resources/smart-contracts)** - Contract development
-
----
-
 ## Learning Resources
 
 ### Tutorials & Guides
