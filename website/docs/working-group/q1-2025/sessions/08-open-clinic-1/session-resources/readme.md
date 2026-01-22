@@ -119,7 +119,7 @@ const tx = await wallet.mintToken({
 });
 ```
 
-**Documentation:** [Mesh Docs](https://mesh.martify.io/) | [GitHub](https://github.com/MeshJS/mesh)
+**Documentation:** [Mesh Docs](https://meshjs.dev) | [GitHub](https://github.com/MeshJS/mesh)
 
 #### PyCardano (5 minutes)
 
