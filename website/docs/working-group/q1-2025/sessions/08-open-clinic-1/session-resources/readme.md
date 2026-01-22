@@ -174,40 +174,6 @@ context.submit_tx(signed_tx.to_cbor())
 
 ---
 
-## User-Friendly Platforms
-
-### Cardano Token Builder
-- **URL:** [cardano-native-token.com](https://cardano-native-token.com/en)
-- **Purpose:** Simple token and NFT creation
-- **Best For:** Non-developers, quick mints
-- **Features:**
-  - Web-based UI
-  - No coding required
-  - Metadata support
-  - Trusted since 2020
-
-### NFT-Maker
-- **URL:** [nft-maker.io](https://nft-maker.io/)
-- **Purpose:** NFT creation platform
-- **Best For:** NFT collections
-- **Features:**
-  - Specialized NFT minting
-  - Metadata management
-  - Batch minting
-
-### Tokhun
-- **URL:** [tokhun.io](https://tokhun.io/)
-- **Purpose:** Token and NFT marketplace with minting
-- **Best For:** Minting and trading in one platform
-- **Features:**
-  - Marketplace integration
-  - Minting tools
-  - Trading capabilities
-
-> **Note:** These platforms provide UI-based minting. For developers, using CLI or SDKs offers more control and flexibility.
-
----
-
 ## Development Resources
 
 ### Testnets
