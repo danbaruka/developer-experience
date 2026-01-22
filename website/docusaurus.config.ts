@@ -50,7 +50,9 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          // Please change this to your repo.
+          exclude: [
+            "**/08-open-clinic-1/readme.md",
+          ],
         },
         blog: false, // Disabled until blog posts are added
         theme: {
@@ -60,7 +62,12 @@ const config: Config = {
     ],
   ],
 
+  markdown: {
+    mermaid: true,
+  },
+
   themes: [
+    "@docusaurus/theme-mermaid",
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
