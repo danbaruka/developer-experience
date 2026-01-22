@@ -174,20 +174,6 @@ context.submit_tx(signed_tx.to_cbor())
 
 ---
 
-## Learning Resources
-
-### Tutorials & Guides
-- **[Developer Portal](https://developers.cardano.org/)** - Main developer portal
-- **[Cardano Docs](https://docs.cardano.org/)** - Official documentation hub
-- **[Plutus Pioneer Program](https://plutuspbl.io/)** - Comprehensive learning program
-
-### Community
-- **[Cardano Stack Exchange](https://cardano.stackexchange.com)** - Q&A platform
-- **[Cardano Forum](https://forum.cardano.org/)** - Community discussions
-- **[Discord](https://discord.gg/cardano)** - Real-time community chat
-
----
-
 ## Tool Integration Examples
 
 ### Using Blockfrost with Lucid
