@@ -1,12 +1,12 @@
 ---
-title: "Developer Experience Working Group (Q2: Jan–Mar 2026)"
+title: "Developer Experience Working Group (Q1: Jan–Mar 2026)"
 ---
 
-# Developer Experience Working Group (Q2: Jan–Mar 2026)
+# Developer Experience Working Group (Q1: Jan–Mar 2026)
 
 ## Purpose & Why
 
-The Developer Experience (DevEx) Working Group continues to support and empower developers and contributors in the Cardano ecosystem. For Q2 (Jan–Mar 2026), we build upon the foundations laid in Q1, focusing on deeper engagement, intermediate skills, and community contributions.
+The Developer Experience (DevEx) Working Group continues to support and empower developers and contributors in the Cardano ecosystem. For Q1 (Jan–Mar 2026), we build upon the foundations laid in Q4, focusing on deeper engagement, intermediate skills, and community contributions.
 
 ## Quarter Goals
 

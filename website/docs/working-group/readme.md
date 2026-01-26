@@ -2,32 +2,31 @@
 
 The Developer Experience (DevEx) Working Group is a collaborative initiative to onboard, support, and empower developers and contributors in the Cardano ecosystem.
 
-## Current Quarter: Q1 2025 (Oct-Dec)
+## Current Quarter: Q1 2026 (Jan-Mar)
 
-**Theme: "Laying the Foundations"**
+**Theme: "Deepening Engagement"**
 
-Our focus for Q1 2025 is creating a clear entry path for newcomers, addressing common beginner barriers, and inspiring participation through real stories and practical skill-building.
+Our focus for Q1 2026 is building upon the foundations laid in Q4, focusing on deeper engagement, intermediate skills, and community contributions.
 
 ## Structure
 
-## Current Quarter
+### Current Quarter
 
-### [Q1 2025: Laying the Foundations](sessions/q1/index.md)
-Our current quarterly initiative focused on creating a clear entry path for newcomers to the Cardano ecosystem.
+### [Q1 2026: Deepening Engagement](sessions/q1-2026/index.md)
+We focus on intermediate skills and community contributions.
 
-- **[Complete Plan](sessions/q1/index.md)** - Detailed session plans and logistics
-- **All Sessions** - 12 weekly session materials (see individual session folders)
-- **[Resources](sessions/q1/02-dev-opportunities/resources.md)** - Troubleshooting guides and essential bookmarks
-- **Media** - Session recordings and explainer videos (coming soon)
-
-## Future Quarters
-
-### [Q2 2026: Deepening Engagement](sessions/q2/index.md)
-Building on Q1, we focus on intermediate skills and community contributions.
-
-- **[Complete Plan](sessions/q2/index.md)** - Detailed session plans
+- **[Complete Plan](sessions/q1-2026/index.md)** - Detailed session plans and logistics
 - **All Sessions** - Sessions 7-12
+- **[Resources](sessions/q1-2026/index.md)** - Intermediate guides and resources
 
+## Previous Quarters
+
+### [Q4 2025: Laying the Foundations](sessions/q4-2025/index.md)
+Our inaugural quarterly initiative focused on creating a clear entry path for newcomers to the Cardano ecosystem.
+
+- **[Complete Plan](sessions/q4-2025/index.md)** - Detailed session plans
+- **All Sessions** - Sessions 1-6
+- **[Resources](sessions/q4-2025/02-dev-opportunities/resources.md)** - Troubleshooting guides and essential bookmarks
 
 ## Getting Involved
 
@@ -73,21 +72,17 @@ With a strong background in full-stack and DevOps engineering, Emmanuel has been
 
 Passionate about open-source development, Emmanuel advocates for a inclusive, and well-documented developer experience helping make Cardano more accessible to builders around the world.
 
-## Goals for Q1 2025
+## Goals for Q1 2026
 
 ### Quantitative
-- Onboard 15-30 newcomers into the Cardano ecosystem
-- Equip participants with 3 core technical skills:
-  1. Development environment setup
-  2. Native token creation and management
-  3. Basic wallet integration
-- Achieve 100% session documentation
+- Foster active participation in working groups
+- Deliver intermediate workshops (Wallet, Docs)
+- Showcase community stories
 
 ### Qualitative
-- Build participant confidence for independent building
-- Establish clear contribution pathways
-- Create sustainable onboarding resources
-- Foster community identity and 2026 alignment
+- Deepen engagement
+- Facilitate support networks
+- Improve open source contributions
 
 ## Repository & Content Structure
 
@@ -97,10 +92,10 @@ All session materials are published in the `IntersectMBO/developer-experience` r
 ```
 working-group/
 ├── sessions/
-│   ├── q1/  (Oct-Dec 2025: Laying the Foundations)
+│   ├── q4-2025/  (Oct-Dec 2025: Laying the Foundations)
 │   │   ├── 01-kickoff-orientation/
 │   │   ├── ...
-│   ├── q2/  (Jan-Mar 2026: Deepening Engagement)
+│   ├── q1-2026/  (Jan-Mar 2026: Deepening Engagement)
 │   │   ├── 07-contributing-intersect/
 │   │   ├── ...
 ```
@@ -118,4 +113,4 @@ This working group aims to create resources that the community adopts as the go-
 
 ---
 
-*For detailed session plans and learning objectives, see the [Q1 2025 folder](sessions/q1/index.md)*
+*For detailed session plans and learning objectives, see the [Q4 2025 folder](sessions/q4-2025/index.md)*

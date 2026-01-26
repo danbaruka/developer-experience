@@ -14,4 +14,4 @@ This open clinic session provides live troubleshooting and Q&A support for devel
 
 ---
 
-*This session is part of the Q1 2025 Developer Experience Working Group: "Laying the Foundations"*
+*This session is part of the Q1 2026 Developer Experience Working Group: "Deepening Engagement"*

@@ -1,12 +1,12 @@
 ---
-title: "Developer Experience Working Group (Q1: Oct–Dec 2025)"
+title: "Developer Experience Working Group (Q4: Oct–Dec 2025)"
 ---
 
-# Developer Experience Working Group (Q1: Oct–Dec 2025)
+# Developer Experience Working Group (Q4: Oct–Dec 2025)
 
 ## Purpose & Why
 
-The Developer Experience (DevEx) Working Group exists to onboard, support, and empower developers and contributors in the Cardano ecosystem. For Q1 (Oct–Dec 2025), our focus is on creating a clear entry path for newcomers, addressing common beginner barriers, and inspiring participation through real stories and practical skill-building. In the process we are looking to document every bit of how to join Cardano in general.
+The Developer Experience (DevEx) Working Group exists to onboard, support, and empower developers and contributors in the Cardano ecosystem. For Q4 (Oct–Dec 2025), our focus is on creating a clear entry path for newcomers, addressing common beginner barriers, and inspiring participation through real stories and practical skill-building. In the process we are looking to document every bit of how to join Cardano in general.
 
 This quarter lays the foundation for long-term engagement by ensuring that every participant:
 

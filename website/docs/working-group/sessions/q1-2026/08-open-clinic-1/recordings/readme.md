@@ -12,9 +12,9 @@ Recordings for the Open Clinic #1 session on Cardano Native Tokens.
 
 Session recordings will be added here once available.
 
-For additional sessions, check the [Working Group Session Recordings](../../../media/session-recordings/readme.md) hub.
+
 
 ---
 
-*This recording belongs to the Q1 2025 Developer Experience Working Group: "Laying the Foundations".*
+*This recording belongs to the Q1 2026 Developer Experience Working Group: "Deepening Engagement".*
 
