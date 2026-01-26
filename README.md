@@ -45,7 +45,7 @@ Meet and connect with our past and present developer advocates:
    - [Dan](https://www.linkedin.com/in/danbaruka/)
      - X (Twitter): [@danamphred](https://x.com/danamphred)
      - Discord: @danamphred
-     - Schedule a call with Dan [here](https://calendar.app.google/Ry32VJXbdgazUFe79)
+     - Schedule a call with Dan [here](https://calendar.app.google/T1BuH5EnRDyMTsyV8)
    - [Harun](https://www.linkedin.com/in/harunslinked/)
      - Discord: @wesh09
      - Schedule a call with Harun [here](https://calendly.com/harunm28/30min)
