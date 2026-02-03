@@ -195,6 +195,7 @@ Brief description of changes made.
 
 ### Questions and Support
 - **Discord**: First become a member at [Intersect](https://www.intersectmbo.org/) and register at [members.intersectmbo.org](https://members.intersectmbo.org/registration) to get voting rights, participate in governance decisions, and access our Discord community's #developer-experience channel. See our [Intersect Membership Guide](docs/intersect-membership-guide.md) for all benefits
+- **FAQs**: Check our **[Frequently Asked Questions](docs/faq.md)** for common answers.
 - **Issues**: Create an issue for bug reports or feature requests
 - **Discussions**: Use GitHub Discussions for questions and ideas
 

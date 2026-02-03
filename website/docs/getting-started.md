@@ -76,6 +76,7 @@ Our Developer Experience Working Group is running a 12-session program designed 
 
 ### **Community Support**
 - **Discord**: First become a member at [Intersect](https://www.intersectmbo.org/) and register at [members.intersectmbo.org](https://members.intersectmbo.org/registration) to get voting rights and access to our Discord community's #developer-experience channel. See our [Intersect Membership Guide](./intersect-membership-guide.md) to learn about all the benefits including decision-making power in the Cardano ecosystem
+- **FAQs**: Check our **[Frequently Asked Questions](./faq.md)** for common answers.
 - **Forum**: Ask questions on [Cardano Forum](https://forum.cardano.org)
 - **Stack Exchange**: Get technical help at [Cardano Stack Exchange](https://cardano.stackexchange.com)
 

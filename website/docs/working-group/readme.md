@@ -34,7 +34,8 @@ Our inaugural quarterly initiative focused on creating a clear entry path for ne
 1. First become a member at [Intersect](https://www.intersectmbo.org/) and register at [members.intersectmbo.org](https://members.intersectmbo.org/registration) to get voting rights, participate in governance, and access our Discord community. Learn more in our [Intersect Membership Guide](../intersect-membership-guide.md)
 2. Introduce yourself in the Developer Experience channel
 3. Attend weekly working group sessions
-4. Contribute to documentation and resources
+4. **Check the FAQs**: Before asking questions, see if your answer is in our **[Frequently Asked Questions](../faq.md)**.
+5. Contribute to documentation and resources
 
 ### Session Schedule
 - **Cadence**: Weekly sessions
