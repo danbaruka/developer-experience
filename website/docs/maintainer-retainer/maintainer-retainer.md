@@ -15,8 +15,6 @@ Here’s a quick overview of the **Maintainer Retainer Program (MRP)** and the t
 
 **Community Maintainers** join through an application. They help with the day-to-day (code, docs, triage, talking to users) without having the final say. You need to be at least a [Trusted Committer](https://committees.docs.intersectmbo.org/intersect-open-source-committee/policies/contribution-ladder-framework) and pass a 30-day evaluation to get ongoing funding. Your contributions can be coding, documentation, governance, or ecosystem advocacy; it’s not only about code.
 
-**Where to get the latest:** [Maintainer Retainer (OSC)](https://committees.docs.intersectmbo.org/intersect-open-source-committee/about/paid-open-source-model-posm/maintainer-retainer). When in doubt, link to that page instead of copying names or details into your repo; it’s the one that stays up to date.
-
 :::info
 **Applications for Community Projects to be maintained are open!** [Apply here](https://tinyurl.com/MRP-Projects)
 :::
