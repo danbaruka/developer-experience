@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Maintainer Retainer Program (MRP)
 ---
 
-Here’s a quick overview of the **Maintainer Retainer Program (MRP)** and the two kinds of maintainers it involves. For the full picture (eligibility, funding, reviews, governance), see the official source below.
+Here’s a quick overview of the **Maintainer Retainer Program (MRP)** and the two kinds of maintainers it involves. For the full picture (eligibility, funding, reviews), check the [official OSC MRP page](https://committees.docs.intersectmbo.org/intersect-open-source-committee/about/paid-open-source-model-posm/maintainer-retainer).
 
 ### What is the MRP?
 
