@@ -23,3 +23,17 @@ The MRP provides **recurring funding** to experienced contributors who maintain 
 **Applications are open for Developers → Community Maintainers!** [Apply here](https://tinyurl.com/MRP-Apply)
 :::
 
+---
+
+### One-paragraph style
+
+The **Maintainer Retainer Program (MRP)** provides recurring funding to experienced contributors who maintain critical Cardano open-source repositories. [Intersect](https://www.intersectmbo.org/) runs it with the Open Source Committee (OSC) and Technical Steering Committee (TSC). **Core Maintainers** have final technical authority over a repo and own strategy, releases, and security; **Community Maintainers** are Trusted Committers who join via application to support day-to-day maintenance (code, docs, governance, or ecosystem advocacy) and must pass a 30-day evaluation. Full details: [Maintainer Retainer (OSC)](https://committees.docs.intersectmbo.org/intersect-open-source-committee/about/paid-open-source-model-posm/maintainer-retainer).
+
+---
+
+### Two-paragraph style
+
+The **Maintainer Retainer Program (MRP)** provides recurring funding to experienced contributors who maintain critical Cardano open-source repositories, keeping them secure and actively developed. [Intersect](https://www.intersectmbo.org/) runs the program with the Open Source Committee (OSC) and Technical Steering Committee (TSC).
+
+**Core Maintainers** lead the project with final technical authority; **Community Maintainers** join via application as Trusted Committers to support day-to-day work (code, docs, governance, or ecosystem advocacy) and must pass a 30-day evaluation. For full details, see the [official OSC page](https://committees.docs.intersectmbo.org/intersect-open-source-committee/about/paid-open-source-model-posm/maintainer-retainer).
+
