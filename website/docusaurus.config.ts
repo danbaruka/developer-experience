@@ -128,6 +128,11 @@ const config: Config = {
           ],
         },
         {
+          label: "FAQs",
+          to: "/docs/faq",
+          position: "left",
+        },
+        {
           type: "search",
           position: "right",
         },
@@ -194,6 +199,10 @@ const config: Config = {
             {
               label: "Tools & APIs",
               to: "/docs/resources/tools",
+            },
+            {
+              label: "FAQs",
+              to: "/docs/faq",
             },
           ],
         },
