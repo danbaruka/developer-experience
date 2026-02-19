@@ -14,10 +14,10 @@ Comprehensive collection of tools, libraries, and documentation for integrating 
 
 | Library | Framework | Wallet Support | Best For | Language |
 |---------|-----------|----------------|----------|----------|
-| **Mesh SDK** | React | CIP-30, CIP-95 | Frontend dApps, rapid development | JavaScript/TypeScript |
-| **Evolution SDK** | Any | CIP-30, Private Keys, Seeds | Strongly typed, backend/off-chain | JavaScript/TypeScript |
-| **Cardano Connect with Wallet** | React | CIP-30 | Official Foundation library, pre-built UI | JavaScript/TypeScript |
-| **Lucid** | Any | CIP-30 | Full transaction control | JavaScript/TypeScript |
+| **[Mesh SDK](https://meshjs.dev/)** | React | CIP-30, CIP-95 | Frontend dApps, rapid development | JavaScript/TypeScript |
+| **[Evolution SDK](https://github.com/IntersectMBO/evolution-sdk)** | Any | CIP-30, Private Keys, Seeds | Strongly typed, backend/off-chain | JavaScript/TypeScript |
+| **[Cardano Connect with Wallet](https://cardano-foundation.github.io/cardano-connect-with-wallet/)** | React | CIP-30 | Official Foundation library, pre-built UI | JavaScript/TypeScript |
+| **[Lucid](https://github.com/spacebudz/lucid)** | Any | CIP-30 | Full transaction control | JavaScript/TypeScript |
 | **Direct CIP-30** | Any | CIP-30 | Custom implementations | JavaScript |
 
 ### Decision Tree
@@ -177,7 +177,7 @@ Hands-on project demonstrating wallet connection, balance queries, and transacti
 - **[Mesh SDK Documentation](https://meshjs.dev/)** - Complete guide to Mesh SDK wallet integration
 - **[Evolution SDK GitHub](https://github.com/IntersectMBO/evolution-sdk)** - Evolution SDK repository and documentation
 - **[Cardano Connect with Wallet](https://cardano-foundation.github.io/cardano-connect-with-wallet/)** - Official Foundation library documentation
-- **[Lucid Documentation](https://lucid.spacebudz.io/)** - Lucid SDK documentation
+- **[Lucid GitHub](https://github.com/spacebudz/lucid)** - Lucid SDK repository and documentation
 
 ### Additional Resources
 
