@@ -1,10 +1,10 @@
 ---
-title: "Session 10: Wallet Integration - Recordings"
+title: "Session 2 - Recordings"
 sidebar_label: Recordings
-slug: /working-group/q1-2026/sessions/10-wallet-integration/recordings
+slug: /working-group/q1-2026/sessions/10-wallet-integration/Session-2/recordings
 ---
 
-# Session 10: Wallet Integration - Recordings
+# Session 2 - Recordings
 
 Recordings for the Wallet Integration & Developer Experience session will be available here soon.
 
