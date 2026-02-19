@@ -137,7 +137,7 @@ Use wallet as a login mechanism with cryptographic message signing.
 **Use Cases:** Tipping platforms, gated content, decentralized identity
 
 ### 3. Wallet-as-a-Service (WaaS)
-Custodial/semi-custodial solutions for non-technical users.
+<abbr title="Custodial wallets are wallets where a third-party service holds and manages the private keys on behalf of the user">Custodial</abbr>/<abbr title="Semi-custodial wallets provide a middle ground where some keys are managed by the service and some by the user">semi-custodial</abbr> solutions for non-technical users.
 
 **Trade-off:** Better UX but introduces centralization
 

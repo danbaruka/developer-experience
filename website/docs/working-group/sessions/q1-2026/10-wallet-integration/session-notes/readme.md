@@ -7,7 +7,7 @@ slug: /working-group/q1-2026/sessions/10-wallet-integration/session-notes
 
 # Wallet Integration & Developer Experience
 
-This session explores wallet integration patterns for Cardano dApps and practical approaches to connecting wallets in decentralized applications.
+This session explores wallet integration patterns for Cardano <abbr title="Decentralized Applications - applications that run on a blockchain network">dApps</abbr> and practical approaches to connecting wallets in decentralized applications.
 
 **What you'll learn:**
 - Three core wallet integration patterns: Payments, Authentication, and Wallet-as-a-Service
@@ -30,15 +30,15 @@ Wallets perform several essential functions:
 | **Address Generation** | Create and manage Cardano addresses for receiving funds |
 | **Transaction Signing** | Cryptographically sign transactions using private keys |
 | **Balance Tracking** | Query and display ADA and native token balances |
-| **dApp Interaction** | Connect to decentralized applications via CIP-30 standard |
+| **<abbr title="Decentralized Applications - applications that run on a blockchain network">dApp</abbr> Interaction** | Connect to decentralized applications via <abbr title="Cardano Improvement Proposal 30 - Standard API for dApps to communicate with wallets">CIP-30</abbr> standard |
 
 ### Important Concepts
 
 **Wallets Don't Store Funds:**
 - Wallets don't actually store your ADA or tokens
-- Funds exist on the blockchain in UTXOs (Unspent Transaction Outputs)
+- Funds exist on the blockchain in <abbr title="Unspent Transaction Outputs - the fundamental unit of value on Cardano, representing unspent funds at a specific address">UTXOs</abbr> (Unspent Transaction Outputs)
 - Wallets manage the keys that control access to those funds
-- Your funds are safe as long as you control the private keys
+- Your funds are safe as long as you control the <abbr title="Private keys are secret cryptographic keys that allow you to sign transactions and prove ownership of funds">private keys</abbr>
 
 **Key Components:**
 
@@ -68,8 +68,8 @@ graph TB
 
 Cardano wallets follow standardized protocols for dApp integration:
 
-- **CIP-30**: dApp Connector API standard for wallet communication
-- **CIP-8**: Message Signing standard for authentication
+- **<abbr title="Cardano Improvement Proposal 30 - Standard API for dApps to communicate with wallets">CIP-30</abbr>**: dApp Connector API standard for wallet communication
+- **<abbr title="Cardano Improvement Proposal 8 - Standard for signing arbitrary messages for authentication">CIP-8</abbr>**: Message Signing standard for authentication
 - **CIP-95**: Governance features for voting and participation
 
 These standards ensure compatibility between wallets and dApps across the Cardano ecosystem.
@@ -128,7 +128,7 @@ Using a wallet as a cryptographic login mechanism, replacing traditional email/p
 
 1. User connects wallet to dApp
 2. dApp requests message signature
-3. User signs message with wallet's private key
+3. User signs message with wallet's <abbr title="Private keys are secret cryptographic keys that allow you to sign transactions and prove ownership of funds">private key</abbr>
 4. Backend verifies signature against user's public address
 5. Authentication granted based on signature validity
 
@@ -145,12 +145,12 @@ Using a wallet as a cryptographic login mechanism, replacing traditional email/p
 - ✅ Enhanced security
 
 **Standards:**
-- **CIP-30**: dApp Connector API for wallet communication
-- **CIP-8**: Message Signing standard for authentication
+- **<abbr title="Cardano Improvement Proposal 30 - Standard API for dApps to communicate with wallets">CIP-30</abbr>**: dApp Connector API for wallet communication
+- **<abbr title="Cardano Improvement Proposal 8 - Standard for signing arbitrary messages for authentication">CIP-8</abbr>**: Message Signing standard for authentication
 
 ### Pattern 3: Wallet-as-a-Service (WaaS)
 
-Custodial or semi-custodial wallet solutions for applications targeting non-technical users who prefer not to manage seed phrases.
+<abbr title="Custodial wallets are wallets where a third-party service (like an exchange or wallet provider) holds and manages the private keys on behalf of the user">Custodial</abbr> or <abbr title="Semi-custodial wallets provide a middle ground where some keys are managed by the service and some by the user, offering a balance between security and convenience">semi-custodial</abbr> wallet solutions for applications targeting non-technical users who prefer not to manage <abbr title="Seed phrases (also called mnemonic phrases) are a series of words that can be used to recover a wallet and all its keys">seed phrases</abbr>.
 
 **How It Works:**
 
@@ -161,9 +161,9 @@ Applications manage cryptographic keys securely on behalf of users, providing a 
 | Aspect | Traditional Wallets | WaaS |
 |--------|-------------------|------|
 | **User Control** | Full control of keys | Managed by service |
-| **UX Friction** | Higher (seed phrases, backups) | Lower (email-like signup) |
+| **UX Friction** | Higher (<abbr title="Seed phrases are a series of words that can be used to recover a wallet and all its keys">seed phrases</abbr>, backups) | Lower (email-like signup) |
 | **Security Model** | User responsibility | Service responsibility |
-| **Centralization** | Decentralized | Centralized/Semi-custodial |
+| **Centralization** | Decentralized | Centralized/<abbr title="Semi-custodial wallets provide a middle ground where some keys are managed by the service and some by the user">Semi-custodial</abbr> |
 | **Cost** | Free | Service fees may apply |
 
 **When to Use:**
@@ -198,7 +198,7 @@ npm install @meshsdk/react @meshsdk/core
 Strongly typed TypeScript library for wallet integration with flexible wallet selection methods.
 
 **Features:**
-- Multiple wallet selection methods (CIP-30, private keys, seed phrases)
+- Multiple wallet selection methods (<abbr title="Cardano Improvement Proposal 30 - Standard API for dApps to communicate with wallets">CIP-30</abbr>, <abbr title="Private keys are secret cryptographic keys that allow you to sign transactions and prove ownership of funds">private keys</abbr>, <abbr title="Seed phrases are a series of words that can be used to recover a wallet and all its keys">seed phrases</abbr>)
 - Strong TypeScript typing
 - Backend and frontend support
 - Transaction building utilities
@@ -233,7 +233,7 @@ npm install @cardano-foundation/cardano-connect-with-wallet
 
 ### Browser Extension Wallets
 
-| Wallet | Developer | Network Support | CIP-30 |
+| Wallet | Developer | Network Support | <abbr title="Cardano Improvement Proposal 30 - Standard API for dApps to communicate with wallets">CIP-30</abbr> |
 |--------|-----------|----------------|--------|
 | **Nami** | Community | Mainnet, Testnet | ✅ |
 | **Eternl** | Community | Mainnet, Testnet | ✅ |
