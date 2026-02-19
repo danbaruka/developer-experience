@@ -28,10 +28,6 @@ export default function FeedbackWidget() {
         userAgent: navigator.userAgent,
       };
 
-      // DEBUG: Log data being sent
-      console.log('Sending feedback data:', data);
-
-      // Use no-cors mode for Google Apps Script Web App
       await fetch(GOOGLE_SCRIPT_URL, {
         method: 'POST',
         mode: 'no-cors',
@@ -43,8 +39,6 @@ export default function FeedbackWidget() {
 
       setSubmitted(true);
     } catch (error) {
-      console.error('Feedback submission failed:', error);
-      // Still show success to user
       setSubmitted(true);
     } finally {
       setSubmitting(false);
