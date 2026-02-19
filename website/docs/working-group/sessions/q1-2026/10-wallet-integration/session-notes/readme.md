@@ -7,34 +7,72 @@ slug: /working-group/q1-2026/sessions/10-wallet-integration/session-notes
 
 # Wallet Integration & Developer Experience
 
-This session explores wallet integration patterns for Cardano dApps, covering community feedback on developer experience and practical approaches to connecting wallets in decentralized applications.
+This session explores wallet integration patterns for Cardano dApps and practical approaches to connecting wallets in decentralized applications.
 
 **What you'll learn:**
-- Community insights on Cardano developer experience challenges
 - Three core wallet integration patterns: Payments, Authentication, and Wallet-as-a-Service
 - Recommended tools and SDKs for wallet integration
+- Best practices for implementing wallet connections
 
 ---
 
-## Community Feedback: The State of Developer Experience
+## What is a Wallet?
 
-The session opened with an open discussion where developers shared their experiences, challenges, and successes building on Cardano.
+A **Cardano wallet** is a software application that enables users to manage their digital assets on the Cardano blockchain. Wallets provide the interface and tools needed to interact with the blockchain securely.
 
-### Key Insights
+### Core Functions
 
-| Challenge | Impact | Status |
-|-----------|--------|--------|
-| **Documentation Fragmentation** | Scattered resources make it difficult to connect concepts from "Hello World" to production | Improving with centralized DevX practices |
-| **Learning Preferences** | Strong demand for video tutorials, especially for complex setups like Cardano Nodes | Opportunity for improvement |
-| **Contribution Incentives** | Need better reward mechanisms to sustain open-source contributions | Ongoing discussion |
-| **Entry Barrier** | The "Zero to One" phase (environment setup) remains the hardest part for new developers | Focus area for improvement |
+Wallets perform several essential functions:
 
-### Developer Needs
+| Function | Description |
+|----------|-------------|
+| **Key Management** | Securely store and manage cryptographic keys (private keys never leave the wallet) |
+| **Address Generation** | Create and manage Cardano addresses for receiving funds |
+| **Transaction Signing** | Cryptographically sign transactions using private keys |
+| **Balance Tracking** | Query and display ADA and native token balances |
+| **dApp Interaction** | Connect to decentralized applications via CIP-30 standard |
 
-- **Centralized Resources**: Single source of truth for documentation and guides
-- **Visual Learning**: Video tutorials complementing written documentation
-- **Clear Pathways**: Step-by-step progression from beginner to advanced
-- **Better Onboarding**: Simplified environment setup and configuration
+### Important Concepts
+
+**Wallets Don't Store Funds:**
+- Wallets don't actually store your ADA or tokens
+- Funds exist on the blockchain in UTXOs (Unspent Transaction Outputs)
+- Wallets manage the keys that control access to those funds
+- Your funds are safe as long as you control the private keys
+
+**Key Components:**
+
+```mermaid
+graph TB
+    A[Wallet Application] --> B[Private Keys]
+    A --> C[Public Keys]
+    A --> D[Addresses]
+    B --> E[Transaction Signing]
+    C --> F[Address Generation]
+    D --> G[Receive Funds]
+    E --> H[Send Funds]
+    
+    style A fill:#e1f5ff
+    style B fill:#fff4e1
+    style E fill:#e8f5e9
+```
+
+**Types of Wallets:**
+
+- **Full-Node Wallets**: Download and sync the entire blockchain (e.g., Daedalus)
+- **Light Wallets**: Connect to remote servers for blockchain data (e.g., browser extensions)
+- **Hardware Wallets**: Physical devices that store keys offline
+- **CLI Wallets**: Command-line tools for programmatic wallet management
+
+### Wallet Standards
+
+Cardano wallets follow standardized protocols for dApp integration:
+
+- **CIP-30**: dApp Connector API standard for wallet communication
+- **CIP-8**: Message Signing standard for authentication
+- **CIP-95**: Governance features for voting and participation
+
+These standards ensure compatibility between wallets and dApps across the Cardano ecosystem.
 
 ---
 
@@ -265,25 +303,6 @@ if (savedWallet) {
 
 ---
 
-## Resources
-
-### Documentation
-
-- **[Cardano Developer Portal](https://developers.cardano.org/)** - Central hub for Cardano documentation
-- **[Mesh SDK Documentation](https://meshjs.dev/)** - Complete guide to Mesh SDK wallet integration
-- **[Evolution SDK GitHub](https://github.com/IntersectMBO/evolution-sdk)** - Evolution SDK repository and docs
-- **[Cardano Connect with Wallet](https://cardano-foundation.github.io/cardano-connect-with-wallet/)** - Official Foundation library
-
-### Standards
-
-- **[CIP-30 Specification](https://cips.cardano.org/cips/cip30/)** - dApp Connector API standard
-- **[CIP-8 Specification](https://cips.cardano.org/cips/cip8/)** - Message Signing standard
-
-### Related Materials
-
-- **[Session Resources](../session-resources/readme.md)** - Tools, libraries, and hands-on examples
-- **[Session Recordings](../recordings/readme.md)** - Video recordings of this session
-
----
-
 *This guide is part of the Q1 2026 Developer Experience Working Group session on Wallet Integration & Developer Experience.*
+
+For comprehensive resources, tools, and documentation links, see the [Session Resources](../session-resources/readme.md) page.

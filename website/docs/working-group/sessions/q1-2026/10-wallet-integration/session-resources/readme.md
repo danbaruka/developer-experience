@@ -157,11 +157,32 @@ Hands-on project demonstrating wallet connection, balance queries, and transacti
 
 ## Standards & Specifications
 
-- **CIP-30**: dApp Connector API standard
-- **CIP-8**: Message Signing standard
-- **CIP-95**: Governance features
+| Standard | Description | Documentation |
+|----------|-------------|--------------|
+| **CIP-30** | dApp Connector API standard | [CIP-30 Specification](https://cips.cardano.org/cips/cip30/) |
+| **CIP-8** | Message Signing standard | [CIP-8 Specification](https://cips.cardano.org/cips/cip8/) |
+| **CIP-95** | Governance features | [CIP-95 Specification](https://cips.cardano.org/cips/cip95/) |
 
-**Documentation:** [CIP-30 Specification](https://cips.cardano.org/cips/cip30/)
+---
+
+## Documentation & Resources
+
+### Official Documentation
+
+- **[Cardano Developer Portal](https://developers.cardano.org/)** - Central hub for Cardano documentation and guides
+- **[Cardano Docs](https://docs.cardano.org/)** - Official Cardano documentation
+
+### Library Documentation
+
+- **[Mesh SDK Documentation](https://meshjs.dev/)** - Complete guide to Mesh SDK wallet integration
+- **[Evolution SDK GitHub](https://github.com/IntersectMBO/evolution-sdk)** - Evolution SDK repository and documentation
+- **[Cardano Connect with Wallet](https://cardano-foundation.github.io/cardano-connect-with-wallet/)** - Official Foundation library documentation
+- **[Lucid Documentation](https://lucid.spacebudz.io/)** - Lucid SDK documentation
+
+### Additional Resources
+
+- **[CIPs Repository](https://cips.cardano.org/)** - All Cardano Improvement Proposals
+- **[Cardano Serialization Library](https://github.com/Emurgo/cardano-serialization-lib)** - Low-level library for transaction building
 
 ---
 
