@@ -53,16 +53,6 @@ For applications targeting non-technical users who don't want to manage seed phr
 
 ---
 
-## 3. Tooling Recommendations
-
-- **IDEs**: VS Code remains the standard.
-- **AI Assistants**:
-  - **Warp**: An AI-integrated terminal that improves CLI productivity.
-  - **Claude**: Recommended by the community for coding assistance.
-- **SDKs**: `MeshJS` and `Cardano Serialization Library` (CSL) are the go-to libraries for TypeScript/JavaScript developers.
-
----
-
 ## Resources
 
 - **[Cardano Developer Portal](https://developers.cardano.org/)** - The central hub for documentation.
