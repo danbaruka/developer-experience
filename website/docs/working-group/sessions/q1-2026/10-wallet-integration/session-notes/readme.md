@@ -8,7 +8,7 @@ sidebar_position: 1
 
 ## Introduction
 
-This session focused on gathering feedback on the current state of the Cardano developer experience and providing a technical overview of **Wallet Integrations**. Emmanuel Titi led a discussion on the specialized needs of developers and demonstrated how wallets can be used for payments, authentication, and user onboarding.
+This session focused on gathering feedback on the current state of the Cardano developer experience and providing a technical overview of **Wallet Integrations**.
 
 **What you'll learn:**
 - Community feedback on the **Cardano Developer Experience**.
