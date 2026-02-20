@@ -1,6 +1,9 @@
 import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
+import dotenv from 'dotenv';
+
+dotenv.config({ path: '.env' });
 
 const organizationName = "IntersectMBO";
 const projectName = "developer-experience";
@@ -234,6 +237,10 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+
+  customFields: {
+    googleScriptUrl: process.env.GOOGLE_SCRIPT_URL,
+  },
 };
 
 export default config;
