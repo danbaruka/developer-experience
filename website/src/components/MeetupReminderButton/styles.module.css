@@ -13,7 +13,7 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.875rem 1.25rem;
+  padding: 0.7rem 1.25rem;
   background: var(--ifm-color-primary);
   color: white;
   border: none;
@@ -576,10 +576,10 @@
 }
 
 
-/* Desktop (≥768px): DevEx Sessions (Meetup) at bottom-right corner, to the right of Jump to Top, same baseline */
+/* Desktop (≥768px): DevEx Sessions (Meetup) shifted left from the right edge, same baseline as Jump to Top */
 @media (min-width: 768px) {
   .container {
-    right: 2rem;
+    right: 6rem;
     bottom: 2rem;
   }
 }
