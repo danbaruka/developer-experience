@@ -998,7 +998,7 @@ html[data-theme='dark'] .searchBar .dropdownMenu svg {
 /* Jump to Top to the left of DevEx Sessions (Meetup), same baseline */
 @media (min-width: 767px) {
   .theme-back-to-top-button {
-    bottom: 2.2rem !important;
-    right: 11rem !important;
+    bottom: 2rem !important;
+    right: 2.5rem !important;
   }
 }
