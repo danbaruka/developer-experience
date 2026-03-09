@@ -43,6 +43,10 @@ Additionally, I supported informal mentoring discussions with developers who wer
 ### Impact
 Attending Africa Tech Summit expanded outreach beyond the existing Cardano community and allowed me to engage with a broader group of developers, entrepreneurs, and innovators across the African technology ecosystem. These conversations helped introduce new participants to Cardano and Intersect while strengthening awareness of governance participation and open-source collaboration.
 
+## Picture highlights from the event
+![Developer advocates at CATS 2026](./images/da-2026.jpg)
+![Intersect Executive director talk at Africa Tech Summit](./images/jack-intersect-presentation.jpeg)
+![CATS Hackathons](./images/cats-hackathon.jpeg)
 
 ## Conclusion
 By attending and actively engaging at both Cardano Africa Tech Summit 2026 and Africa Tech Summit Nairobi 2026, I fulfilled the quarterly milestone of participating in at least two Web3 events. Through onboarding, mentorship, ecosystem outreach, and developer engagement, I contributed to strengthening community participation and advancing Intersect’s mission of supporting open-source collaboration and ecosystem growth.
