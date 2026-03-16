@@ -1,6 +1,6 @@
 ---
 title: Blaze SDK with Yaci Store
-description: Technical guide — using Yaci Store as a local Blockfrost-compatible indexer with Blaze SDK on Cardano.
+description: "Technical guide: using Yaci Store as a local Blockfrost-compatible indexer with Blaze SDK on Cardano."
 sidebar_position: 1
 ---
 
@@ -36,7 +36,7 @@ sequenceDiagram
 - **Blaze SDK** talks to a Blockfrost-compatible HTTP API (base URL + optional API key).
 - **Yaci Store** implements that API and reads/writes via a local **Cardano node**.
 
-So: **App → Blaze → Yaci Store (HTTP) → Cardano node.** No direct Blaze–node connection; all chain access goes through Yaci Store.
+So: **App → Blaze → Yaci Store (HTTP) → Cardano node.** No direct Blaze-to-node connection; all chain access goes through Yaci Store.
 
 ## Prerequisites
 
@@ -119,6 +119,19 @@ flowchart LR
 3. Use Blaze for all chain reads and submission; Blaze will use Yaci Store as the Blockfrost backend.
 4. Monitor node and Yaci Store logs for errors; for submission issues, confirm the node accepts the tx and that Yaci Store is not rate-limiting or returning non-standard errors.
 
+## Advantages of this setup
+
+- **Local control and privacy**: No dependency on a third-party API key or rate limits. All chain data stays between your app, Yaci Store, and your node. Useful for sensitive or high-volume workflows.
+- **Same API surface**: Yaci Store is Blockfrost-compatible, so you keep the same Blaze code and can switch between local (Yaci Store) and hosted (Blockfrost) by changing the provider base URL (e.g. via env vars). No SDK rewrite.
+- **Fast local dev and CI**: With Yaci DevKit you get a full devnet (node + Yaci Store) in seconds, sub-second block times, and no network latency. Ideal for automated tests and rapid iteration.
+- **Cost and quotas**: No Blockfrost project limits or usage-based cost for local runs. Suits development, staging, and self-hosted production where you operate the node and indexer.
+- **Ecosystem alignment**: Reuses the same Blockfrost-style APIs that other Cardano SDKs (Mesh, Lucid, PyCardano, CCL) expect, so one local indexer can serve multiple tools and docs.
+
+## Limitations and drawbacks
+
+- **Operational overhead**: You must run and maintain a Cardano node and Yaci Store (updates, disk, monitoring). If either is down, Blaze has no chain access. Heavier on CPU, RAM, and storage than using a hosted API.
+- **API and CORS**: Yaci Store uses `/api/v1` while Blockfrost.io uses `/api/v0`; verify compatibility with your Blaze version. For browser apps, CORS or a proxy is required when calling self-hosted Yaci Store.
+
 ## Compatibility notes
 
 - **API path**: Yaci Store serves the Blockfrost-compatible API at **`/api/v1`**; Blockfrost.io uses **`/api/v0`**. Pass the full base URL including path (e.g. `http://localhost:8080/api/v1`) so the SDK hits the correct endpoints. If Blaze’s Blockfrost provider appends a path, you may need to set the base URL to `http://localhost:8080` and confirm path compatibility with Yaci Store.
@@ -127,9 +140,9 @@ flowchart LR
 
 ## References
 
-- [Blaze Cardano](https://blaze.butane.dev/) — Blaze SDK documentation and providers (Blockfrost, Kupmios, Maestro).
-- [Yaci DevKit](https://devkit.yaci.xyz/) — Local Cardano devnet with Yaci Store (Blockfrost API on port 8080).
-- [Yaci DevKit Docker setup](https://devkit.yaci.xyz/getting-started/docker) — Default ports and Yaci Store API URL (`http://localhost:8080/api/v1`).
+- [Blaze Cardano](https://blaze.butane.dev/): Blaze SDK documentation and providers (Blockfrost, Kupmios, Maestro).
+- [Yaci DevKit](https://devkit.yaci.xyz/): Local Cardano devnet with Yaci Store (Blockfrost API on port 8080).
+- [Yaci DevKit Docker setup](https://devkit.yaci.xyz/getting-started/docker): Default ports and Yaci Store API URL (`http://localhost:8080/api/v1`).
 
 ---
 
