@@ -1,52 +1,204 @@
-# Community Engagement Report – Q1 2026
+# Community Engagement Report – Q1 2026  
 
-## Cardano Africa Tech Summit (CATS) 2026
-   
-Dates: February 11–13, 2026
-Location: Nairobi, Kenya
-Website: https://cats.wada.org
+---
 
-### Overview
-The Cardano Africa Tech Summit (CATS) 2026 brought together developers, builders, and community leaders from across Africa who are actively building within the Cardano ecosystem. The event focused on developer education, ecosystem collaboration, governance awareness, and accelerating blockchain adoption across the continent.
+## TL;DR  
+In Q1 2026, I actively contributed to community growth and ecosystem development by:
+- Attending and participating in **two major Web3 conferences** in Nairobi, Kenya  
+- **Onboarding new developers** into the Cardano ecosystem  
+- Facilitating **strategic collaborations** with both existing and external projects  
+- Hosting a **Diversity & Inclusion (D&I) workshop**  
+- Supporting **developer engagement, mentorship, and DevEx initiatives**
 
-### Role and Participation
-During the summit, I actively engaged with developers, students, and ecosystem contributors throughout the event. My participation centered on three key areas: onboarding, mentorship, and ecosystem awareness.
+---
 
-First, I onboarded new participants into the Cardano ecosystem by introducing them to available developer resources, governance structures, and opportunities to contribute. Many attendees were either new to Cardano or exploring ways to transition from general Web3 development into the Cardano ecosystem. I helped guide these individuals by explaining available tooling, developer pathways, and the role that community participation plays in governance.
+## 1. Overview  
 
-Second, I mentored attendees who were interested in building on Cardano or contributing to ecosystem initiatives. These conversations included guidance on development resources, participation in governance processes, and understanding how developers and community contributors can collaborate through initiatives supported by Intersect.
+This report outlines my community engagement efforts during Q1 2026 in alignment with Intersect’s Developer Advocate objectives. The quarter focused on **in-person ecosystem engagement**, **developer onboarding**, **strategic relationship building**, and **advancing diversity and inclusion initiatives**.
 
-Third, I helped raise awareness around Intersect’s mission and its role in supporting the Cardano ecosystem through open-source collaboration, governance participation, and community-led initiatives. This helped connect developers and builders with the broader ecosystem infrastructure that supports Cardano’s long-term sustainability.
+My activities were primarily centered around two key events in Nairobi, Kenya, alongside ongoing developer onboarding, mentorship, and collaboration efforts.
 
-### Impact
-The event provided a strong platform to interact with developers across Africa who are actively building or planning to build within the Cardano ecosystem. Through direct conversations, mentorship, and onboarding support, I was able to help lower barriers to entry for new contributors while strengthening relationships within the regional developer community.
+---
 
+## 2. Event Participation & Outreach  
 
-## Africa Tech Summit Nairobi 2026
+### 2.1 Cardano Africa Tech Summit (CATS) 2026  
+**Date:** February 11–13, 2026  
+**Location:** Nairobi, Kenya  
+**Website:** https://cats.wada.org  
 
-Dates: February 12–13, 2026
-Location: Nairobi, Kenya
-Website: https://www.africatechsummit.com/nairobi/
+#### Engagement Activities  
+- Onboarded new developers into the Cardano ecosystem  
+- Mentored attendees interested in building on Cardano  
+- Introduced Intersect, OSO, and OSC structures  
+- Provided guidance on governance participation and contribution pathways  
 
-### Overview
-Africa Tech Summit Nairobi is one of the leading pan-African technology conferences, bringing together startups, investors, developers, and ecosystem builders across sectors such as fintech, blockchain, AI, and digital infrastructure. The event serves as a hub for networking, partnerships, and knowledge sharing across Africa’s rapidly growing technology ecosystem.
+#### Impact  
+- Direct interaction with developers, students, and ecosystem contributors  
+- Strengthened regional engagement within the African Cardano community  
+- Increased awareness of Intersect’s role in governance and open-source collaboration  
 
-### Role and Participation
-While attending the summit, I focused on engaging with the broader Web3 and blockchain community beyond the immediate Cardano ecosystem. This created opportunities to introduce developers, founders, and technology leaders to Cardano’s infrastructure and governance model.
+---
 
-Throughout the event, I participated in discussions with developers and startup founders who were exploring blockchain adoption in areas such as fintech, digital identity, and decentralized infrastructure. In these interactions, I shared insights about Cardano’s technical capabilities, governance model, and the opportunities available for builders within the ecosystem.
+### 2.2 Africa Tech Summit Nairobi 2026  
+**Date:** February 12–13, 2026  
+**Location:** Nairobi, Kenya  
+**Website:** https://www.africatechsummit.com/nairobi/  
 
-I also connected with individuals who were interested in learning more about decentralized governance and open-source collaboration. These conversations provided an opportunity to explain the role of Intersect and how community-driven governance helps support the long-term development of the Cardano ecosystem.
+#### Engagement Activities  
+- Engaged with a broader Web3 and technology audience  
+- Introduced Cardano to developers and founders outside the ecosystem  
+- Discussed blockchain adoption across fintech, identity, and infrastructure  
+- Provided guidance on developer entry points into Cardano  
 
-Additionally, I supported informal mentoring discussions with developers who were exploring Web3 development pathways. These interactions helped provide guidance on how developers can engage with the Cardano ecosystem, access learning resources, and potentially contribute to ecosystem initiatives.
+#### Impact  
+- Expanded outreach beyond the existing Cardano ecosystem  
+- Positioned Cardano as a viable platform for new builders  
+- Initiated conversations with potential collaborators and projects  
 
-### Impact
-Attending Africa Tech Summit expanded outreach beyond the existing Cardano community and allowed me to engage with a broader group of developers, entrepreneurs, and innovators across the African technology ecosystem. These conversations helped introduce new participants to Cardano and Intersect while strengthening awareness of governance participation and open-source collaboration.
+---
 
-## Picture highlights from the event
-![Developer advocates at CATS 2026](./images/da-2026.jpg)
-![Intersect Executive director talk at Africa Tech Summit](./images/jack-intersect-presentation.jpeg)
-![CATS Hackathons](./images/cats-hackathon.jpeg)
+## 3. Developer Onboarding & Mentorship  
 
-## Conclusion
-By attending and actively engaging at both Cardano Africa Tech Summit 2026 and Africa Tech Summit Nairobi 2026, I fulfilled the quarterly milestone of participating in at least two Web3 events. Through onboarding, mentorship, ecosystem outreach, and developer engagement, I contributed to strengthening community participation and advancing Intersect’s mission of supporting open-source collaboration and ecosystem growth.
+### Formal Onboarding  
+- Conducted onboarding sessions with:
+  - **Ugochukwu**
+  - **Ifedili**
+
+#### Activities  
+- Introduced Intersect, OSO, OSC, and DevEx working groups  
+- Provided guidance on contribution pathways  
+- Explained governance structures and participation opportunities  
+- Answered technical and ecosystem-related questions  
+
+#### Outcome  
+- Successfully met the requirement of onboarding at least **2 new developers**  
+- Established ongoing engagement pathways for both developers  
+
+---
+
+### Informal Onboarding (Events)  
+- Engaged multiple developers during event participation  
+- Provided mentorship and guidance on:
+  - Getting started with Cardano  
+  - Development resources  
+  - Community participation  
+
+#### Outcome  
+- Lowered barriers to entry for new ecosystem participants  
+- Expanded awareness and interest in Cardano development  
+
+---
+
+## 4. Meetings & Developer Engagement  
+
+### Meeting Cadence  
+- Conducted onboarding meetings via **Google Meet**  
+- Maintained availability across communication channels (Discord, GitHub, Slack)
+
+### Key Outcomes  
+- Delivered **2+ onboarding conversations** with new developers  
+- Provided mentorship and ecosystem orientation  
+- Maintained records of meetings and interactions for reporting  
+
+---
+
+## 5. Diversity & Inclusion (D&I) Initiative  
+
+### D&I Workshop / Fireside Chat  
+**Location:** Nairobi, Kenya  
+**Event:** Cardano Africa Tech Summit 2026  
+
+#### Description  
+- Hosted and facilitated a fireside chat with fellow African Developer Advocates  
+- Focused on **representation, inclusion, and regional perspectives in Web3**
+
+#### Key Themes  
+- Experiences of African developers in blockchain  
+- Barriers to entry in emerging markets  
+- Opportunities within the Cardano ecosystem  
+- Importance of inclusive community building  
+
+#### Impact  
+- Amplified underrepresented voices within the ecosystem  
+- Fostered open and inclusive dialogue  
+- Strengthened regional community identity and participation  
+
+---
+
+## 6. Strategic Collaborations  
+
+### 6.1 Chaincrib (Cardano Ecosystem)  
+**Contact:** Ernest  
+**Website:** https://www.chaincrib.com/  
+
+#### Engagement  
+- Discussed ecosystem alignment and collaboration opportunities  
+- Explored deeper engagement with Intersect initiatives  
+
+---
+
+### 6.2 Paj (Solana → Cardano Expansion)  
+**Contact:** Martins  
+**Website:** https://paj.cash  
+
+#### Engagement  
+- Introduced Cardano ecosystem and governance model  
+- Discussed potential migration/expansion into Cardano  
+- Provided onboarding guidance and next steps  
+
+---
+
+### Outcome  
+- Successfully facilitated **2 strategic introductory meetings**  
+- Strengthened both **internal ecosystem relationships** and **external expansion opportunities**
+
+---
+
+## 7. Developer Experience (DevEx) Contributions  
+
+- Supported onboarding into DevEx and technical working groups  
+- Encouraged participation in open-source initiatives  
+- Contributed to improving awareness of developer resources  
+- Provided guidance on navigating Cardano development pathways  
+
+---
+
+## 8. Diversity & Inclusion Support (D&I Translation)  
+
+- Translated D&I survey into Portuguese  
+- Collaborated with a native Portuguese speaker for validation  
+- Ensured cultural and contextual accuracy  
+
+#### Impact  
+- Improved accessibility for Portuguese-speaking participants  
+- Supported inclusive participation in ecosystem feedback processes  
+
+---
+
+## 9. Overall Impact & Sentiment  
+
+### Community Sentiment  
+- Strong interest in Cardano from African developers and startups  
+- Positive reception toward Intersect’s governance and open-source model  
+- Growing curiosity from **non-Cardano builders** exploring ecosystem entry  
+
+### Key Observations  
+- **High developer interest** in governance participation and contribution pathways  
+- **Need for continued onboarding support** and educational resources  
+- **Significant opportunity for cross-ecosystem collaboration** (e.g., Solana → Cardano)  
+- **Regional events are highly effective** for community growth and engagement  
+
+---
+
+## 10. Conclusion  
+
+Q1 2026 was a highly impactful quarter focused on **in-person engagement, developer onboarding, and ecosystem expansion**.
+
+Through participation in two major conferences, onboarding new developers, facilitating strategic collaborations, and hosting a D&I workshop, I successfully met and exceeded key milestone objectives.
+
+These efforts contributed to:
+- Strengthening the Cardano developer community  
+- Expanding ecosystem awareness  
+- Supporting inclusive and diverse participation  
+- Building foundations for future collaboration and growth  
