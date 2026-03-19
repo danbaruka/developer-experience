@@ -9,7 +9,7 @@ sidebar_label: Recordings
 
 **Updating soon.** Recording and links will be added here when available.
 
-For the full pathway, see [Session Notes (Cardano Developer Pathway)](../session-notes/readme).
+For the full pathway, see [Session Notes (Cardano Developer Pathway)](../session-notes/readme.md).
 
 ---
 

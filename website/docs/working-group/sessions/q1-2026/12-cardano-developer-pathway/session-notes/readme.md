@@ -8,7 +8,7 @@ sidebar_position: 1
 
 ## From Zero to Core Contributor or dApp Builder - All Possibilities
 
-The diagrams below show the full pathway and companion views. For the full explication, see [Resources](../session-resources/readme).
+The diagrams below show the full pathway and companion views. For the full explication, see [Resources](../session-resources/readme.md).
 
 ---
 
@@ -294,5 +294,5 @@ flowchart TD
     EDUCATOR --> EMPLOYERS
 ```
 
-For the full explication (entry profiles, tracks, tools, careers, Web2 to Web3, and more), see [Resources](../session-resources/readme).
+For the full explication (entry profiles, tracks, tools, careers, Web2 to Web3, and more), see [Resources](../session-resources/readme.md).
 

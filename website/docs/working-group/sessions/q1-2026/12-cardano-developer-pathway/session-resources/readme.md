@@ -5,7 +5,7 @@ sidebar_label: Resources
 
 # Cardano Developer Pathway - Resources
 
-Short reference for the pathway. For the diagrams, see [Session Notes](../session-notes/readme).
+Short reference for the pathway. For the diagrams, see [Session Notes](../session-notes/readme.md).
 
 ---
 
