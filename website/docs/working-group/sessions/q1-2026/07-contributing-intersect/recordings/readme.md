@@ -1,16 +1,16 @@
 ---
-title: "Session 08: Open Clinic #1 - Recordings"
+title: "Session 07: Contributing to Intersect - Recordings"
 sidebar_label: Recordings
-slug: /working-group/q1-2025/sessions/08-open-clinic-1/recordings
+slug: /working-group/q1-2025/sessions/07-contributing-intersect/recordings
 ---
 
-# Session 08: Open Clinic #1 - Recordings
+# Session 07: Contributing to Intersect - Recordings
 
-Recordings for the Open Clinic #1 session on Cardano Native Tokens.
+Recordings for the Contributing to Intersect session.
 
 ## Session 1
 
-<iframe
+<!-- <iframe
   width="100%"
   height="400"
   src="https://www.youtube.com/embed/gTEbPDo4g18"
@@ -18,7 +18,7 @@ Recordings for the Open Clinic #1 session on Cardano Native Tokens.
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen
-></iframe>
+></iframe> -->
 
 
 
