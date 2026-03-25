@@ -138,7 +138,6 @@ export default function CardanoToolGrid({ categories, label }: CardanoToolGridPr
                   </div>
                 </div>
                 <div className={styles.cardTagline}>{tool.tagline}</div>
-                {tool.stats && <div className={styles.cardStats}>{tool.stats}</div>}
               </button>
 
               {/* Expand panel — inserted after the last card in the current row */}
@@ -151,9 +150,6 @@ export default function CardanoToolGrid({ categories, label }: CardanoToolGridPr
                   aria-label={`${tool.name} details`}
                 >
                   <p className={styles.expandDescription}>{tool.description}</p>
-                  {tool.stats && (
-                    <div className={styles.expandStats}>📊 {tool.stats}</div>
-                  )}
                   <div className={styles.expandLinks}>
                     {tool.links.map((link) => (
                       <a

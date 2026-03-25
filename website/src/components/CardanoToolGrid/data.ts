@@ -85,7 +85,7 @@ export const CARDANO_TOOLS: CardanoTool[] = [
       'Marlowe is a domain-specific language for financial smart contracts — loans, escrow, bonds, options, swaps, and DCA strategies. The visual Playground editor (Blockly) requires no coding, while Haskell and JavaScript interfaces are available for developers. The Marlowe Pioneer Program runs 7 weeks with no Haskell prerequisite.',
     stats: 'Visual Playground editor · 7-week Pioneer Program',
     links: [
-      { label: 'Marlowe docs', url: 'https://docs.marlowe.iohk.io' },
+      { label: 'Marlowe docs', url: 'https://marlowe.iohk.io' },
       { label: 'Playground', url: 'https://play.marlowe.iohk.io' },
       { label: 'Pioneer Program', url: 'https://iog.io/en/education/programs/marlowe-pioneers/' },
     ],
@@ -380,20 +380,6 @@ export const CARDANO_TOOLS: CardanoTool[] = [
     links: [
       { label: 'Cardano Academy', url: 'https://academy.cardanofoundation.org' },
       { label: 'Certification info', url: 'https://cardanofoundation.org/en/academy' },
-    ],
-  },
-  {
-    id: 'IOG_ACAD',
-    name: 'IOG Academy',
-    tagline: 'Haskell Bootcamp · Plutus Pioneer Program',
-    category: 'learning',
-    status: 'active',
-    description:
-      'IOG Academy runs the Plutus Pioneer Program (10 weeks, ~10 hrs/week) and the Haskell Bootcamp for developers wanting to work with Plutus or contribute to core protocol development. These are structured cohort-based programs with assignments and community support.',
-    stats: '10-week Plutus Pioneer · Haskell Bootcamp · cohort-based',
-    links: [
-      { label: 'IOG Education', url: 'https://iog.io/en/education/' },
-      { label: 'Plutus Pioneer', url: 'https://iog.io/en/education/programs/plutus-pioneers-program/' },
     ],
   },
   {
