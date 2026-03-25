@@ -5,7 +5,7 @@ sidebar_label: Resources
 
 # Cardano Developer Pathway - Resources
 
-Short reference for the pathway. For the diagrams, see [Session Notes](../session-notes/readme.md).
+Short reference for the pathway. For the diagrams, see [Session Notes](../session-notes/readme.mdx).
 
 ---
 
@@ -27,7 +27,7 @@ Short reference for the pathway. For the diagrams, see [Session Notes](../sessio
 - **On-chain vs off-chain** – validators on-chain; tx building off-chain
 - **Voltaire** – CIP-1694, DReps, governance
 
-**Learn:** [Cardano Academy](https://academy.cardanofoundation.org) · [IOG Academy](https://iog.io/en/education) · [developers.cardano.org](https://developers.cardano.org) · [Gimbalabs](https://gimbalabs.com) · [cardano-course.gitbook.io](https://cardano-course.gitbook.io)
+**Learn:** [Cardano Academy](https://academy.cardanofoundation.org) · [developers.cardano.org](https://developers.cardano.org) · [Gimbalabs](https://gimbalabs.com) · [cardano-course.gitbook.io](https://cardano-course.gitbook.io)
 
 ---
 
@@ -112,13 +112,13 @@ DeFi (DEX, lending, stablecoin, yield), NFT (marketplace, gaming), Identity, RWA
 
 ## Links
 
-**Portal & learning:** [developers.cardano.org](https://developers.cardano.org) · [Cardano Academy](https://academy.cardanofoundation.org) · [IOG Academy](https://iog.io/en/education) · [aiken-lang.org](https://aiken-lang.org) · [meshjs.dev](https://meshjs.dev) · [Gimbalabs](https://gimbalabs.com) · [cardano-course.gitbook.io](https://cardano-course.gitbook.io)
+**Portal & learning:** [developers.cardano.org](https://developers.cardano.org) · [Cardano Academy](https://academy.cardanofoundation.org) · [aiken-lang.org](https://aiken-lang.org) · [meshjs.dev](https://meshjs.dev) · [Gimbalabs](https://gimbalabs.com) · [cardano-course.gitbook.io](https://cardano-course.gitbook.io)
 
 **Build & APIs:** [Demeter.run](https://demeter.run) · [Blockfrost](https://blockfrost.io) · [Koios](https://koios.rest)
 
 **Governance & funding:** [Project Catalyst](https://projectcatalyst.io) · [Intersect MBO](https://www.intersectmbo.org) · [GovTool](https://gov.tools)
 
-**Community:** [Cardano Stack Exchange](https://cardano.stackexchange.com) · [Cardano Forum](https://forum.cardano.org) · [CIPs](https://github.com/cardano-foundation/CIPs) · [Hydra](https://hydra.family) · [Mithril](https://mithril.network) · [Marlowe](https://docs.marlowe.iohk.io)
+**Community:** [Cardano Stack Exchange](https://cardano.stackexchange.com) · [Cardano Forum](https://forum.cardano.org) · [CIPs](https://github.com/cardano-foundation/CIPs) · [Hydra](https://hydra.family) · [Mithril](https://mithril.network) · [Marlowe](https://marlowe.iohk.io)
 
 ---
 
