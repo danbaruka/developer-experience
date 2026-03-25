@@ -1002,3 +1002,53 @@ html[data-theme='dark'] .searchBar .dropdownMenu svg {
     right: 2.5rem !important;
   }
 }
+/* ─────────────────────────────────────────────────────────────────────────── */
+/* Mermaid Interactive Node Styles                                              */
+/* Applies to all Mermaid diagrams site-wide. Diagram nodes that have a        */
+/* `click` directive automatically get a <title> SVG element (shown by         */
+/* browsers as a native hover tooltip) and are styled below.                   */
+/* ─────────────────────────────────────────────────────────────────────────── */
+
+/* Hint banner above every Mermaid diagram */
+.docusaurus-mermaid-container::before {
+  content: "↖ Hover any node for details · click to open documentation";
+  display: block;
+  text-align: center;
+  font-size: 0.76rem;
+  color: var(--ifm-color-primary);
+  opacity: 0.6;
+  font-style: italic;
+  letter-spacing: 0.01em;
+  margin-bottom: 0.5rem;
+  user-select: none;
+}
+
+/* Pointer cursor on all SVG nodes */
+.docusaurus-mermaid-container svg .node {
+  cursor: pointer;
+}
+
+/* Subtle glow + brightness shift on hover */
+.docusaurus-mermaid-container svg g.node:hover > rect,
+.docusaurus-mermaid-container svg g.node:hover > polygon,
+.docusaurus-mermaid-container svg g.node:hover > circle,
+.docusaurus-mermaid-container svg g.node:hover > ellipse,
+.docusaurus-mermaid-container svg g.node:hover > path {
+  filter: brightness(0.91) drop-shadow(0 2px 7px rgba(37, 85, 254, 0.3));
+  transition: filter 0.15s ease;
+}
+
+/* Dark mode: stronger glow */
+[data-theme='dark'] .docusaurus-mermaid-container svg g.node:hover > rect,
+[data-theme='dark'] .docusaurus-mermaid-container svg g.node:hover > polygon,
+[data-theme='dark'] .docusaurus-mermaid-container svg g.node:hover > circle,
+[data-theme='dark'] .docusaurus-mermaid-container svg g.node:hover > ellipse,
+[data-theme='dark'] .docusaurus-mermaid-container svg g.node:hover > path {
+  filter: brightness(0.82) drop-shadow(0 2px 10px rgba(46, 123, 255, 0.4));
+}
+
+/* Smooth scroll for the whole Mermaid container on mobile */
+.docusaurus-mermaid-container {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
