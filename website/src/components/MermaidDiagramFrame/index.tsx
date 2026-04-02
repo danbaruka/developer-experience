@@ -61,6 +61,30 @@ export default function MermaidDiagramFrame({ children, hint }: MermaidDiagramFr
     return () => document.removeEventListener('fullscreenchange', onFs);
   }, []);
 
+  /** Mirror site light/dark onto the fullscreen root so backgrounds and color-scheme stay correct. */
+  useEffect(() => {
+    const el = rootRef.current;
+    if (!el) return;
+
+    if (!fullscreen) {
+      el.removeAttribute('data-theme');
+      return;
+    }
+
+    const syncTheme = () => {
+      const t = document.documentElement.getAttribute('data-theme') || 'light';
+      el.setAttribute('data-theme', t);
+    };
+
+    syncTheme();
+    const obs = new MutationObserver(syncTheme);
+    obs.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+    return () => {
+      obs.disconnect();
+      el.removeAttribute('data-theme');
+    };
+  }, [fullscreen]);
+
   const zoomIn = () => setScale((prev) => clamp(prev + STEP, MIN, MAX));
   const zoomOut = () => setScale((prev) => clamp(prev - STEP, MIN, MAX));
   const resetZoom = () => setScale(1);

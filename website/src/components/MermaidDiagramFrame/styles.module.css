@@ -21,7 +21,24 @@
   border: none;
   min-height: 100vh;
   min-height: 100dvh;
-  background: var(--ifm-background-color);
+  width: 100%;
+  box-sizing: border-box;
+  /* Solid canvas for Fullscreen API (avoids browser default black/gray) */
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  color-scheme: light;
+}
+
+/* html[data-theme] (normal) + mirrored data-theme on fullscreen root */
+:global([data-theme='dark']) .root.fullscreen,
+.root.fullscreen[data-theme='dark'] {
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  color-scheme: dark;
+}
+
+.root.fullscreen[data-theme='light'] {
+  color-scheme: light;
 }
 
 .toolbar {
@@ -39,6 +56,8 @@
 .fullscreen .toolbar {
   border-radius: 0;
   flex-shrink: 0;
+  background: var(--ifm-color-emphasis-100);
+  border-bottom-color: var(--ifm-color-emphasis-200);
 }
 
 .hint {
@@ -95,12 +114,25 @@
   flex: 1;
   max-height: none;
   min-height: 0;
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
 }
 
 .content {
   min-width: min(100%, 320px);
+  background-color: var(--ifm-background-color);
+}
+
+.fullscreen .content {
+  min-height: 100%;
 }
 
 .content :global(.docusaurus-mermaid-container) {
   margin: 0;
+}
+
+/* Full view: match diagram surface to page background in both themes */
+.fullscreen .content :global(.docusaurus-mermaid-container) {
+  background-color: var(--ifm-background-color);
+  border-radius: 8px;
 }
