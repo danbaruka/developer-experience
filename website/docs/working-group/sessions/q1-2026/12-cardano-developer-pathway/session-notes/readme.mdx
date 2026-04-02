@@ -13,7 +13,9 @@ import MermaidDiagramFrame from '@site/src/components/MermaidDiagramFrame';
 
 This page is a **single interactive map** of the Cardano developer journey. **Hover** nodes for tooltips, **click** nodes to open docs (new tab). Use **Full view** on the diagram toolbar for fullscreen, and **Zoom in / out** (or **Ctrl/Cmd + scroll wheel** over the diagram) to change scale. It incorporates the [Session 12 DX audit themes](https://github.com/IntersectMBO/developer-experience/issues/200): local devnets, transaction anatomy, concurrency, debugging, hosted APIs, NFT standards, EVM migration, governance, L2, and cross-chain—without splitting content across many files.
 
-Use the **tool grid** under the diagram to explore each product in depth. For tables and quick reference, see [Resources](../session-resources/readme.md).
+The diagram is **supplementary**: it is dense on purpose. For a linear narrative, tables, and [curated links that match diagram nodes](../session-resources/readme.md#pathway-deep-links), use **Resources**.
+
+Use the **tool grid** under the diagram to explore each product in depth.
 
 ---
 
@@ -23,7 +25,7 @@ Use the **tool grid** under the diagram to explore each product in depth. For ta
 
 ```mermaid
 flowchart TD
-  subgraph orient [Orientation]
+  subgraph phase1 [Phase 1 · Orientation and entry]
     start([Where are you starting])
     beginner[Complete beginner no code yet]
     web2[Web2 developer JS Python Rust Java and more]
@@ -41,11 +43,11 @@ flowchart TD
     fund --> learnHere["Learn here Academy developers.cardano.org Gimbalabs cardano-course"]
   end
 
-  subgraph crossCut [Cross-cutting knowledge]
-    stack2026["Default stack for most new builds in 2026 Aiken plus MeshJS plus Blockfrost swap Lucid Blaze Koios when needed"]
-    noFullNode["You do not need a synced full node for many dApps use Blockfrost Koios or Maestro"]
-    cborNote["CBOR appears in txs datums redeemers and addresses essential for low-level debugging"]
-    cipPick["Essential CIPs to prioritize CIP-30 wallet CIP-25 27 31 assets CIP-33 reference scripts CIP-68 metadata CIP-1694 governance"]
+  subgraph phase2 [Phase 2 · Cross-cutting knowledge]
+    stack2026["Default stack 2026 Aiken plus MeshJS plus Blockfrost swap Lucid Blaze Koios when needed"]
+    noFullNode["No synced full node for many dApps Blockfrost Koios Maestro"]
+    cborNote["CBOR in txs datums redeemers addresses low-level debugging"]
+    cipPick["Essential CIPs CIP-30 wallet CIP-25 27 31 CIP-33 CIP-68 CIP-1694"]
   end
 
   learnHere --> stack2026
@@ -53,24 +55,26 @@ flowchart TD
   fund --> cborNote
   fund --> cipPick
 
-  subgraph ramp [Intermediate ramp first shipped projects]
-    rampVm[Vending machine or similar single-purpose contract]
-    rampNft[NFT minter native assets CIP-25 CIP-67 labels CIP-68]
-    rampDex[Simple DEX or swap lesson hits UTxO concurrency]
-    rampFull[Full stack dApp validator plus SDK plus UI plus APIs]
+  subgraph phase3 [Phase 3 · Intermediate projects]
+    rampVm[Vending machine or single-purpose contract]
+    rampNft[NFT minter CIP-25 CIP-67 CIP-68]
+    rampDex[Simple DEX or swap UTxO concurrency lesson]
+    rampFull[Full stack validator SDK UI APIs]
     rampVm --> rampNft --> rampDex --> rampFull
   end
 
   learnHere --> rampVm
-  stack2026 --> pickTrack
 
-  evmEntry -->|Or fast path after basics| evmMap["EVM to Cardano map accounts vs UTxO no msg.sender ExUnits vs gas Aiken and ecosystem libs"]
-  evmMap --> pickTrack
+  evmEntry -->|Or fast path after basics| evmMap["EVM to Cardano accounts vs UTxO no msg.sender ExUnits vs gas Aiken ecosystem"]
+  evmMap --> readySpec
 
-  rampFull --> pickTrack
-  cipPick --> pickTrack
+  rampFull --> readySpec
+  cipPick --> readySpec
+  stack2026 --> readySpec
 
-  pickTrack{Choose primary track}
+  readySpec[Ready to specialise primary track]
+
+  readySpec --> pickTrack{Choose primary track}
 
   pickTrack --> trackSc[Smart contracts on-chain logic]
   pickTrack --> trackFe[Frontend dApp JS React Next]
@@ -89,8 +93,8 @@ flowchart TD
   aikenLearn --> localDevnet
   plutusLearn --> localDevnet
 
-  localDevnet["Local devnet fast feedback Yaci DevKit cardano-testnet or Ogmios plus Kupo before testnet round-trips"]
-  localDevnet --> scBuild["Validators scripts datum redeemer minting policies"]
+  localDevnet["Local devnet Yaci cardano-testnet Ogmios Kupo fast feedback before testnet waits"]
+  localDevnet --> scBuild["Validators datum redeemer minting policies"]
 
   trackFe --> sdkPick{Off-chain SDK}
 
@@ -104,11 +108,13 @@ flowchart TD
   blazeSdk --> txAnatomy
   otherSdk --> txAnatomy
 
-  txAnatomy["Transaction anatomy minUTxO collateral ExUnits coin selection linear fees reference scripts CIP-33"]
+  txAnatomy["Tx anatomy minUTxO collateral ExUnits fees coin selection CIP-33 ref scripts"]
 
-  txAnatomy --> walletInt["Wallet integration CIP-30 dApp connector CIP-95 governance CIP-62 mobile hardware light vs full node wallets errors user reject and balance"]
+  txAnatomy --> walletCip["Wallet APIs CIP-30 CIP-95 CIP-62"]
 
-  walletInt --> feBuild["dApp UI tx building chain queries state UX"]
+  walletCip --> walletOps["Connect flows errors mobile hardware light vs full node"]
+
+  walletOps --> feBuild["dApp UI tx building chain state UX"]
 
   trackInfra --> nodeCli[Cardano node and cardano-cli]
   nodeCli --> indexerLayer[DB-Sync Kupo Scrolls Oura Dolos]
@@ -117,27 +123,29 @@ flowchart TD
 
   noFullNode -.-> apiLayer
 
-  designer --> uxLearn[Web3 UX wallet flows pending txs fees]
-  uxLearn --> walletInt
+  designer -->|UX-heavy path skips core SDK track| uxLearn[Web3 UX wallet flows pending txs fees]
+  uxLearn --> walletCip
 
   scBuild --> integrateFull
   feBuild --> integrateFull
   spoPath --> integrateFull
 
-  integrateFull["Full-stack integration on-chain plus off-chain plus UI plus chain data"]
+  integrateFull["Full-stack integration validators off-chain UI chain data"]
 
-  integrateFull --> utxoConcurrency["UTxO concurrency patterns batching state threads beacons fan-in fan-out avoid single hot UTxO"]
+  integrateFull --> utxoConcurrency["UTxO concurrency batching beacons fan-in fan-out avoid hot UTxO"]
 
-  utxoConcurrency --> testDebug["Testing plus on-chain debug property tests integration Aiken tests cardano-cli transaction evaluate script traces Aiken tracing ExUnits overruns"]
+  utxoConcurrency --> testLayer["Tests property integration CI full stack"]
 
-  testDebug --> auditGate{External audit needed}
+  testLayer --> debugLayer["On-chain debug CLI evaluate traces Aiken tracing ExUnits"]
+
+  debugLayer --> auditGate{External audit needed}
 
   auditGate -->|DeFi or high value| auditFirm[Tweag Anastasia MLabs Vacuum and peers]
   auditGate -->|Simple dApp| shipTestnet
 
   auditFirm --> shipTestnet
 
-  shipTestnet["Testnets Preview Preprod Sanchonet faucets env-specific SDK config see testnet docs"]
+  shipTestnet["Testnets Preview Preprod Sanchonet faucets SDK network config"]
 
   shipTestnet --> mainnetShip[Mainnet launch DeFi NFT DAO RWA gaming]
 
@@ -149,10 +157,10 @@ flowchart TD
 
   growPick --> corePath[Core protocol Haskell ledger CIPs cardano-node]
   growPick --> defiPath[DeFi founder DEX lending stablecoins]
-  growPick --> l2Path[Hydra head Mithril snapshots zk and rollup research]
+  growPick --> l2Path[Hydra Mithril zk rollup research]
   growPick --> nftPath[NFT gaming marketplaces RWA]
-  growPick --> govPath[GovTool DRep Agora Voltaire DAO primitives CIP-1694]
-  growPick --> bridgePath[Cross-chain bridges wrapped assets ecosystem bridges overview]
+  growPick --> govPath[GovTool DRep Agora Voltaire CIP-1694]
+  growPick --> bridgePath[Cross-chain bridges wrapped assets ecosystem]
 
   corePath --> outcomes
   defiPath --> outcomes
@@ -161,21 +169,22 @@ flowchart TD
   govPath --> outcomes
   bridgePath --> outcomes
 
-  outcomes["Outcomes core contributor or dApp builder salary grants equity open source portfolio Catalyst meetups"]
+  outcomes["Outcomes builder contributor salary grants portfolio Catalyst meetups"]
 
   outcomes -->|Keep shipping| catalyst
 
   click start "/docs/working-group/sessions/q1-2026/12-cardano-developer-pathway/session-resources/readme"
   click fund "https://developers.cardano.org/docs/get-started/"
   click learnHere "https://academy.cardanofoundation.org"
-  click stack2026 "/docs/working-group/sessions/q1-2026/12-cardano-developer-pathway/session-resources/readme"
+  click stack2026 "/docs/working-group/sessions/q1-2026/12-cardano-developer-pathway/session-resources/readme#pathway-deep-links"
   click noFullNode "https://blockfrost.io"
-  click cborNote "https://developers.cardano.org/docs/get-started/"
+  click cborNote "/docs/working-group/sessions/q1-2026/12-cardano-developer-pathway/session-resources/readme#pathway-cbor"
   click cipPick "https://github.com/cardano-foundation/CIPs"
   click rampVm "https://aiken-lang.org/language-tour/validators"
   click rampNft "https://developers.cardano.org/docs/native-tokens/"
   click rampDex "https://developers.cardano.org/docs/smart-contracts/"
   click rampFull "https://developers.cardano.org/docs/get-started/"
+  click readySpec "/docs/working-group/sessions/q1-2026/12-cardano-developer-pathway/session-resources/readme#pathway-deep-links"
   click evmEntry "https://developers.cardano.org/docs/get-started/"
   click evmMap "https://aiken-lang.org"
   click aikenLang "https://aiken-lang.org"
@@ -183,23 +192,25 @@ flowchart TD
   click otherLang "https://developers.cardano.org/docs/smart-contracts/"
   click aikenLearn "https://aiken-lang.org/installation-instructions"
   click plutusLearn "https://iog.io/en/education/programs/plutus-pioneers-program/"
-  click localDevnet "https://github.com/bloxbean/yaci-devkit"
+  click localDevnet "/docs/working-group/sessions/q1-2026/12-cardano-developer-pathway/session-resources/readme#pathway-local-devnet"
   click scBuild "https://aiken-lang.org/language-tour/validators"
   click meshSdk "https://meshjs.dev"
   click lucidSdk "https://lucid-evolution.netlify.app"
   click blazeSdk "https://blaze.butane.dev"
   click otherSdk "https://developers.cardano.org/docs/get-started/"
-  click txAnatomy "https://developers.cardano.org/docs/get-started/"
-  click walletInt "https://github.com/cardano-foundation/CIPs/tree/master/CIP-0030"
+  click txAnatomy "/docs/working-group/sessions/q1-2026/12-cardano-developer-pathway/session-resources/readme#pathway-transaction-anatomy"
+  click walletCip "/docs/working-group/sessions/q1-2026/12-cardano-developer-pathway/session-resources/readme#pathway-wallets"
+  click walletOps "/docs/working-group/sessions/q1-2026/12-cardano-developer-pathway/session-resources/readme#pathway-wallets"
   click feBuild "https://developers.cardano.org/docs/get-started/"
   click nodeCli "https://cardano-course.gitbook.io"
   click indexerLayer "https://github.com/IntersectMBO/cardano-db-sync"
   click apiLayer "https://koios.rest"
   click spoPath "https://developers.cardano.org/docs/operate-a-stake-pool/"
-  click uxLearn "https://developers.cardano.org/docs/get-started/"
-  click integrateFull "https://developers.cardano.org/docs/get-started/"
-  click utxoConcurrency "https://cardano.stackexchange.com"
-  click testDebug "https://aiken-lang.org/language-tour/tests"
+  click uxLearn "https://meshjs.dev/guides"
+  click integrateFull "/docs/working-group/sessions/q1-2026/12-cardano-developer-pathway/session-resources/readme"
+  click utxoConcurrency "/docs/working-group/sessions/q1-2026/12-cardano-developer-pathway/session-resources/readme#pathway-concurrency"
+  click testLayer "/docs/working-group/sessions/q1-2026/12-cardano-developer-pathway/session-resources/readme#pathway-testing-debug"
+  click debugLayer "/docs/working-group/sessions/q1-2026/12-cardano-developer-pathway/session-resources/readme#pathway-testing-debug"
   click auditFirm "https://developers.cardano.org/docs/smart-contracts/"
   click shipTestnet "https://docs.cardano.org/cardano-testnets/getting-started/"
   click mainnetShip "https://developers.cardano.org/showcase"
@@ -210,11 +221,13 @@ flowchart TD
   click l2Path "https://hydra.family"
   click nftPath "https://developers.cardano.org/docs/native-tokens/"
   click govPath "https://gov.tools"
-  click bridgePath "https://developers.cardano.org/docs/get-started/"
+  click bridgePath "/docs/working-group/sessions/q1-2026/12-cardano-developer-pathway/session-resources/readme#pathway-bridges"
   click outcomes "https://developers.cardano.org/showcase"
 ```
 
 </MermaidDiagramFrame>
+
+**How to read this map:** Steps run top to bottom, but **real delivery loops** between validators, off-chain builders, and UI—use the diagram for coverage, not as a strict waterfall.
 
 <CardanoToolGrid label="Explore tools APIs languages and learning platforms in detail" />
 
