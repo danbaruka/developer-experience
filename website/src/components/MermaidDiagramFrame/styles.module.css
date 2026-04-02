@@ -21,24 +21,7 @@
   border: none;
   min-height: 100vh;
   min-height: 100dvh;
-  width: 100%;
-  box-sizing: border-box;
-  /* Solid canvas for Fullscreen API (avoids browser default black/gray) */
-  background-color: var(--ifm-background-color);
-  color: var(--ifm-font-color-base);
-  color-scheme: light;
-}
-
-/* html[data-theme] (normal) + mirrored data-theme on fullscreen root */
-:global([data-theme='dark']) .root.fullscreen,
-.root.fullscreen[data-theme='dark'] {
-  background-color: var(--ifm-background-color);
-  color: var(--ifm-font-color-base);
-  color-scheme: dark;
-}
-
-.root.fullscreen[data-theme='light'] {
-  color-scheme: light;
+  background: var(--ifm-background-color);
 }
 
 .toolbar {
@@ -56,8 +39,6 @@
 .fullscreen .toolbar {
   border-radius: 0;
   flex-shrink: 0;
-  background: var(--ifm-color-emphasis-100);
-  border-bottom-color: var(--ifm-color-emphasis-200);
 }
 
 .hint {
@@ -103,36 +84,39 @@
   user-select: none;
 }
 
+/* Diagram canvas: distinct from page and toolbar; tokens switch with light/dark theme */
 .viewport {
   overflow: auto;
   max-height: min(70vh, 900px);
   padding: 0.75rem 1rem 1.25rem;
   -webkit-overflow-scrolling: touch;
+  background-color: var(--ifm-color-emphasis-100);
+  border-radius: 0 0 11px 11px;
+  box-shadow: inset 0 1px 0 0 var(--ifm-color-emphasis-200);
+}
+
+:global([data-theme='dark']) .viewport {
+  background-color: var(--ifm-color-secondary);
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.06);
 }
 
 .fullscreen .viewport {
   flex: 1;
   max-height: none;
   min-height: 0;
-  background-color: var(--ifm-background-color);
-  color: var(--ifm-font-color-base);
 }
 
 .content {
   min-width: min(100%, 320px);
-  background-color: var(--ifm-background-color);
-}
-
-.fullscreen .content {
-  min-height: 100%;
 }
 
 .content :global(.docusaurus-mermaid-container) {
   margin: 0;
+  background-color: var(--ifm-color-emphasis-100);
+  border-radius: 8px;
+  padding: 0.5rem 0.25rem 0.75rem;
 }
 
-/* Full view: match diagram surface to page background in both themes */
-.fullscreen .content :global(.docusaurus-mermaid-container) {
-  background-color: var(--ifm-background-color);
-  border-radius: 8px;
+:global([data-theme='dark']) .content :global(.docusaurus-mermaid-container) {
+  background-color: var(--ifm-color-secondary);
 }
