@@ -5,18 +5,21 @@ sidebar_position: 1
 ---
 
 import CardanoToolGrid from '@site/src/components/CardanoToolGrid';
+import MermaidDiagramFrame from '@site/src/components/MermaidDiagramFrame';
 
 # Cardano Developer Pathway
 
 ## From Zero to Core Contributor or dApp Builder
 
-This page is a **single interactive map** of the Cardano developer journey. **Hover** nodes for tooltips, **click** nodes to open docs (new tab). It incorporates the [Session 12 DX audit themes](https://github.com/IntersectMBO/developer-experience/issues/200): local devnets, transaction anatomy, concurrency, debugging, hosted APIs, NFT standards, EVM migration, governance, L2, and cross-chain—without splitting content across many files.
+This page is a **single interactive map** of the Cardano developer journey. **Hover** nodes for tooltips, **click** nodes to open docs (new tab). Use **Full view** on the diagram toolbar for fullscreen, and **Zoom in / out** (or **Ctrl/Cmd + scroll wheel** over the diagram) to change scale. It incorporates the [Session 12 DX audit themes](https://github.com/IntersectMBO/developer-experience/issues/200): local devnets, transaction anatomy, concurrency, debugging, hosted APIs, NFT standards, EVM migration, governance, L2, and cross-chain—without splitting content across many files.
 
 Use the **tool grid** under the diagram to explore each product in depth. For tables and quick reference, see [Resources](../session-resources/readme.md).
 
 ---
 
 ## Full Pathway Diagram
+
+<MermaidDiagramFrame hint="Use Full view for the whole screen. Zoom with the buttons or Ctrl/Cmd + scroll wheel while over the diagram.">
 
 ```mermaid
 flowchart TD
@@ -210,6 +213,8 @@ flowchart TD
   click bridgePath "https://developers.cardano.org/docs/get-started/"
   click outcomes "https://developers.cardano.org/showcase"
 ```
+
+</MermaidDiagramFrame>
 
 <CardanoToolGrid label="Explore tools APIs languages and learning platforms in detail" />
 

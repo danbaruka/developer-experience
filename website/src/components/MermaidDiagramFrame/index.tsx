@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useRef, useState, type ReactNode } from 'react';
+import React, { useEffect, useRef, useState, type ReactNode } from 'react';
 import styles from './styles.module.css';
 
 const MIN = 0.35;
@@ -17,24 +17,40 @@ export interface MermaidDiagramFrameProps {
 
 /**
  * Wraps a ```mermaid fenced block in MDX. Provides fullscreen, zoom buttons,
- * and Ctrl/Cmd + scroll wheel zoom inside the diagram viewport.
+ * and Ctrl/Cmd + scroll wheel zoom. Uses CSS `zoom` on the rendered Mermaid
+ * container so scrollbars match the scaled diagram (supported in modern browsers).
  */
 export default function MermaidDiagramFrame({ children, hint }: MermaidDiagramFrameProps): React.ReactNode {
   const rootRef = useRef<HTMLDivElement>(null);
-  const viewportRef = useRef<HTMLDivElement>(null);
-  const scalableRef = useRef<HTMLDivElement>(null);
+  const contentRef = useRef<HTMLDivElement>(null);
   const [scale, setScale] = useState(1);
   const [fullscreen, setFullscreen] = useState(false);
 
-  const applyScale = useCallback((s: number) => {
-    const el = scalableRef.current;
-    if (!el) return;
-    el.style.transform = `scale(${s})`;
-  }, []);
-
   useEffect(() => {
-    applyScale(scale);
-  }, [scale, applyScale]);
+    const applyZoom = () => {
+      const mer = contentRef.current?.querySelector<HTMLElement>('.docusaurus-mermaid-container');
+      if (!mer) return;
+      const s = mer.style as CSSStyleDeclaration & { zoom?: string };
+      s.zoom = String(scale);
+    };
+
+    applyZoom();
+
+    const root = contentRef.current;
+    if (!root) return;
+
+    const mo = new MutationObserver(applyZoom);
+    mo.observe(root, { childList: true, subtree: true });
+
+    return () => {
+      mo.disconnect();
+      const mer = contentRef.current?.querySelector<HTMLElement>('.docusaurus-mermaid-container');
+      if (mer) {
+        const s = mer.style as CSSStyleDeclaration & { zoom?: string };
+        s.zoom = '';
+      }
+    };
+  }, [scale]);
 
   useEffect(() => {
     const onFs = () => {
@@ -77,9 +93,9 @@ export default function MermaidDiagramFrame({ children, hint }: MermaidDiagramFr
         <button type="button" onClick={zoomOut} aria-label="Zoom out">
           Zoom out
         </button>
-        <button type="button" className={styles.zoomPercent} aria-current="true" disabled>
+        <span className={styles.zoomPercent} aria-live="polite">
           {Math.round(scale * 100)}%
-        </button>
+        </span>
         <button type="button" onClick={zoomIn} aria-label="Zoom in">
           Zoom in
         </button>
@@ -91,14 +107,13 @@ export default function MermaidDiagramFrame({ children, hint }: MermaidDiagramFr
         </button>
       </div>
       <div
-        ref={viewportRef}
         className={styles.viewport}
         onWheel={onWheel}
         tabIndex={0}
         role="region"
-        aria-label="Pathway diagram scroll and zoom area. Use Ctrl or Command with scroll wheel to zoom."
+        aria-label="Pathway diagram. Use Ctrl or Command with scroll wheel to zoom."
       >
-        <div ref={scalableRef} className={styles.scalable}>
+        <div ref={contentRef} className={styles.content}>
           {children}
         </div>
       </div>
