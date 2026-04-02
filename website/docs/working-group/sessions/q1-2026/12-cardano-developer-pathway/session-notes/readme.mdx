@@ -25,12 +25,15 @@ flowchart TD
     beginner[Complete beginner no code yet]
     web2[Web2 developer JS Python Rust Java and more]
     designer[Designer UI-UX Figma CSS motion]
+    evmEntry[Solidity or EVM background Hardhat Foundry etc]
     start --> beginner
     start --> web2
     start --> designer
+    start --> evmEntry
     beginner --> fund
     web2 --> fund
     designer --> fund
+    evmEntry -->|Recommended same core as everyone| fund
     fund["Cardano fundamentals eUTxO native tokens Ouroboros Voltaire CIPs"]
     fund --> learnHere["Learn here Academy developers.cardano.org Gimbalabs cardano-course"]
   end
@@ -58,8 +61,7 @@ flowchart TD
   learnHere --> rampVm
   stack2026 --> pickTrack
 
-  web2 --> evmEntry[Solidity or EVM background]
-  evmEntry --> evmMap["EVM to Cardano map accounts vs UTxO no msg.sender ExUnits vs gas find Aiken OpenZeppelin-style libs in ecosystem guides"]
+  evmEntry -->|Or fast path after basics| evmMap["EVM to Cardano map accounts vs UTxO no msg.sender ExUnits vs gas Aiken and ecosystem libs"]
   evmMap --> pickTrack
 
   rampFull --> pickTrack
@@ -70,7 +72,6 @@ flowchart TD
   pickTrack --> trackSc[Smart contracts on-chain logic]
   pickTrack --> trackFe[Frontend dApp JS React Next]
   pickTrack --> trackInfra[Infrastructure node indexers APIs SPO]
-  pickTrack --> trackMarlowe[Marlowe financial DSL]
 
   trackSc --> langPick{On-chain language}
 
@@ -113,17 +114,12 @@ flowchart TD
 
   noFullNode -.-> apiLayer
 
-  trackMarlowe --> marloweNote["Marlowe Playground and DSL check current IOG education pages program availability and runtime maintenance before long commitments"]
-  marloweNote --> marlowePlay[Marlowe Playground visual flows]
-  marlowePlay --> marloweShip[Financial products loans escrow bonds]
-
   designer --> uxLearn[Web3 UX wallet flows pending txs fees]
   uxLearn --> walletInt
 
   scBuild --> integrateFull
   feBuild --> integrateFull
   spoPath --> integrateFull
-  marloweShip --> integrateFull
 
   integrateFull["Full-stack integration on-chain plus off-chain plus UI plus chain data"]
 
@@ -177,6 +173,7 @@ flowchart TD
   click rampNft "https://developers.cardano.org/docs/native-tokens/"
   click rampDex "https://developers.cardano.org/docs/smart-contracts/"
   click rampFull "https://developers.cardano.org/docs/get-started/"
+  click evmEntry "https://developers.cardano.org/docs/get-started/"
   click evmMap "https://aiken-lang.org"
   click aikenLang "https://aiken-lang.org"
   click plutusLang "https://plutus.readthedocs.io"
@@ -196,9 +193,6 @@ flowchart TD
   click indexerLayer "https://github.com/IntersectMBO/cardano-db-sync"
   click apiLayer "https://koios.rest"
   click spoPath "https://developers.cardano.org/docs/operate-a-stake-pool/"
-  click marloweNote "https://iog.io/en/education/"
-  click marlowePlay "https://play.marlowe.iohk.io"
-  click marloweShip "https://marlowe.iohk.io"
   click uxLearn "https://developers.cardano.org/docs/get-started/"
   click integrateFull "https://developers.cardano.org/docs/get-started/"
   click utxoConcurrency "https://cardano.stackexchange.com"
