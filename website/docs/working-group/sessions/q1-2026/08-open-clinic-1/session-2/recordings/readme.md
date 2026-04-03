@@ -24,5 +24,5 @@ Recordings for the Open Clinic #1 session on Common Beginner Blockers: Wallets, 
 
 ---
 
-*This recording belongs to the Q1 2026 Developer Experience Working Group: "Deepening Engagement".*
+*This recording belongs to the Q1 2026 Developer Experience Working Group: "Open Clinic".*
 
