@@ -10,15 +10,15 @@ Recordings for the Contributing to Intersect session.
 
 ## Session 1
 
-<!-- <iframe
+<iframe
   width="100%"
   height="400"
-  src="https://www.youtube.com/embed/gTEbPDo4g18"
-  title="Session 08: Open Clinic #1 - Session 1"
+  src="https://www.youtube.com/embed/BAdaPQMhD0A"
+  title="Session 07: Contributing to Intersect"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen
-></iframe> -->
+></iframe>
 
 
 
