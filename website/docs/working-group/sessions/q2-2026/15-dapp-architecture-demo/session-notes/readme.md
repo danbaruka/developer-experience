@@ -142,6 +142,7 @@ Standard nodes provide raw chain data, but they aren't optimized for complex que
 *   **[Kupo](https://github.com/Cardano-Solutions/kupo)**: A lightweight indexer focused on the UTxO model. Ideal for dApps that need to quickly find available funds or specific script outputs.
 *   **[Ogmios](https://ogmios.dev/)**: A bridge that provides a JSON-RPC interface to the Cardano node, making it easier for web-based tools to query the node directly.
 *   **[Cardano DB Sync](https://github.com/intersectmbo/cardano-db-sync)**: The "heavyweight" champion. It mirrors the entire chain into a PostgreSQL database. Essential for analytics platforms or explorers.
+*   **[Yaci Store](https://store.yaci.xyz/)**: A developer-focused indexing solution providing high-level APIs for blockchain data, designed for rapid application development.
 
 ### 4. Hybrid Architecture
 In many production dApps, companies use a hybrid approach:
