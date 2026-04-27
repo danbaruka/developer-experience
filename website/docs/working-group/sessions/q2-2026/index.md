@@ -13,6 +13,7 @@ The Developer Experience (DevEx) Working Group continues to support and empower 
 | Session | Title | Focus | Format |
 |---------|-------|-------|--------|
 | **14** | **Repository Walkthrough: Offchain and SDK building** | Deep dive into offchain architecture | Workshop |
+| **15** | **dApp Architecture: From Wallet to Backend** | Modular breakdown of full-stack dApp flow | Workshop |
 
 ## Session Details
 
@@ -23,6 +24,14 @@ The Developer Experience (DevEx) Working Group continues to support and empower 
   - Building your first offchain application logic
   - Connecting SDKs to the blockchain for transaction building
 - **Deliverable**: Smart Contract Offchain Overview
+
+### Session 15: dApp Architecture: From Wallet to Backend
+- **Objective**: Explain the 4-layer architecture for Cardano dApps
+- **Key Topics**:
+  - Frontend, Wallet, Backend, and Blockchain responsibilities
+  - Failure handling in distributed systems
+  - Polling vs. Webhooks for payment verification
+- **Deliverable**: [dApp Architecture Session Notes](./15-dapp-architecture-demo/session-notes/readme.md)
 
 ## Working Group Information
 For operational details, roles, repository structure, and participation guidelines, please see the [Working Group Overview](../../readme.md).
