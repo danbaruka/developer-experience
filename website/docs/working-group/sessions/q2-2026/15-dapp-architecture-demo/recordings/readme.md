@@ -10,7 +10,15 @@ Recordings for the dApp Architecture session.
 
 ## Session 1
 
-*(The recording will be uploaded here after the session completes)*
+<iframe
+  width="100%"
+  height="400"
+  src="https://www.youtube.com/embed/D_8JOuWFHfY"
+  title="Session 15: dApp Architecture: From Wallet to Backend"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
 
 ---
 
