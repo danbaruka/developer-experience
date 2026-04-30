@@ -1,9 +1,9 @@
 ---
-title: "Session 15: UI ↔ Smart Contracts (Wallets + Tx flow) - Recordings"
+title: "Session 16: UI ↔ Smart Contracts (Wallets + Tx flow) - Recordings"
 sidebar_label: Recordings
 ---
 
-# Session 15: UI ↔ Smart Contracts (Wallets + Tx flow) - Recordings
+# Session 16: UI ↔ Smart Contracts (Wallets + Tx flow) - Recordings
 
 - *(Recording link will be added after the session.)*
 

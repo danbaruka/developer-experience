@@ -1,10 +1,10 @@
 ---
-title: "Session 15: UI ↔ Smart Contracts (Wallets + Tx flow) - Notes"
+title: "Session 16: UI ↔ Smart Contracts (Wallets + Tx flow) - Notes"
 sidebar_label: Session Notes
-slug: /working-group/q2-2026/sessions/15-ui-smart-contract-interaction/session-notes
+slug: /working-group/q2-2026/sessions/16-ui-smart-contract-interaction/session-notes
 ---
 
-# Session 15: UI ↔ Smart Contracts (Wallets + Tx flow) - Notes
+# Session 16: UI ↔ Smart Contracts (Wallets + Tx flow) - Notes
 
 This guide explains **how a UI app interacts with Cardano smart contracts** (validators) in a production-style way, with clear architecture options, security notes, and diagrams.
 
@@ -189,15 +189,6 @@ You can mix-and-match, but pick one “lane” and standardize:
   - Hard block with a clear message + switch-network instructions.
 - **Poor signing UX**: user can’t tell what they’re signing.
   - Display a concise summary: “Action, amounts, recipients, tokens, fees (est), validity”.
-
----
-
-## Quick “what to teach in the session”
-
-- **Mental model**: “Contracts are validators; interaction is tx construction.”
-- **Hands-on**: show a “lock” (deposit) then “unlock” (redeem) flow.
-- **Debugging**: show failures (missing collateral, wrong datum, wrong redeemer) and how evaluation catches them.
-- **Architecture**: compare Option A vs B with the diagrams above.
 
 ---
 

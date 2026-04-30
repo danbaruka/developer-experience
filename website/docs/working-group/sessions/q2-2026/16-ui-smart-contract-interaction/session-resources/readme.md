@@ -1,9 +1,9 @@
 ---
-title: "Session 15: UI ↔ Smart Contracts (Wallets + Tx flow) - Resources"
+title: "Session 16: UI ↔ Smart Contracts (Wallets + Tx flow) - Resources"
 sidebar_label: Resources
 ---
 
-# Session 15: UI ↔ Smart Contracts (Wallets + Tx flow) - Resources
+# Session 16: UI ↔ Smart Contracts (Wallets + Tx flow) - Resources
 
 Curated references for building UI apps that interact with Cardano validators (Aiken/Plutus).
 
