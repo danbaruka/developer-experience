@@ -13,7 +13,8 @@ The Developer Experience (DevEx) Working Group continues to support and empower 
 | Session | Title | Focus | Format |
 |---------|-------|-------|--------|
 | **14** | **Repository Walkthrough: Offchain and SDK building** | Deep dive into offchain architecture | Workshop |
-| **15** | **UI ↔ Smart Contracts: Wallets, Tx Building, and Submission** | End-to-end dApp interaction patterns + architecture trade-offs | Workshop |
+| **15** | **dApp Architecture: From Wallet to Backend** | Modular breakdown of full-stack dApp flow | Workshop |
+| **16** | **UI ↔ Smart Contracts: Wallets, Tx Building, and Submission** | End-to-end dApp interaction patterns + architecture trade-offs | Workshop |
 
 ## Session Details
 
@@ -25,7 +26,15 @@ The Developer Experience (DevEx) Working Group continues to support and empower 
   - Connecting SDKs to the blockchain for transaction building
 - **Deliverable**: Smart Contract Offchain Overview
 
-### Session 15: UI ↔ Smart Contracts: Wallets, Tx Building, and Submission
+### Session 15: dApp Architecture: From Wallet to Backend
+- **Objective**: Explain the 4-layer architecture for Cardano dApps
+- **Key Topics**:
+  - Frontend, Wallet, Backend, and Blockchain responsibilities
+  - Failure handling in distributed systems
+  - Polling vs. Webhooks for payment verification
+- **Deliverable**: [dApp Architecture Session Notes](./15-dapp-architecture-demo/session-notes/readme.md)
+
+### Session 16: UI ↔ Smart Contracts: Wallets, Tx Building, and Submission
 - **Objective**: Teach the *practical* ways a UI app interacts with Cardano validators (Aiken/Plutus) using modern wallet + SDK flows, with clear trade-offs and diagrams.
 - **Key Topics**:
   - CIP-30 wallet connector fundamentals (connect, UTxOs, sign, submit)
