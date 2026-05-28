@@ -5,7 +5,7 @@ Welcome to the Advanced Guides section! These guides are for experienced develop
 ### Ecosystem Projects
 - **Cardano DB Sync**: Check out this awesome guide to Cardano DB Sync [here](./cardano-db-sync.md)
 - **Cardano API**: Check out this awesome guide to Cardano API [here](./cardano-api.md)
-- **Yaci DevKit**: Setup a local Cardano devnet step by step [here](./yaci-devkit.md)
+- **Yaci DevKit**: Setup a local Cardano devnet step by step [here](./yaci-devkit.mdx)
 
 
 ## Getting Involved

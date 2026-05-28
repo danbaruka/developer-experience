@@ -15,6 +15,7 @@ The Developer Experience (DevEx) Working Group continues to support and empower 
 | **14** | **Repository Walkthrough: Offchain and SDK building** | Deep dive into offchain architecture | Workshop |
 | **15** | **dApp Architecture: From Wallet to Backend** | Modular breakdown of full-stack dApp flow | Workshop |
 | **16** | **UI ↔ Smart Contracts: Wallets, Tx Building, and Submission** | End-to-end dApp interaction patterns + architecture trade-offs | Workshop |
+| **17** | **Default Developer Environment for Cardano** | Working-group debate on what we recommend by default to new builders | Discussion |
 
 ## Session Details
 
@@ -42,6 +43,15 @@ The Developer Experience (DevEx) Working Group continues to support and empower 
   - 2–3 recommended architectures (client-only vs hybrid vs server-custody)
   - Indexers and data providers (Kupo/Ogmios, Blockfrost/Koios/Maestro)
 - **Deliverable**: Best-practice integration guide + diagrams
+
+### Session 17: Default Developer Environment for Cardano
+- **Objective**: Agree on a default developer environment to recommend to newcomers, and the graduation path from "first ten minutes" to mainnet.
+- **Key Topics**:
+  - Local devnets (Yaci DevKit, cardano-node devnet) vs public testnets (Preview / PreProd)
+  - Hosted providers (Blockfrost / Maestro / Koios) vs self-hosted nodes (cardano-node + Ogmios + Kupo)
+  - One-click / Dockerized / Codespaces-style sandboxes
+  - Recommended flow debate: what is the *single* environment we point new builders at?
+- **Deliverable**: [Default Developer Environment Session Notes](./17-default-developer-environment/session-notes/readme.md)
 
 ## Working Group Information
 For operational details, roles, repository structure, and participation guidelines, please see the [Working Group Overview](../../readme.md).
