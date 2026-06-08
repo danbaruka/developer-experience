@@ -16,6 +16,7 @@ The Developer Experience (DevEx) Working Group continues to support and empower 
 | **15** | **dApp Architecture: From Wallet to Backend** | Modular breakdown of full-stack dApp flow | Workshop |
 | **16** | **UI ↔ Smart Contracts: Wallets, Tx Building, and Submission** | End-to-end dApp interaction patterns + architecture trade-offs | Workshop |
 | **17** | **Default Developer Environment for Cardano** | Working-group debate on what we recommend by default to new builders | Discussion |
+| **18** | **Building a Production-Grade MCP Server for Cardano** | AI tooling for Cardano — UTxOs, governance, smart contracts via MCP | Demo + Discussion |
 
 ## Session Details
 
@@ -52,6 +53,16 @@ The Developer Experience (DevEx) Working Group continues to support and empower 
   - One-click / Dockerized / Codespaces-style sandboxes
   - Recommended flow debate: what is the *single* environment we point new builders at?
 - **Deliverable**: [Default Developer Environment Session Notes](./17-default-developer-environment/session-notes/readme.md)
+
+### Session 18: Building a Production-Grade MCP Server for Cardano
+- **Objective**: Demonstrate how to give AI agents deep, idiomatic access to Cardano — UTxOs, native assets, smart contracts, and CIP-1694 governance — using the Model Context Protocol.
+- **Key Topics**:
+  - Why Cardano needed a purpose-built MCP server (eUTxO vs account model)
+  - Server architecture: 6 modules, 38 tools, multi-API strategy (Blockfrost / Koios / Maestro / Kupo)
+  - CIP-1694 governance module and IPFS metadata enrichment
+  - Live demo: querying UTxOs, governance proposals, and CBOR datums from inside Claude Code
+  - Lessons learned: Zod defaults, IPFS edge cases, Koios tail latencies
+- **Deliverable**: [Session Notes](./18-cardano-mcp-server/session-notes/readme.md) | [Resources](./18-cardano-mcp-server/session-resources/readme.md)
 
 ## Working Group Information
 For operational details, roles, repository structure, and participation guidelines, please see the [Working Group Overview](../../readme.md).
