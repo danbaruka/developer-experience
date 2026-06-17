@@ -8,7 +8,10 @@ Welcome to the Advanced Guides section! These guides are for experienced develop
 - **Yaci DevKit**: Setup a local Cardano devnet step by step [here](./yaci-devkit.mdx)
 
 ### Core Protocol Contribution
-- **[Core Protocol Contributor Guide](./core-protocol-contributor.md)** — For Haskell and Rust developers who want to contribute to `cardano-ledger`, `ouroboros-consensus`, Pallas, or Dolos. Covers the Nix development environment, formal specifications, testing as an entry point, the CIP process, and realistic time estimates.
+- **[Core Protocol Contributor](./core-protocol-contributor.md)** — Overview and language path selector
+  - **[Haskell](./haskell-core-contributor.md)** — `cardano-ledger`, `ouroboros-consensus`, `cardano-node`. Covers Nix setup, formal specs, STS framework, CIP process, and time estimates
+  - **[Rust](./rust-core-contributor.md)** — Amaru (full node), Pallas (primitives), Dolos (data node). Covers `cargo`-based setup, Pallas progression, Amaru deep dive
+  - **[Go](./go-core-contributor.md)** — Dingo (full node by Blink Labs), gouroboros (Ouroboros networking). Lowest barrier to first contribution; unique API layer entry points
 
 ## Getting Involved
 

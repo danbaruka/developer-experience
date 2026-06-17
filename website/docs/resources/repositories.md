@@ -9,19 +9,19 @@ A curated reference of the repositories every Cardano developer should know. Pro
 For guidance on which repos to start with, see the [Cardano Developer Pathway](../working-group/sessions/q1-2026/12-cardano-developer-pathway/readme.md).
 
 
-## Core Protocol — Intersect Maintained
+## Core Protocol: Intersect Maintained
 
 These repositories implement the Cardano protocol itself. They are maintained under the [IntersectMBO GitHub org](https://github.com/IntersectMBO) and funded through the POSM Maintainer Retainer programme.
 
 | Repository | Language | What it does |
 |---|---|---|
-| [cardano-node](https://github.com/IntersectMBO/cardano-node) **[MR]** | Haskell | The Cardano node — ties ledger, consensus, and networking together |
+| [cardano-node](https://github.com/IntersectMBO/cardano-node) **[MR]** | Haskell | The Cardano node: ties ledger, consensus, and networking together |
 | [cardano-ledger](https://github.com/IntersectMBO/cardano-ledger) **[MR]** | Haskell | All ledger rules using the STS framework; the ground truth for transaction validation |
 | [ouroboros-network](https://github.com/IntersectMBO/ouroboros-network) **[MR]** | Haskell | The Ouroboros consensus algorithm, chain selection, and the p2p networking layer |
 | [cardano-api](https://github.com/IntersectMBO/cardano-api) **[MR]** | Haskell | High-level Haskell library over ledger and consensus; used by the node, CLI, and tooling |
 | [cardano-cli](https://github.com/IntersectMBO/cardano-cli) **[MR]** | Haskell | Official command-line interface for interacting with a Cardano node |
 | [cardano-db-sync](https://github.com/IntersectMBO/cardano-db-sync) **[MR]** | Haskell | Follows the chain and mirrors it into PostgreSQL for querying |
-| [plutus](https://github.com/IntersectMBO/plutus) **[MR]** | Haskell | The Plutus smart contract platform — Plutus Core language and execution engine |
+| [plutus](https://github.com/IntersectMBO/plutus) **[MR]** | Haskell | The Plutus smart contract platform: Plutus Core language and execution engine |
 | [cardano-base](https://github.com/IntersectMBO/cardano-base) **[MR]** | Haskell | Shared base libraries used across the core Cardano codebase (crypto, slotting, binary) |
 | [lsm-tree](https://github.com/IntersectMBO/lsm-tree) **[MR]** | Haskell | Log-structured merge-tree implementation; the storage backend for the UTxO set in future node versions |
 | [cardano-node-emulator](https://github.com/IntersectMBO/cardano-node-emulator) **[MR]** | Haskell | In-process Cardano node emulator for testing smart contracts without a real node |
@@ -31,15 +31,15 @@ These repositories implement the Cardano protocol itself. They are maintained un
 > **Contributing to core repos**: See the [Core Protocol Contributor Guide](../how-to-guide/advanced/core-protocol-contributor.md) for environment setup (Nix is required), formal specifications, and accessible first contributions.
 
 
-## Community Projects — Intersect Maintained
+## Community Projects: Intersect Maintained
 
 Community-built projects also funded under the POSM Maintainer Retainer programme.
 
 | Repository | Language | What it does |
 |---|---|---|
-| [cardano-scaling/hydra](https://github.com/cardano-scaling/hydra) **[MR]** | Haskell | Hydra Head — Layer 2 isomorphic state channel protocol for fast, cheap transactions |
+| [cardano-scaling/hydra](https://github.com/cardano-scaling/hydra) **[MR]** | Haskell | Hydra Head: Layer 2 isomorphic state channel protocol for fast, cheap transactions |
 | [IntersectMBO/evolution-sdk](https://github.com/IntersectMBO/evolution-sdk) **[MR]** | Haskell | SDK for building on-chain governance and protocol evolution tooling |
-| [MeshJS/mesh](https://github.com/MeshJS/mesh) **[MR]** | TypeScript | Full-featured TypeScript SDK — transactions, wallet connections, React components |
+| [MeshJS/mesh](https://github.com/MeshJS/mesh) **[MR]** | TypeScript | Full-featured TypeScript SDK: transactions, wallet connections, React components |
 | [MeshJS/multisig](https://github.com/MeshJS/multisig) **[MR]** | TypeScript | Multi-signature transaction coordination built on Mesh |
 | [txpipe/oura](https://github.com/txpipe/oura) **[MR]** | Rust | Pipeline tool for streaming and filtering Cardano chain events |
 | [cardano-foundation/cardano-wallet](https://github.com/cardano-foundation/cardano-wallet) **[MR]** | Haskell | Reference wallet backend with REST API; used by hardware wallets and exchanges |
@@ -56,7 +56,7 @@ On-chain validator languages that compile to Plutus Core. Not all require Haskel
 
 | Repository | Language | Notes |
 |---|---|---|
-| [aiken-lang/aiken](https://github.com/aiken-lang/aiken) | Aiken | Recommended for new projects — Rust-like syntax, strong toolchain, active community |
+| [aiken-lang/aiken](https://github.com/aiken-lang/aiken) | Aiken | Recommended for new projects: Rust-like syntax, strong toolchain, active community |
 | [Hyperion-BT/Helios](https://github.com/Hyperion-BT/Helios) | Helios | TypeScript-like syntax; good for frontend-first developers |
 | [OpShin/opshin](https://github.com/OpShin/opshin) | Python | Write validators in a subset of Python |
 | [nau/scalus](https://github.com/nau/scalus) | Scala | JVM-based smart contract language targeting Plutus Core |
@@ -84,25 +84,27 @@ Data access tools, indexers, and Rust protocol implementations.
 
 | Repository | Language | What it does |
 |---|---|---|
-| [pragma-org/amaru](https://github.com/pragma-org/amaru) | Rust | Full Rust Cardano node — implements consensus, ledger rules, and networking from scratch against the same formal specs as the Haskell node. The most ambitious Rust core contribution target |
-| [txpipe/pallas](https://github.com/txpipe/pallas) | Rust | Rust protocol primitives — CBOR codec, chain sync, ledger types, mini-protocols. Most accessible Rust entry point for core contribution |
+| [pragma-org/amaru](https://github.com/pragma-org/amaru) | Rust | Full Rust Cardano node: implements consensus, ledger rules, and networking from scratch against the same formal specs as the Haskell node |
+| [blinklabs-io/node](https://github.com/blinklabs-io/node) | Go | **Dingo**: full Go Cardano node by Blink Labs: chain sync, UTxO tracking, Plutus V1/V2/V3, block production, pluggable storage (testnet/devnet, not yet mainnet) |
+| [blinklabs-io/gouroboros](https://github.com/blinklabs-io/gouroboros) | Go | Go implementation of the Ouroboros networking protocol: mini-protocols, connection multiplexing, CBOR codec; used as the networking layer in Dingo |
+| [txpipe/pallas](https://github.com/txpipe/pallas) | Rust | Rust protocol primitives: CBOR codec, chain sync, ledger types, mini-protocols. Most accessible Rust entry point for core contribution |
 | [txpipe/dolos](https://github.com/txpipe/dolos) | Rust | Lightweight Cardano data node built on Pallas; designed for read-heavy workloads |
 | [CardanoSolutions/ogmios](https://github.com/CardanoSolutions/ogmios) | Haskell | WebSocket bridge to cardano-node; exposes mini-protocols as a JSON/WebSocket API |
-| [CardanoSolutions/kupo](https://github.com/CardanoSolutions/kupo) | Haskell | Fast, lightweight chain indexer — indexes UTxOs by address or script |
+| [CardanoSolutions/kupo](https://github.com/CardanoSolutions/kupo) | Haskell | Fast, lightweight chain indexer: indexes UTxOs by address or script |
 | [bloxbean/yaci-devkit](https://github.com/bloxbean/yaci-devkit) | Java | Local Cardano devnet toolkit; spins up a private network for testing in seconds |
 | [bloxbean/yaci-store](https://github.com/bloxbean/yaci-store) | Java | Modular chain indexer built on the Yaci CBOR parser |
 
-> Amaru, Pallas, and Dolos are **core protocol infrastructure**, not Layer 2 — they implement the Cardano protocol in Rust. Amaru is a full node; Pallas provides the underlying protocol primitives both Dolos and Amaru build on. See the [Core Protocol Contributor Guide](../how-to-guide/advanced/core-protocol-contributor.md) for the Rust contribution path.
+> Amaru (Rust), Dingo (Go), Pallas, and Dolos are **core protocol infrastructure**, not Layer 2: they implement the Cardano protocol in alternative languages. See the [Core Protocol Contributor](../how-to-guide/advanced/core-protocol-contributor.md) overview for language-specific guides.
 
 
 ## Governance & Standards
 
 | Repository | What it does |
 |---|---|
-| [cardano-foundation/CIPs](https://github.com/cardano-foundation/CIPs) | Cardano Improvement Proposals — the formal process for protocol changes and standards |
+| [cardano-foundation/CIPs](https://github.com/cardano-foundation/CIPs) | Cardano Improvement Proposals: the formal process for protocol changes and standards |
 | [Liqwid-Labs/agora](https://github.com/Liqwid-Labs/agora) | On-chain governance framework for DAOs built on Cardano |
 
-> For the CIP contribution process — stages, editors, what qualifies — see the [Core Protocol Contributor Guide](../how-to-guide/advanced/core-protocol-contributor.md#how-to-contribute-a-cip).
+> For the CIP contribution process: stages, editors, what qualifies: see the [Core Protocol Contributor Guide](../how-to-guide/advanced/core-protocol-contributor.md#how-to-contribute-a-cip).
 
 
 ## Developer Tools & Testing
@@ -118,8 +120,8 @@ Data access tools, indexers, and Rust protocol implementations.
 
 | Repository | What it does |
 |---|---|
-| [IntersectMBO/developer-experience](https://github.com/IntersectMBO/developer-experience) | This documentation site — developer guides, working group sessions, and onboarding resources |
+| [IntersectMBO/developer-experience](https://github.com/IntersectMBO/developer-experience) | This documentation site: developer guides, working group sessions, and onboarding resources |
 
-Contributions welcome — see the [Contributing Guidelines](https://github.com/IntersectMBO/developer-experience/blob/main/CONTRIBUTING.md).
+Contributions welcome: see the [Contributing Guidelines](https://github.com/IntersectMBO/developer-experience/blob/main/CONTRIBUTING.md).
 
 *Missing a repository? Open an issue or PR on [IntersectMBO/developer-experience](https://github.com/IntersectMBO/developer-experience).*

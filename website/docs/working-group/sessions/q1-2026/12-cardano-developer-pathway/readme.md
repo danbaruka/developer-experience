@@ -5,13 +5,13 @@ sidebar_position: 1
 
 # Cardano Developer Pathway
 
-The Cardano developer pathway is **not a single linear progression**. Depending on your background and goals, you enter at a different point and follow a different track. The four tracks below exist in parallel — none is a prerequisite for another.
+The Cardano developer pathway is **not a single linear progression**. Depending on your background and goals, you enter at a different point and follow a different track. The four tracks below exist in parallel: none is a prerequisite for another.
 
 ---
 
 ## The Four Tracks
 
-### Track 1 — dApp & Smart Contracts
+### Track 1: dApp & Smart Contracts
 **Who it's for**: Web2 developers, JavaScript/TypeScript engineers, product builders coming from traditional software.
 
 ```
@@ -31,7 +31,7 @@ Web2 background
 
 ---
 
-### Track 2 — Infrastructure & DevOps
+### Track 2: Infrastructure & DevOps
 **Who it's for**: Backend engineers, DevOps, developers building indexers, block explorers, APIs, or running nodes.
 
 ```
@@ -46,7 +46,7 @@ Systems/backend background
 
 ---
 
-### Track 3 — Core Protocol (Haskell)
+### Track 3: Core Protocol (Haskell)
 **Who it's for**: Systems engineers, PL researchers, formal methods practitioners, experienced Haskell developers who want to contribute to `cardano-ledger`, `ouroboros-consensus`, or `cardano-node`.
 
 ```
@@ -65,13 +65,13 @@ Haskell / FP / systems background
 
 ---
 
-### Track 4 — Core Protocol (Rust)
+### Track 4: Core Protocol (Rust)
 **Who it's for**: Rust developers who want to contribute to the protocol at the implementation level via Pallas, Dolos, or conformance test infrastructure.
 
 ```
 Rust background
   → Clone Pallas or Dolos
-  → Set up development environment (simpler than Haskell path — no Nix required)
+  → Set up development environment (simpler than Haskell path: no Nix required)
   → Find a good first issue
   → Contribute to CBOR codec, chain sync, ledger types, or conformance tests
   → Cross-implementation conformance testing against Haskell reference
@@ -85,7 +85,7 @@ Rust background
 
 ## Governance Contribution (Cross-Track)
 
-Governance work spans three layers — pick the one that matches your intent:
+Governance work spans three layers: pick the one that matches your intent:
 
 | Layer | What it involves |
 |---|---|
@@ -100,7 +100,7 @@ For protocol work: [Core Protocol Contributor Guide](../../../../how-to-guide/ad
 
 ## Contributing to Intersect Working Groups
 
-Every track eventually intersects with Intersect MBO's working groups — where CIPs get prioritized, protocol changes get funded, and community voices are collected. See [Session 07: Contributing to Intersect](../07-contributing-intersect/session-notes/readme.md) for how to find and join working groups.
+Every track eventually intersects with Intersect MBO's working groups: where CIPs get prioritized, protocol changes get funded, and community voices are collected. See [Session 07: Contributing to Intersect](../07-contributing-intersect/session-notes/readme.md) for how to find and join working groups.
 
 ---
 
