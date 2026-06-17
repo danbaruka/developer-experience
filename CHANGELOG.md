@@ -20,7 +20,6 @@ Q2 2026 (Apr–Jun): application development focus — SDK/off-chain architectur
 * Advanced guide: Setup a Local Cardano Devnet with Yaci DevKit ([9c269d6](https://github.com/IntersectMBO/developer-experience/commit/9c269d6))
 * Guide: Blaze SDK + Yaci Store integration ([e1db998](https://github.com/IntersectMBO/developer-experience/commit/e1db998))
 * Tutorial: Cardano node emulator ([3b85b2d](https://github.com/IntersectMBO/developer-experience/commit/3b85b2d))
-* Developer Advocates Cohort 2 impact report (Q4 2025 to Q2 2026) ([DA Milestones/Dan/developer-advocates-cohort-2-impact-report-q4-2025-q2-2026.md](DA%20Milestones/Dan/developer-advocates-cohort-2-impact-report-q4-2025-q2-2026.md))
 * Q2 2026 milestone docs: developer experience pain points and solutions; language-inclusive onboarding guide
 
 ### Changed
