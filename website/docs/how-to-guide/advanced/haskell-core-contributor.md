@@ -83,7 +83,7 @@ A Cardano Improvement Proposal (CIP) is how many core contributions happen: espe
 **Key contacts and venues:**
 - CIP editors review submissions in the CIPs repo PRs
 - Intersect's TSC working groups often discuss CIPs in progress: see [Intersect Working Groups](../../working-group/sessions/q1-2026/07-contributing-intersect/session-notes/readme.md)
-- The `#cip-discussion` channel in the [Cardano Discord](https://discord.gg/cardano) is the informal venue for early feedback
+- The `#cip-discussion` channel in the Intersect Discord is the informal venue for early feedback. Join Intersect first to get access: see the [Intersect Membership Guide](../../intersect-membership-guide.md)
 
 The [CIPs repository README](https://github.com/cardano-foundation/CIPs/blob/master/README.md) has the authoritative process document. Reading a few merged CIPs (CIP-1694, CIP-0381) before writing your own will calibrate your expectations.
 
