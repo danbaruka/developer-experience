@@ -61,7 +61,7 @@ Haskell / FP / systems background
 
 > Note: The Plutus Pioneer Program teaches on-chain validator development, not ledger/consensus contribution. These are different jobs.
 
-**Resources**: [Core Protocol Contributor Guide](../../../../how-to-guide/advanced/core-protocol-contributor.md)
+**Resources**: [Core Protocol Contributor Guide](../../../../how-to-guide/advanced/core-protocol-contributor.md), [IOG Haskell Course](https://github.com/input-output-hk/haskell-course) (beginner-friendly, 22 lessons, no prior Haskell required)
 
 ---
 

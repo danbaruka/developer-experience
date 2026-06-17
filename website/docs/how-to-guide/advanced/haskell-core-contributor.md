@@ -9,6 +9,8 @@ This guide covers contributing to the reference Cardano node implementation: `ca
 
 Before reading further, make sure you have read the [Cardano Blueprint](https://cardano-scaling.github.io/cardano-blueprint/introduction/index.html): the implementation-independent guide to how the protocol works. It is the best orientation before navigating any of these repositories.
 
+**New to Haskell?** Work through the [IOG Haskell Course](https://github.com/input-output-hk/haskell-course) first. It is a beginner-friendly, 22-lesson curriculum built by IOG that takes you from zero Haskell knowledge to practical productivity, with video lessons and hands-on exercises. It assumes no prior Haskell experience and is specifically designed with Cardano development in mind.
+
 ## The Repositories
 
 The core of Cardano is implemented in Haskell across several tightly coupled repositories. Start with `cardano-ledger` for ledger rules or `ouroboros-consensus` for chain selection and block validation: these are the two deepest entry points.
