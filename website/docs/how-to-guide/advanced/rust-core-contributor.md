@@ -93,4 +93,6 @@ Several Rust projects are officially funded under Intersect's [POSM Maintainer R
 | [Oura](https://github.com/txpipe/oura) **[MR]** | TxPipe | Event streaming pipeline from the chain | [Issues](https://github.com/txpipe/oura/issues) |
 | [Whisky](https://github.com/sidan-lab/whisky) **[MR]** | Sidan Lab | Off-chain transaction building in Rust | [Issues](https://github.com/sidan-lab/whisky/issues) |
 
+For a searchable directory of Rust tools in the Cardano ecosystem (Dolos, Oura, Pallas, Whisky and others), see the [Cardano Builder Tools directory](https://developers.cardano.org/tools/).
+
 *Back to [Core Protocol Contributor](./core-protocol-contributor.md): or see [Haskell](./haskell-core-contributor.md) or [Go](./go-core-contributor.md).*

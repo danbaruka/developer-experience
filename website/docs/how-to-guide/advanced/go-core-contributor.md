@@ -88,4 +88,6 @@ These apply to the Go path just as much as Haskell and Rust:
 | [Conway Ledger Spec](https://github.com/IntersectMBO/cardano-ledger/releases) | CIP-1694 governance, Conway era rules |
 | [Ouroboros papers](https://iohk.io/en/research/library/) | The consensus protocol proofs |
 
+Dingo and gouroboros are listed in the [Cardano Builder Tools directory](https://developers.cardano.org/tools/) alongside other node and infrastructure projects in the ecosystem.
+
 *Back to [Core Protocol Contributor](./core-protocol-contributor.md): or see [Haskell](./haskell-core-contributor.md) or [Rust](./rust-core-contributor.md).*

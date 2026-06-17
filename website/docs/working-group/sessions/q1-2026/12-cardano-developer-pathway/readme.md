@@ -27,7 +27,7 @@ Web2 background
   → Catalyst funding for your project
 ```
 
-**Resources**: [Beginner Guides](../../../../how-to-guide/beginner/), [Aiken](https://aiken-lang.org/), [Cardano Developer Portal](https://developers.cardano.org/)
+**Resources**: [Beginner Guides](../../../../how-to-guide/beginner/), [Aiken](https://aiken-lang.org/), [Smart Contracts overview](https://developers.cardano.org/docs/build/smart-contracts/overview/), [Native Tokens](https://developers.cardano.org/docs/build/native-tokens/overview/), [Wallet & payment integration](https://developers.cardano.org/docs/build/integrate/overview/), [Client SDKs](https://developers.cardano.org/docs/get-started/client-sdks/overview/)
 
 ---
 
@@ -42,7 +42,7 @@ Systems/backend background
   → Build block explorers, monitoring, or custom data pipelines
 ```
 
-**Resources**: [cardano-db-sync guide](../../../../how-to-guide/advanced/cardano-db-sync.md), [cardano-api guide](../../../../how-to-guide/advanced/cardano-api.md), [Yaci DevKit](../../../../how-to-guide/advanced/)
+**Resources**: [cardano-db-sync guide](../../../../how-to-guide/advanced/cardano-db-sync.md), [cardano-api guide](../../../../how-to-guide/advanced/cardano-api.md), [Yaci DevKit](../../../../how-to-guide/advanced/), [Installing cardano-node](https://developers.cardano.org/docs/get-started/infrastructure/node/installing-cardano-node/), [Infrastructure overview](https://developers.cardano.org/docs/get-started/infrastructure/overview/), [Operate a Stake Pool](https://developers.cardano.org/docs/operate-a-stake-pool/)
 
 ---
 

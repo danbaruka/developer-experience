@@ -85,7 +85,7 @@ A Cardano Improvement Proposal (CIP) is how many core contributions happen: espe
 - Intersect's TSC working groups often discuss CIPs in progress: see [Intersect Working Groups](../../working-group/sessions/q1-2026/07-contributing-intersect/session-notes/readme.md)
 - The `#cip-discussion` channel in the Intersect Discord is the informal venue for early feedback. Join Intersect first to get access: see the [Intersect Membership Guide](../../intersect-membership-guide.md)
 
-The [CIPs repository README](https://github.com/cardano-foundation/CIPs/blob/master/README.md) has the authoritative process document. Reading a few merged CIPs (CIP-1694, CIP-0381) before writing your own will calibrate your expectations.
+The [CIPs repository README](https://github.com/cardano-foundation/CIPs/blob/master/README.md) has the authoritative process document. Reading a few merged CIPs (CIP-1694, CIP-0381) before writing your own will calibrate your expectations. You can browse all ratified and draft CIPs at [cips.cardano.org](https://cips.cardano.org/).
 
 ## Governance Protocol Work
 
@@ -100,6 +100,8 @@ Governance in Cardano operates at three distinct layers: don't conflate them:
 The Conway era modules in `cardano-ledger` are a good starting point for governance protocol work:
 - [`Cardano.Ledger.Conway.Rules`](https://github.com/IntersectMBO/cardano-ledger/tree/master/eras/conway/impl/src/Cardano/Ledger/Conway/Rules): the STS rules for governance
 - The Conway formal spec (linked above)
+- [Governance model](https://developers.cardano.org/docs/governance/cardano-governance/governance-model/) — how on-chain governance works end to end
+- [Governance actions](https://developers.cardano.org/docs/governance/cardano-governance/governance-actions/) — the types of actions the ledger can ratify
 
 For governance participation and tooling, see the [Intersect Membership Guide](../../intersect-membership-guide.md).
 
