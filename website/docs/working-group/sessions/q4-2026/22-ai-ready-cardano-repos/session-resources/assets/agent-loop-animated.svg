@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">AI agent loop for Cardano repositories</title>
+  <desc id="desc">Animated loop: Discover, Ground, Act, Verify</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#071428"/>
+      <stop offset="100%" stop-color="#0b3d4d"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg)"/>
+  <circle cx="320" cy="180" r="92" fill="none" stroke="#1f6f7a" stroke-width="2" stroke-dasharray="6 8">
+    <animateTransform attributeName="transform" type="rotate" from="0 320 180" to="360 320 180" dur="12s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="320" cy="180" r="38" fill="#0e2a36" stroke="#3ec7b8" stroke-width="2" filter="url(#glow)"/>
+  <text x="320" y="176" text-anchor="middle" fill="#e8fbff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">AGENT</text>
+  <text x="320" y="194" text-anchor="middle" fill="#8fd9d0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10">LOOP</text>
+
+  <!-- Stations -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <g>
+      <rect x="250" y="28" width="140" height="44" rx="10" fill="#123848" stroke="#3ec7b8" stroke-width="2">
+        <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3s" begin="0s" repeatCount="indefinite"/>
+      </rect>
+      <text x="320" y="55" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">1 · Discover</text>
+    </g>
+    <g>
+      <rect x="470" y="148" width="140" height="44" rx="10" fill="#123848" stroke="#3ec7b8" stroke-width="2">
+        <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3s" begin="0.75s" repeatCount="indefinite"/>
+      </rect>
+      <text x="540" y="175" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">2 · Ground</text>
+    </g>
+    <g>
+      <rect x="250" y="288" width="140" height="44" rx="10" fill="#123848" stroke="#3ec7b8" stroke-width="2">
+        <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+      </rect>
+      <text x="320" y="315" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">3 · Act</text>
+    </g>
+    <g>
+      <rect x="30" y="148" width="140" height="44" rx="10" fill="#123848" stroke="#3ec7b8" stroke-width="2">
+        <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3s" begin="2.25s" repeatCount="indefinite"/>
+      </rect>
+      <text x="100" y="175" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">4 · Human</text>
+    </g>
+  </g>
+
+  <!-- Travelling pulse -->
+  <circle r="7" fill="#7ef0e0" filter="url(#glow)">
+    <animateMotion dur="6s" repeatCount="indefinite" path="M320,50 C430,50 540,100 540,170 C540,240 430,310 320,310 C210,310 100,240 100,170 C100,100 210,50 320,50"/>
+  </circle>
+</svg>
