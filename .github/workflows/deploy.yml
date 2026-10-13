@@ -9,8 +9,10 @@ on:
   push:
     branches:
       - main
-    # Review gh actions docs if you want to further define triggers, paths, etc
-    # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
+    paths:
+      - "website/**"
+      - "scripts/fetch-github-data.js"
+      - ".github/workflows/deploy.yml"
 
   workflow_dispatch:
 
@@ -30,6 +32,7 @@ jobs:
   build:
     name: Build Docusaurus
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v6
         with:
@@ -46,6 +49,7 @@ jobs:
         run: npm run build
         env:
           GOOGLE_SCRIPT_URL: ${{ secrets.GOOGLE_SCRIPT_URL }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v4
@@ -55,6 +59,7 @@ jobs:
   deploy:
     name: Deploy to GitHub Pages
     needs: build
+    timeout-minutes: 15
 
     # Deploy to the github-pages environment
     environment:

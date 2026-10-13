@@ -16,10 +16,15 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: pr-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
 jobs:
   build:
     name: Build Docusaurus
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v6
         with:
@@ -36,3 +41,5 @@ jobs:
 
       - name: Build website
         run: npm run build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
