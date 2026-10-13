@@ -10,9 +10,18 @@
   align-items: center;
 }
 
+/* The label fills the row so the text, not only the caret, receives the click. */
+.categoryLink > :global(.menu__link) {
+  flex: 1 1 auto;
+  min-width: 0;
+  cursor: pointer;
+}
+
 /* never let the toggle button shrink to zero width */
 .categoryLink > button {
   flex-shrink: 0;
+  min-width: 2.25rem;
+  min-height: 2.25rem;
 }
 
 .categoryLinkLabel {
