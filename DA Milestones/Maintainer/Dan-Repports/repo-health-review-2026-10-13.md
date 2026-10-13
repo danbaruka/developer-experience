@@ -87,7 +87,21 @@ Closed since August that matter here: #286 and #295 (audit remediation), #297 (s
 
 ---
 
-## 4. Priorities
+## 4. Maintainer tracks opened 2026-10-13
+
+Each track is its own branch and pull request.
+
+| Track | PR | What it changes |
+| --- | --- | --- |
+| CI | [#319](https://github.com/IntersectMBO/developer-experience/pull/319) | Drop `static.yml`, path-filter the Pages deploy, cancel stale PR builds, fix the changelog job |
+| Dependencies | [#320](https://github.com/IntersectMBO/developer-experience/pull/320) | Pin patched `undici`, `joi`, `fast-uri`, `tinypool`, and related packages. `braces` stays open because 3.0.3 is still inside an advisory that covers every release |
+| Usability | [#321](https://github.com/IntersectMBO/developer-experience/pull/321) | Sidebar category labels toggle the submenu. Homepage CTAs that repeat the navbar are removed |
+
+Session notes for the AI-ready repos discussion remain in [#309](https://github.com/IntersectMBO/developer-experience/pull/309) and are not part of these three tracks.
+
+---
+
+## 5. Priorities
 
 1. Keep a single Pages workflow and stop the changelog job from installing at the repo root.
 2. Move dependency pins past the published advisory ranges, then re-check Dependabot.
