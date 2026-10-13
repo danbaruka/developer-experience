@@ -315,7 +315,16 @@ function DocSidebarItemCategoryCollapsible({
           <span
             className={clsx('menu__link', 'menu__link--sublist', {
               'menu__link--active': isActive,
-            })}>
+            })}
+            role="button"
+            tabIndex={0}
+            onClick={() => updateCollapsed()}
+            onKeyDown={(event) => {
+              if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                updateCollapsed();
+              }
+            }}>
             <CategoryLinkLabel label={label} />
           </span>
         )}

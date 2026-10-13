@@ -1,4 +1,3 @@
-import Link from '@docusaurus/Link';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 import MonthlyPulse from './MonthlyPulse';
@@ -19,16 +18,6 @@ export default function CommunitySection() {
               </p>
 
               <Contributors />
-
-              <div className={styles.communityActions}>
-                <Link
-                  className={styles.joinButton}
-                  href="https://members.intersectmbo.org/"
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  Join Intersect
-                </Link>
-              </div>
             </div>
             <div className="col col--6">
               <div className={styles.communityImage}>
