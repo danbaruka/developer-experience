@@ -4,86 +4,54 @@ How to confirm that dependency security issues are addressed.
 
 ## 1. Run audits locally
 
-From the **`website/`** directory (where `package-lock.json` and `yarn.lock` live):
+CI installs the website with npm (`npm ci` against `website/package-lock.json`). `overrides` in `package.json` are what that install applies. `resolutions` stay in sync for anyone still using Yarn.
+
+From `website/`:
 
 ```bash
 cd website
+npm ci
 npm audit
-# or
-yarn audit
+npm run audit:ci
 ```
 
-If you run `npm audit` from the repo root you’ll get `ENOLOCK` because there is no lockfile there.
-
-- **npm audit**: Uses `package-lock.json`; respects `overrides`. Run after `npm install`.
-- **yarn audit**: Uses `yarn.lock`; respects `resolutions`. Can sometimes return 500 from the registry; use npm audit as fallback.
-
-**Scripts in package.json:**
-
-- `yarn audit` or `npm run audit` — full report
-- `npm run audit:ci` — exits with code 1 only if there are **high** or **critical** issues (useful for CI)
+`audit:ci` exits with code 1 when high or critical findings remain.
 
 ## 2. Check GitHub Dependabot
 
-1. Open the repo on GitHub → **Security** → **Dependabot alerts**.
-2. Alerts that are fixed by your lockfile/overrides should show as **resolved** after the fix is merged (or after Dependabot re-runs).
-3. You can **reopen** a PR or **merge** the security update branch so the default branch has the fixed lockfiles.
+1. Open the repo on GitHub, then Security, then Dependabot alerts.
+2. Alerts fixed by the lockfile and overrides show as resolved after this branch is merged and Dependabot re-scans `main`.
+3. Do not use `npm audit fix --force`. It suggests downgrading Docusaurus, which is a breaking change.
 
-## 3. What’s already fixed (overrides)
+## 3. Pins in package.json
 
-These are pinned in `package.json` via `resolutions` (Yarn) and `overrides` (npm):
+`resolutions` and `overrides` are kept identical. Notable pins after the October 2026 pass:
 
-| Package      | Pinned version | Alerts addressed |
-|-------------|----------------|-------------------|
-| node-forge  | 1.3.2          | ASN.1 recursion, OID truncation, etc. |
-| qs          | 6.14.2         | arrayLimit bypass DoS |
-| minimatch   | 3.1.2          | ReDoS (3.x line; 10.x has separate fix) |
-| lodash      | 4.17.21        | Prototype pollution (_.unset / _.omit) |
-| ajv         | ^8.17.0        | ReDoS with `$data` |
-| js-yaml     | ^4.1.0         | Prototype pollution in merge |
+| Package | Pinned version | Why |
+| --- | --- | --- |
+| undici | 7.30.0 | Past the 7.0.0-7.29.0 advisory range, without jumping to undici 8 |
+| fast-uri | 4.2.2 | Past 4.0.0-4.1.4 |
+| brace-expansion | 5.0.12 | Past 4.0.0-5.0.11 |
+| joi | 18.2.9 | Past 18.0.0-18.2.8 |
+| shell-quote | 1.12.0 | Past 1.8.4-1.10.0 |
+| dompurify | 3.4.17 | Past <=3.4.15 |
+| tinypool | 2.2.0 | Past <=2.1.1; production `npm run build` still succeeds |
+| katex | 0.19.0 | Past 0.11.0-0.18.1 |
+| postcss-selector-parser | 7.1.6 | Past <7.1.6 |
+| image-size | `file:vendor/image-size` | Vendored 2.0.3 because npm 2.0.2 and below stay in the advisory range |
 
-After changing `package.json` or lockfiles, run **`yarn install`** and/or **`npm install`** in `website/` so the lockfiles reflect these versions.
+`node-forge`, `postcss`, `qs`, `minimatch`, `ajv`, `js-yaml`, `webpack-dev-server`, `websocket-driver`, and `body-parser` stay pinned as well. Read both blocks in `package.json` for the full list.
 
-## 4. Vulnerability checklist (fix one by one)
+## 4. Residual finding
 
-A full list of all current vulnerabilities with checkboxes, advisory links, and fix steps is in **[VULNERABILITIES.md](./VULNERABILITIES.md)**. Use it to track and fix issues one by one.
+`braces` is still reported by `npm audit` at high severity, including the latest release (`3.0.3`). The advisory range is every published version, so there is no override that clears it. It is pulled in by `micromatch` and `chokidar` under Docusaurus. Revisit when a patched `braces` release exists. Do not downgrade Docusaurus to chase a clean audit.
 
-## 5. Remaining issues (npm audit)
+## 5. After you change pins
 
-Many remaining findings come from **transitive dependencies of Docusaurus 3.7.0**, for example:
-
-- **@babel/helpers**, **@babel/runtime** — RegExp complexity (moderate)
-- **minimatch** (high) — ReDoS; advisory may require minimatch 10.x (major upgrade)
-- **lodash** — Prototype pollution; 4.17.21 is latest 4.x (advisory may want a different fix)
-- **mdast-util-to-hast** — Unsanitized class (moderate)
-- **webpack** — SSRF-related (fix available via `npm audit fix`)
-- **brace-expansion**, **diff**, **webpack-dev-server**, etc.
-
-**Ways to reduce remaining issues:**
-
-1. **Upgrade Docusaurus** to 3.9.x (or latest 3.x) so many transitive deps get updated at once.  
-   - Note: 3.9+ may require Node 20+.
-2. **Apply safe fixes:**  
-   `npm audit fix` (no `--force`) in `website/` to apply non-breaking fixes.
-3. **Overrides:** Add more `resolutions` / `overrides` only when you know the new version is compatible (e.g. from Docusaurus or advisory “fixed in” version).
-4. **Accept or dismiss:** For dev-only or low-impact advisories, you can document the decision and (if needed) use Dependabot “Dismiss” with a reason.
-
-## 6. CI (optional)
-
-To fail the build when new high/critical issues appear:
-
-```yaml
-# Example (GitHub Actions)
-- run: cd website && npm ci && npm run audit:ci
+```bash
+cd website
+npm install
+npm run build
 ```
 
-This uses `audit:ci`, which exits with code 1 only for high/critical severity.
-
-## 7. Single lockfile (recommended)
-
-The repo has both `yarn.lock` and `package-lock.json`. Using **one** package manager and **one** lockfile avoids drift and duplicate Dependabot alerts:
-
-- Prefer **Yarn** (as in `packageManager`): delete `package-lock.json`, use only `yarn install` and `yarn.lock`.
-- Or prefer **npm**: remove `packageManager`, delete `yarn.lock`, use only `npm install` and `package-lock.json`.
-
-Then configure Dependabot for that single ecosystem so alerts match what you actually install.
+Commit `package.json`, `package-lock.json`, and `yarn.lock` together so the two lockfiles do not drift.
