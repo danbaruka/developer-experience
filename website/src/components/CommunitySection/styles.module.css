@@ -32,14 +32,6 @@
   margin-top: 2rem;
 }
 
-.communityActions {
-  margin-top: 2rem;
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
 .statItem {
   text-align: center;
 }
@@ -130,45 +122,6 @@
   .imagePlaceholder h3 {
     font-size: 1.5rem;
   }
-}
-
-.joinButton {
-  background: #f55521;
-  border: 2px solid #f55521;
-  color: white !important;
-  padding: 0.875rem 2rem;
-  border-radius: 50px;
-  text-decoration: none;
-  font-weight: 700 !important;
-  font-size: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.2s ease;
-  width: fit-content;
-  min-width: 200px;
-  box-shadow: 0 4px 12px rgba(245, 85, 33, 0.25);
-}
-
-.joinButton:hover {
-  background: #e0481a;
-  border-color: #e0481a;
-  color: white !important;
-  text-decoration: none;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(245, 85, 33, 0.35);
-}
-
-:global([data-theme='dark']) a.joinButton {
-  background: #f55521;
-  border-color: #f55521;
-  color: white !important;
-}
-
-:global([data-theme='dark']) a.joinButton:hover {
-  background: #e0481a;
-  border-color: #e0481a;
-  color: white !important;
 }
 
 .contributorsContainer {

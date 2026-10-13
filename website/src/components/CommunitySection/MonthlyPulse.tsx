@@ -30,15 +30,6 @@ export default function MonthlyPulse() {
           <span className={styles.statLabel}>New Issues</span>
         </div>
       </div>
-
-      <a
-        href="https://github.com/IntersectMBO/developer-experience/issues"
-        target="_blank"
-        rel="noopener noreferrer"
-        className={styles.pulseButton}
-      >
-        Make a PR
-      </a>
     </div>
   );
 }
