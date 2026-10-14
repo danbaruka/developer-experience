@@ -6,7 +6,6 @@ import { DEVEX_SESSIONS_ENABLED } from "@site/src/components/MeetupReminderButto
 
 export default function Root({ children }: { children: ReactNode }) {
   const { siteConfig } = useDocusaurusContext();
-  const siteUrl = siteConfig.url;
 
   useEffect(() => {
     // Minimal MutationObserver to fix any black text in search dropdown that CSS might miss
@@ -47,7 +46,10 @@ export default function Root({ children }: { children: ReactNode }) {
         <meta property="og:locale" content="en_US" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@IntersectMBO" />
-        <link rel="canonical" href={siteUrl} />
+        {/* No canonical link here on purpose. Docusaurus emits a per-page
+            <link rel="canonical"> for every route from siteConfig.url, and a
+            hard-coded one in Root — as this file used to have — replaces that
+            with the site root, telling crawlers every page duplicates "/". */}
       </Head>
       {children}
       {DEVEX_SESSIONS_ENABLED ? <MeetupReminderButton /> : null}
