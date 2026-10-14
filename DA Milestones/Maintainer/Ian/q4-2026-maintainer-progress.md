@@ -14,8 +14,8 @@ I'm on the Maintainer Retainer Program for Developer Experience and I spend upwa
 
 | What I committed to | Where I am | Evidence from this period |
 | --- | --- | --- |
-| Continue triage and review activities | On track | 5 reviews (#309, #319, #320, #321, #322), 2 issues opened, 4 comments, and the queue sits at 10 open issues and 7 open PRs |
-| Address minor fixes or usability gaps | On track | [#329](https://github.com/IntersectMBO/developer-experience/pull/329) opened and merged the same day, plus four more fixes open and passing CI (#328, #330, #331, #332) |
+| Continue triage and review activities | On track | 5 reviews ([#309](https://github.com/IntersectMBO/developer-experience/pull/309), [#319](https://github.com/IntersectMBO/developer-experience/pull/319), [#320](https://github.com/IntersectMBO/developer-experience/pull/320), [#321](https://github.com/IntersectMBO/developer-experience/pull/321), [#322](https://github.com/IntersectMBO/developer-experience/pull/322)), 2 issues opened, 4 comments, and the queue sits at 10 open issues and 7 open PRs |
+| Address minor fixes or usability gaps | On track | [#329](https://github.com/IntersectMBO/developer-experience/pull/329) opened and merged the same day, plus four more fixes open and passing CI ([#328](https://github.com/IntersectMBO/developer-experience/pull/328), [#330](https://github.com/IntersectMBO/developer-experience/pull/330), [#331](https://github.com/IntersectMBO/developer-experience/pull/331), [#332](https://github.com/IntersectMBO/developer-experience/pull/332)) |
 | Share a brief progress update | This report | — |
 
 ---
@@ -48,7 +48,7 @@ Month to date, so not comparable to a full month yet; commits are counted across
 | 2026-10 | 5 | 1 | 5 | 2 | 4 | 6 |
 | **Total** | **14** | **8** | **13** | **7** | **7** | **61** |
 
-September is where most of this landed: the design-token baseline, the brand kit page, the agent skills package and the pull-request build gate, all merged on 15 September (#304–#308).
+September is where most of this landed: the design-token baseline, the brand kit page, the agent skills package and the pull-request build gate, all merged on 15 September ([#304](https://github.com/IntersectMBO/developer-experience/pull/304)–[#308](https://github.com/IntersectMBO/developer-experience/pull/308)).
 
 June and July are empty, and they're the tail of a lighter first half. My retainer engagement started in August; before that my contributions here were occasional — one pull request in April and one in May.
 
@@ -56,7 +56,7 @@ June and July are empty, and they're the tail of a lighter first half. My retain
 
 ## 3. Triage and review
 
-I keep to the triage schedule. Five reviews this period, all approving: the September design-system series (#319–#322) and the Session 22 documentation (#309). Two issues opened, #323 and #324, both described in section 4. The queue sits at 10 open issues and 7 open PRs on 14 October.
+I keep to the triage schedule. Five reviews this period, all approving: the September design-system series (#319–#322) and the Session 22 documentation (#309). Two issues opened, [#323](https://github.com/IntersectMBO/developer-experience/issues/323) and [#324](https://github.com/IntersectMBO/developer-experience/issues/324), both described in section 4. The queue sits at 10 open issues and 7 open PRs on 14 October.
 
 ---
 
@@ -64,7 +64,7 @@ I keep to the triage schedule. Five reviews this period, all approving: the Sept
 
 Merged:
 
-- **#329** — the build-time fetch filtered contributors on `type !== 'Bot'` plus a Dependabot name check, which misses accounts GitHub reports as `User`. A coding-agent account sat exactly on the 15th-item boundary, so it flickered in and out of the contributor list. Now filtered by login pattern as well.
+- **[#329](https://github.com/IntersectMBO/developer-experience/pull/329)** — the build-time fetch filtered contributors on `type !== 'Bot'` plus a Dependabot name check, which misses accounts GitHub reports as `User`. A coding-agent account sat exactly on the 15th-item boundary, so it flickered in and out of the contributor list. Now filtered by login pattern as well.
 
 Open and passing CI:
 
@@ -73,19 +73,19 @@ Open and passing CI:
 - **#331** — a hard-coded canonical link in the site root would tell crawlers that every page duplicates `/`. Docusaurus's own per-page canonical overrides it, so the live site was fine, but one behaviour change would have broken every page at once, so I removed it.
 - **#332** — homepage cards underlined on hover because the class name was a plain string while the rule lives in a hashed CSS module.
 
-I filed #323, #324, #325, #326 and #327 out of the same audit.
+I filed #323, #324, [#325](https://github.com/IntersectMBO/developer-experience/issues/325), [#326](https://github.com/IntersectMBO/developer-experience/issues/326) and [#327](https://github.com/IntersectMBO/developer-experience/issues/327) out of the same audit.
 
 ---
 
 ## 5. Design system and UX
 
-The design-token baseline [#300](https://github.com/IntersectMBO/developer-experience/issues/300) is the umbrella for this work, and the landing page is where it either holds or slips. I published the plan in #300 — direction and structural spec first, then tokens, motion and the page sections — along with the references the direction draws on and the questions I put to the community.
+The design-token baseline [#300](https://github.com/IntersectMBO/developer-experience/issues/300) is the umbrella for this work, and the landing page is where it either holds or slips. I published the plan in [#300](https://github.com/IntersectMBO/developer-experience/issues/300) — direction and structural spec first, then tokens, motion and the page sections — along with the references the direction draws on and the questions I put to the community.
 
 ---
 
 ## 6. Tutorial refactor and where it's stuck
 
-Open work: #301 (code samples so tutorials build and run), #302 (Blaze SDK and Yaci Store guide), #264 (default developer environment), #265 (CIP-30 wallet connect).
+Open work: [#301](https://github.com/IntersectMBO/developer-experience/issues/301) (code samples so tutorials build and run), [#302](https://github.com/IntersectMBO/developer-experience/issues/302) (Blaze SDK and Yaci Store guide), [#264](https://github.com/IntersectMBO/developer-experience/issues/264) (default developer environment), [#265](https://github.com/IntersectMBO/developer-experience/issues/265) (CIP-30 wallet connect).
 
 Several of these tutorials need a running Cardano node to verify against, and the machine I have doesn't carry the RAM for it. I've ordered a workstation for exactly this. It's in transit by sea and should land in about two weeks.
 
