@@ -56,7 +56,7 @@ June and July are empty, and they're the tail of a lighter first half. My retain
 
 ## 3. Triage and review
 
-I keep to the triage schedule. Five reviews this period, all approving: the September design-system series (#319–#322) and the Session 22 documentation (#309). Two issues opened, [#323](https://github.com/IntersectMBO/developer-experience/issues/323) and [#324](https://github.com/IntersectMBO/developer-experience/issues/324), both described in section 4. The queue sits at 10 open issues and 7 open PRs on 14 October.
+I keep to the triage schedule. Five reviews this period, all approving: the September design-system series (#319–#322) and the Session 22 documentation (#309). I opened two issues out of that audit, [#326](https://github.com/IntersectMBO/developer-experience/issues/326) and [#327](https://github.com/IntersectMBO/developer-experience/issues/327); Dan Baruka opened three from the same pass — [#323](https://github.com/IntersectMBO/developer-experience/issues/323), [#324](https://github.com/IntersectMBO/developer-experience/issues/324) and [#325](https://github.com/IntersectMBO/developer-experience/issues/325) — all described in section 4. The queue sits at 10 open issues and 7 open PRs on 14 October.
 
 ---
 
@@ -73,7 +73,7 @@ Open and passing CI:
 - **#331** — a hard-coded canonical link in the site root would tell crawlers that every page duplicates `/`. Docusaurus's own per-page canonical overrides it, so the live site was fine, but one behaviour change would have broken every page at once, so I removed it.
 - **#332** — homepage cards underlined on hover because the class name was a plain string while the rule lives in a hashed CSS module.
 
-I filed #323, #324, [#325](https://github.com/IntersectMBO/developer-experience/issues/325), [#326](https://github.com/IntersectMBO/developer-experience/issues/326) and [#327](https://github.com/IntersectMBO/developer-experience/issues/327) out of the same audit.
+Dan filed [#323](https://github.com/IntersectMBO/developer-experience/issues/323), [#324](https://github.com/IntersectMBO/developer-experience/issues/324) and [#325](https://github.com/IntersectMBO/developer-experience/issues/325) out of the same audit; I filed [#326](https://github.com/IntersectMBO/developer-experience/issues/326) and [#327](https://github.com/IntersectMBO/developer-experience/issues/327).
 
 ---
 
