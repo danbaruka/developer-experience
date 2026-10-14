@@ -18,13 +18,11 @@ const config: Config = {
   // so relative links from directory indexes (readme.md) resolve correctly.
   trailingSlash: true,
 
-  // Add Google Fonts
-  stylesheets: [
-    {
-      href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap',
-      type: 'text/css',
-    },
-  ],
+  // Self-hosted webfonts: @font-face rules and the woff2 files both live in
+  // website/static/fonts, served from this origin so no page calls out to a
+  // font CDN. Served verbatim (not bundled) so the browser fetches only the
+  // subsets and weights the page actually renders.
+  stylesheets: ['/fonts/fonts.css'],
 
   // Set the production url of your site here
   url: 'https://devex.intersectmbo.org',
