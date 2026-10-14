@@ -116,6 +116,16 @@
   letter-spacing: 0.5px;
 }
 
+/* Timestamp of the snapshot the numbers come from — pulls up into the space
+   the grid reserves below itself so it reads as a caption to the stats. */
+.dataAge {
+  margin: -1.5rem 0 0;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.65);
+  position: relative;
+  z-index: 2;
+}
+
 @media (max-width: 480px) {
   .pulseGrid {
     gap: 1rem;

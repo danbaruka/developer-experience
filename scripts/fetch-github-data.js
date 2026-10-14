@@ -21,6 +21,17 @@ const AUTOMATION_LOGIN_PATTERNS = [
 const isAutomationAccount = (login) =>
   AUTOMATION_LOGIN_PATTERNS.some((pattern) => pattern.test(login));
 
+// A snapshot older than this gets a loud build warning. It is not a build
+// failure on purpose: a transient API or rate-limit failure must not block a
+// deploy. Visibility is the fix — the community section renders updatedAt.
+const STALE_AFTER_DAYS = 7;
+
+const ageInDays = (isoDate) => {
+  const then = new Date(isoDate).getTime();
+  if (Number.isNaN(then)) return null;
+  return Math.floor((Date.now() - then) / 86400000);
+};
+
 async function fetchGitHubData() {
   console.log('Fetching GitHub repository data at build time...');
 
@@ -38,6 +49,13 @@ async function fetchGitHubData() {
     openIssues: '5+',
     closedIssues: '20+'
   };
+  // Timestamp of the data itself. Advanced only when this run really refreshes
+  // it, so a failed fetch cannot make a stale snapshot look fresh.
+  let updatedAt = new Date().toISOString();
+  // Whether this run replaced the preserved snapshot with fresh API data.
+  let contributorsOk = false;
+  let statsOk = false;
+  let refreshed = false;
 
   // Preserve existing data if available
   if (fs.existsSync(OUTPUT_FILE)) {
@@ -48,6 +66,9 @@ async function fetchGitHubData() {
       }
       if (existing.stats) {
         stats = existing.stats;
+      }
+      if (existing.updatedAt) {
+        updatedAt = existing.updatedAt;
       }
     } catch (e) {
       // Ignore read errors
@@ -68,6 +89,7 @@ async function fetchGitHubData() {
             avatar_url: user.avatar_url,
             html_url: user.html_url
           }));
+        contributorsOk = true;
       }
     } else {
       console.warn(`Contributors API returned ${contribRes.status}`);
@@ -92,14 +114,35 @@ async function fetchGitHubData() {
       const closedIssues = await closedIssuesRes.json();
       if (closedIssues.total_count !== undefined) stats.closedIssues = String(closedIssues.total_count);
     }
+
+    statsOk = prsRes.ok && openIssuesRes.ok && closedIssuesRes.ok;
   } catch (error) {
     console.warn('Warning: Error fetching GitHub data at build time, using fallback values:', error.message);
+  }
+
+  refreshed = contributorsOk && statsOk;
+  if (refreshed) {
+    updatedAt = new Date().toISOString();
+  } else {
+    const age = ageInDays(updatedAt);
+    console.warn(
+      `[github-data] Refresh failed — the site will render the snapshot from ${updatedAt}` +
+        (age === null ? '.' : age > 0 ? ` (${age} day(s) old).` : ' (today).')
+    );
+    if (age !== null && age > STALE_AFTER_DAYS) {
+      console.warn(
+        `[github-data] That snapshot is past the ${STALE_AFTER_DAYS}-day threshold. ` +
+          'The community section shows its date, so the staleness is visible on the site.'
+      );
+    }
   }
 
   const payload = {
     contributors,
     stats,
-    updatedAt: new Date().toISOString()
+    updatedAt,
+    // true when the numbers above come from a previous run instead of this one
+    stale: !refreshed
   };
 
   fs.mkdirSync(path.dirname(OUTPUT_FILE), { recursive: true });
