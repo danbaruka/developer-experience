@@ -4,6 +4,23 @@ const path = require('path');
 const REPO = 'IntersectMBO/developer-experience';
 const OUTPUT_FILE = path.join(__dirname, '../website/src/data/githubData.json');
 
+// Accounts that must never render as contributors: CI bots and AI coding agents.
+// GitHub only labels some of them with type "Bot" — cursoragent reports type
+// "User" — so check the login as well as the type.
+const AUTOMATION_LOGIN_PATTERNS = [
+  /bot/i,
+  /dependabot/i,
+  /agent/i,
+  /copilot/i,
+  /claude/i,
+  /cursor/i,
+  /codex/i,
+  /devin/i,
+];
+
+const isAutomationAccount = (login) =>
+  AUTOMATION_LOGIN_PATTERNS.some((pattern) => pattern.test(login));
+
 async function fetchGitHubData() {
   console.log('Fetching GitHub repository data at build time...');
 
@@ -44,7 +61,7 @@ async function fetchGitHubData() {
       const data = await contribRes.json();
       if (Array.isArray(data)) {
         contributors = data
-          .filter(user => user.type !== 'Bot' && !user.login.toLowerCase().includes('dependabot'))
+          .filter(user => user.type !== 'Bot' && !isAutomationAccount(user.login))
           .slice(0, 15)
           .map(user => ({
             login: user.login,
