@@ -53,7 +53,7 @@ The [`stale.yml`](.github/workflows/stale.yml) workflow enforces the inactivity 
 Two automated scanners run on this repository, and their findings are triaged in the same weekly session as issues and PRs:
 
 - **Dependabot** (`.github/dependabot.yml`) — checks npm dependencies in `website/` and the GitHub Actions used by the workflows, weekly on Mondays. Alerts and update PRs appear under **Security → Dependabot** and as `dependencies`-labelled PRs.
-- **CodeQL** (`.github/workflows/codeql.yml`) — static analysis (SAST) of the JavaScript/TypeScript sources on every push and pull request to `main`, plus a weekly scheduled run on Mondays. Results appear under **Security → Code scanning**.
+- **CodeQL** (`.github/workflows/codeql.yml`) — static analysis (SAST) of the JavaScript/TypeScript sources on every push and pull request to `main`, plus a weekly scheduled run on Mondays. Results appear under **Security → Code scanning**. CodeQL reads source only: workflow and configuration files under `.github/` are not covered by this scan and stay a manual review item.
 
 Items labelled `Security` are never marked stale (see automation above), so a scanning alert stays visible until a maintainer closes it as fixed or dismissed with a reason.
 

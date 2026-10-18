@@ -14,6 +14,10 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: codeql-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   analyze:
     name: Analyze (${{ matrix.language }})
@@ -22,10 +26,6 @@ jobs:
     permissions:
       # Required to upload results to code scanning
       security-events: write
-      # Required to fetch internal or private CodeQL packs
-      packages: read
-      # Required in private repositories to read the status of Actions runs
-      actions: read
       contents: read
 
     strategy:
@@ -40,6 +40,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
+        with:
+          # The analysis never pushes, so keep the token out of .git/config.
+          persist-credentials: false
 
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v4
